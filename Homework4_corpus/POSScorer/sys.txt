@@ -1,0 +1,16 @@
+December	NN
+1998	CD
+	
+Your	PRP
+contribution	NN
+to	TO
+Goodwill	NN
+will	MD
+mean	VB
+more	JJ
+than	IN
+you	PRP
+may	MD
+know	VB
+.	.
+	

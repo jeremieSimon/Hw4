@@ -1,0 +1,5 @@
+Compile:
+javac POSScorer.java
+
+Run:
+java POSScorer sys.txt key.txt
