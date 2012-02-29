@@ -79,6 +79,23 @@ class HMMTagger(object):
 					except ZeroDivisionError: pass	
 			del(tags['sigma']) #sigma is no longer needed
 		
+		#3. search word with lowest NNS and VBZ: 
+		self.wordEndsWithS = ""
+		mini = 1
+		for key in self.observationTable.iterkeys(): 
+			if self.observationTable[key].has_key('NNS') and self.observationTable[key].has_key('VBZ'): 
+				if  self.observationTable[key]['NNS'] + self.observationTable[key]['VBZ'] <= mini: 
+					mini = self.observationTable[key]['NNS'] + self.observationTable[key]['VBZ'] 
+					self.wordEndWithS = key
+		
+		self.wordUnknown = ""
+		mini = 1
+		for key in self.observationTable.iterkeys(): 
+			if self.observationTable[key].has_key('NN') and self.observationTable[key].has_key('JJ'): 
+				if  self.observationTable[key]['NN'] + self.observationTable[key]['JJ'] <= mini: 
+					mini = self.observationTable[key]['NN'] + self.observationTable[key]['JJ'] 
+					self.wordUnknown = key
+
 	def tag(self, sentence):
 		"""
 		tag given a sentence
@@ -88,30 +105,32 @@ class HMMTagger(object):
 		
 		for i, word in enumerate(sentence): 
 			pMax, tagMax = 0.0, ""
+			
+			if not self.observationTable.has_key(word.lower()): #word is not knows
+			 	print "not in dict"
+				if word.lower().endswith('s'):  #ends with 's'
+					word = self.wordEndsWithS
+				else: 
+					word = self.wordUnknown
+			
 			if i == 0: #start case
 				for key in self.observationTable[word.lower()].iterkeys(): 
 					p = self.observationTable[word.lower()][key] * self.transitionTable[key]['start']
 					if p > pMax: 
 						pMax, tagMax= p, key
+	
 			else: 
-				if not self.observationTable[word.lower()].has_keys(): #word is not knows 
-					if word.lower().endswith('s'):  #ends with 's'
-						pass
-					else: 
-						pass
-						
-				else: 
-					for wordTag in self.observationTable[word.lower()].iterkeys(): 
-						#debug
-						print "wordTag", wordTag, "posTags", posTags[i-1]
-						print "obs",self.observationTable[word.lower()][wordTag], "transi",self.transitionTable[wordTag][posTags[i-1]]
-						print "p", p
-					
-						p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]]
-						if self.observationTable[word.lower()][wordTag] == 1.0: 
-							p , tagMax= 1, wordTag
-						if p > pMax: 
-							pMax, tagMax= p, wordTag
+				for wordTag in self.observationTable[word.lower()].iterkeys(): 
+					#debug
+					print "wordTag", wordTag, "posTags", posTags[i-1]
+					print "obs",self.observationTable[word.lower()][wordTag], "transi",self.transitionTable[wordTag][posTags[i-1]]
+					print "p", p
+				
+					p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]]
+					if self.observationTable[word.lower()][wordTag] == 1.0: 
+						p , tagMax= 1, wordTag
+					if p > pMax: 
+						pMax, tagMax= p, wordTag
 						
 			posTags[i]=tagMax
 		
