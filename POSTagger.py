@@ -4,8 +4,13 @@ N16247912
 from POSTagger import *
 t = HMMTagger()
 t.tag("I love")
+
+Need to do: 
+first name and proper name 
+numbers
 """
 import copy
+import string
 
 class HMMTagger(object): 
 	"""
@@ -17,6 +22,8 @@ class HMMTagger(object):
 		f = open("Homework4_corpus/POSData/development.pos").read().split('\n')
 		f = [line.split('\t') for line in f]
 		
+		numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '-']
+		
 		self.tags = set(['', 'PRP$', 'VBG', 'VBD', '``', 'VBN', "''", 'VBP', 'WDT', 'HYPH', 'JJ', 'WP', 'VBZ', 'DT', 'RP', \
 		'NN', ')', '(', 'POS', '.', 'TO', 'COMMA', 'PRP', 'RB', ':', 'NNS', 'NNP', 'VB', 'WRB', 'CC', 'PDT', 'RBS', 'RBR', \
 		'CD', 'EX', 'IN', 'WP$', 'MD', 'NNPS', 'JJS', 'JJR', 'UH', '$', 'sigma', 'start'])
@@ -25,14 +32,47 @@ class HMMTagger(object):
 
 		#1.0 init observationTable
 		self.observationTable = {}
+		isEndOfSentence = [False,False]
 		
 		#1.1 build the observation table from the data
-		for line in f: 
-			if len(line)> 1: 
-				if not self.observationTable.has_key(line[0].lower()): 
-					self.observationTable[line[0].lower()] = {'sigma': 0.0}
-					self.observationTable[line[0].lower()][line[1].split('\r')[0]] = 1
-					self.observationTable[line[0].lower()]['sigma']+=1
+		for i, line in enumerate(f): 
+			if len(line) > 1: 
+				if line[0] == "" or i == 0: isEndOfSentence[i%2] = True 
+				else: isEndOfSentence[i%2] = False
+		
+				if not self.observationTable.has_key(line[0].lower()): #word is not known		
+					#1. check if word is a number
+					if True in (True for num in numbers if line[0].startswith(str(num))): 
+						try: 
+							number = int(line[0]) #if the word can be converted to a number
+							if not self.observationTable.has_key('__numeric__'): #if no number was observed
+								self.observationTable['__numeric__'] = {'sigma': 0.0}
+								self.observationTable['__numeric__'][line[1].split('\r')[0]] = 1
+								self.observationTable['__numeric__']['sigma']+=1
+							else: #if some numbers were already observed
+								if not self.observationTable['__numeric__'].has_key(line[1].split('\r')[0]): 
+									self.observationTable['__numeric__'][line[1].split('\r')[0]]=1.0
+								else: 
+									self.observationTable['__numeric__'][line[1].split('\r')[0]]+=1.0
+								self.observationTable['__numeric__']['sigma']+=1
+															
+						except ValueError:
+							self.observationTable[line[0].lower()] = {'sigma': 0.0}
+							self.observationTable[line[0].lower()][line[1].split('\r')[0]] = 1
+							self.observationTable[line[0].lower()]['sigma']+=1
+						#End of number checking
+				
+					#2. check if it is a proper noun: 
+					elif not True in isEndOfSentence and line[0][0] in string.uppercase and line[1].split('\r')[0] == "NNP":
+						print 'proper noun', line[0]
+						pass
+					
+					#3. neither proper noun or numbers. regular case
+					else:						
+						self.observationTable[line[0].lower()] = {'sigma': 0.0}
+						self.observationTable[line[0].lower()][line[1].split('\r')[0]] = 1
+						self.observationTable[line[0].lower()]['sigma']+=1
+				#word is known
 				else: 
 					if not self.observationTable[line[0].lower()].has_key(line[1].split('\r')[0]): 
 						self.observationTable[line[0].lower()][line[1].split('\r')[0]]=1.0
@@ -99,6 +139,9 @@ class HMMTagger(object):
 	def tag(self, sentence):
 		"""
 		tag given a sentence
+		TODO: 
+		identify proper noun 
+		identify numbers
 		"""
 		sentence = sentence.split()
 		posTags = ["" for i in range(len(sentence))]
