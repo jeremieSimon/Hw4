@@ -3,7 +3,6 @@ Jeremie Simon
 N16247912
 from POSTagger import *
 t = HMMTagger()
-t.tag("I love")
 """
 
 import copy
@@ -20,6 +19,9 @@ class HMMTagger(object):
 		f = [line.split('\t') for line in f]
 		
 		self.numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '-']
+		months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',\
+		 'November', 'December']
+		days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 		
 		self.tags = set(['', 'PRP$', 'VBG', 'VBD', '``', 'VBN', "''", 'VBP', 'WDT', 'HYPH', 'JJ', 'WP', 'VBZ', 'DT', 'RP', \
 		'NN', ')', '(', 'POS', '.', 'TO', 'COMMA', 'PRP', 'RB', ':', 'NNS', 'NNP', 'VB', 'WRB', 'CC', 'PDT', 'RBS', 'RBR', \
@@ -78,7 +80,17 @@ class HMMTagger(object):
 						self.observationTable[line[0].lower()][line[1].split('\r')[0]]+=1.0
 					self.observationTable[line[0].lower()]['sigma']+=1
 		
-		#1.2 compute the probabilities in the in the observation table: 
+		#1.2 Add special cases (Month + Days) to observation list:
+		for day in days: 
+			if not self.observationTable.has_key(day.lower()): 
+				self.observationTable[day.lower()] = {'sigma':1.0}
+				self.observationTable[day.lower()]['NNP'] = 1.0
+		for month in months: 
+			if not self.observationTable.has_key(month.lower()): 
+				self.observationTable[month.lower()] = {'sigma':1.0}
+				self.observationTable[month.lower()]['NNP'] = 1.0
+		
+		#1.3 compute the probabilities in the in the observation table: 
 		for words in self.observationTable.itervalues(): 
 			for tags in words.iterkeys():
 				if tags != 'sigma':  
@@ -119,15 +131,15 @@ class HMMTagger(object):
 		
 		#3. search word with lowest NNS and VBZ: 
 		self.wordEndsWithS = ""
-		mini = 1
+		mini = 10
 		for key in self.observationTable.iterkeys(): 
 			if self.observationTable[key].has_key('NNS') and self.observationTable[key].has_key('VBZ'): 
-				if  self.observationTable[key]['NNS'] + self.observationTable[key]['VBZ'] <= mini: 
+				if  (self.observationTable[key]['NNS'] + self.observationTable[key]['VBZ']) <= mini: 
 					mini = self.observationTable[key]['NNS'] + self.observationTable[key]['VBZ'] 
-					self.wordEndWithS = key
+					self.wordEndsWithS = key
 		
 		self.wordUnknown = ""
-		mini = 1
+		mini = 10
 		for key in self.observationTable.iterkeys(): 
 			if self.observationTable[key].has_key('NN') and self.observationTable[key].has_key('JJ'): 
 				if  self.observationTable[key]['NN'] + self.observationTable[key]['JJ'] <= mini: 
