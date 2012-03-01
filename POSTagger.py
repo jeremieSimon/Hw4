@@ -3,6 +3,10 @@ Jeremie Simon
 N16247912
 from POSTagger import *
 t = HMMTagger()
+t.doTag('test1.txt')
+
+TODO: 
+punctuation issue
 """
 
 import copy
@@ -145,12 +149,18 @@ class HMMTagger(object):
 				if  self.observationTable[key]['NN'] + self.observationTable[key]['JJ'] <= mini: 
 					mini = self.observationTable[key]['NN'] + self.observationTable[key]['JJ'] 
 					self.wordUnknown = key
+		
+		self.fakeAdverb = "__fakeadverb__"
+		self.observationTable[self.fakeAdverb] = copy.deepcopy(self.observationTable[self.wordUnknown])
+		for key in self.observationTable[self.fakeAdverb].iterkeys(): 
+			if key != 'RB': self.observationTable[self.fakeAdverb][key] /= 2
+		self.observationTable[self.fakeAdverb]['RB'] = 0.5
 
 	def tag(self, sentence):
 		"""
 		tag given a sentence
 		"""
-		sentence = sentence.split()
+		#sentence = sentence.split('\n')
 		posTags = ["" for i in range(len(sentence))]
 		isEndOfSentence = [False, False]
 		
@@ -174,11 +184,12 @@ class HMMTagger(object):
 			
 			#3. word is not known 
 			elif not self.observationTable.has_key(word.lower()): 
-			 	print "not in dict"
 				if word.lower().endswith('s'):  #ends with 's'
-					word = self.wordEndsWithS
-				else: 
-					word = self.wordUnknown
+					word = self.wordEndsWithS 
+				elif word.endswith('ly'): 
+					word = self.fakeAdverb
+				else: word = self.wordUnknown
+					
 			#END OF EXCEPTION CASES
 			
 			if i == 0: #start case
@@ -190,11 +201,11 @@ class HMMTagger(object):
 			else: 
 				for wordTag in self.observationTable[word.lower()].iterkeys(): 
 					#debug
-					print "wordTag", wordTag, "posTags", posTags[i-1]
+					print word, "wordTag", wordTag, "posTags", posTags[i-1]
 					print "obs",self.observationTable[word.lower()][wordTag], "transi",self.transitionTable[wordTag][posTags[i-1]]
-					print "p", p
-				
 					p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]]
+					print "p", p
+					
 					if self.observationTable[word.lower()][wordTag] == 1.0: 
 						p , tagMax= 1, wordTag
 					if p > pMax: 
@@ -208,6 +219,15 @@ class HMMTagger(object):
 		return result
 				
 	
+	def doTag(self, textfile):
+		"""
+		"""
+		textfile = open(textfile).read().split('\n')
+		result = self.tag(textfile)
+		for r in result: 
+			print str(r[0])+"\t"+(r[1])
+		
+		
 if __name__ == "__main__": 
 	tagger = HMMTagger()
 			
