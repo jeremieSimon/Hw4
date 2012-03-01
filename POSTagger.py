@@ -4,11 +4,8 @@ N16247912
 from POSTagger import *
 t = HMMTagger()
 t.tag("I love")
-
-Need to do: 
-first name and proper name 
-numbers
 """
+
 import copy
 import string
 
@@ -140,9 +137,6 @@ class HMMTagger(object):
 	def tag(self, sentence):
 		"""
 		tag given a sentence
-		TODO: 
-		identify proper noun 
-		identify numbers
 		"""
 		sentence = sentence.split()
 		posTags = ["" for i in range(len(sentence))]
