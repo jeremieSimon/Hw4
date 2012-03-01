@@ -22,7 +22,7 @@ class HMMTagger(object):
 		f = open("Homework4_corpus/POSData/development.pos").read().split('\n')
 		f = [line.split('\t') for line in f]
 		
-		numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '-']
+		self.numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '-']
 		
 		self.tags = set(['', 'PRP$', 'VBG', 'VBD', '``', 'VBN', "''", 'VBP', 'WDT', 'HYPH', 'JJ', 'WP', 'VBZ', 'DT', 'RP', \
 		'NN', ')', '(', 'POS', '.', 'TO', 'COMMA', 'PRP', 'RB', ':', 'NNS', 'NNP', 'VB', 'WRB', 'CC', 'PDT', 'RBS', 'RBR', \
@@ -42,7 +42,7 @@ class HMMTagger(object):
 		
 				if not self.observationTable.has_key(line[0].lower()): #word is not known		
 					#1. check if word is a number
-					if True in (True for num in numbers if line[0].startswith(str(num))): 
+					if True in (True for num in self.numbers if line[0].startswith(str(num))): 
 						try: 
 							number = int(line[0]) #if the word can be converted to a number
 							if not self.observationTable.has_key('__numeric__'): #if no number was observed
@@ -65,7 +65,8 @@ class HMMTagger(object):
 					#2. check if it is a proper noun: 
 					elif not True in isEndOfSentence and line[0][0] in string.uppercase and line[1].split('\r')[0] == "NNP":
 						print 'proper noun', line[0]
-						pass
+						self.observationTable['__propernoun__'] = {'sigma':1.0}
+						self.observationTable['__propernoun__']['NNP'] = 1
 					
 					#3. neither proper noun or numbers. regular case
 					else:						
@@ -145,16 +146,34 @@ class HMMTagger(object):
 		"""
 		sentence = sentence.split()
 		posTags = ["" for i in range(len(sentence))]
+		isEndOfSentence = [False, False]
 		
 		for i, word in enumerate(sentence): 
 			pMax, tagMax = 0.0, ""
+			if word == "" or i == 0: isEndOfSentence[i%2] = True 
+			else: isEndOfSentence[i%2] = False
 			
-			if not self.observationTable.has_key(word.lower()): #word is not knows
+			#EXCEPTION CASES
+			#1. identify if it is a number: 
+			if True in (True for num in self.numbers if word.startswith(str(num))): 
+				try: 
+					number = int(word)
+					word = '__numeric__'
+				except ValueError: pass
+		
+			#2. word is a proper noun
+			elif not self.observationTable.has_key(word.lower()) and not True in isEndOfSentence\
+			and word[0] in string.uppercase: 
+				word = '__propernoun__'
+			
+			#3. word is not known 
+			elif not self.observationTable.has_key(word.lower()): 
 			 	print "not in dict"
 				if word.lower().endswith('s'):  #ends with 's'
 					word = self.wordEndsWithS
 				else: 
 					word = self.wordUnknown
+			#END OF EXCEPTION CASES
 			
 			if i == 0: #start case
 				for key in self.observationTable[word.lower()].iterkeys(): 
