@@ -1,6 +1,16 @@
 """
 Jeremie Simon
 N16247912
+
+Implementation details: 
+With the basic HMM Tagger using a bigram model, I scored a 83% precision. 
+I tried then to keep the same model and add a few features for the unknown words 
+by treating the differently depending on how do they end. 
+I assumed that a non-starting word in a sentence starting with an uppercase letter is a PPN and if 
+it ends with a 's' it is a PPNS
+I added a few basic things, like the month of the year and the day of the week to the vocabulary.
+With just these few optimizations, I was able to score a 87% of precision. 
+
 from POSTagger import *
 t = HMMTagger()
 t.doTag('test1.txt')
