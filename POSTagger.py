@@ -39,6 +39,10 @@ class HMMTagger(object):
 		self.observationTable['__endswithian__'] = {'sigma':0.0}
 		self.observationTable['__endswithians__'] = {'sigma':0.0}
 		self.observationTable['__endswithen__'] = {'sigma':0.0}
+		self.observationTable['__endswithal__'] = {'sigma':0.0}
+		self.observationTable['__endswithious__'] = {'sigma':0.0}
+		self.observationTable['__endswithul__'] = {'sigma':0.0}
+		
 		
 		def helper(ender): 
 			if not self.observationTable['__endswith'+ender+'__'].has_key(line[1].split('\r')[0]): 
@@ -61,6 +65,9 @@ class HMMTagger(object):
 				elif line[0].lower().endswith('ic'): helper('ic')
 				elif line[0].lower().endswith('ian'): helper('ian')
 				elif line[0].lower().endswith('ians'): helper('ians')
+				elif line[0].lower().endswith('al'): helper('al')
+				elif line[0].lower().endswith('ious'): helper('ious')
+				elif line[0].lower().endswith('ul'): helper('ul')
 								
 				if not self.observationTable.has_key(line[0].lower()): #word is not known		
 					#1. check if word is a number
@@ -218,7 +225,10 @@ class HMMTagger(object):
 				elif word.lower().endswith('ic'): word = '__endswithic__'
 				elif word.lower().endswith('ian'): word = '__endswithian__'
 				elif word.lower().endswith('ian'): word = '__endswithians__'	
-				elif word.lower().endswith('ian'): word = '__endswithien__'
+				elif word.lower().endswith('en'): word = '__endswithen__'
+				elif word.lower().endswith('al'): word = '__endswithal__'
+				elif word.lower().endswith('ious'): word = '__endswithious__'
+				elif word.lower().endswith('ul'): word = '__endswithul__'
 				elif word.lower().endswith('s'):  word = self.wordEndsWithS 
 				elif word.endswith('ly'): word = '__fakeadverb__'
 				else: word = self.wordUnknown					
