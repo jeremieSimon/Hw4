@@ -4,9 +4,6 @@ N16247912
 from POSTagger import *
 t = HMMTagger()
 t.doTag('test1.txt')
-
-TODO: 
-punctuation issue
 """
 
 import copy
@@ -181,9 +178,11 @@ class HMMTagger(object):
 		
 		self.observationTable["__fakeadverb__"] = {'RB':0.90, 'NN':0.09, "JJ":0.01}
 
-	def tag(self, sentence):
+	def _tag(self, sentence):
 		"""
-		tag given a sentence
+		Description: called by generateTag. Use HMM algo
+		@return list of tuples (word, tag)
+		@param sentence 		
 		"""
 		
 		posTags = ["" for i in range(len(sentence))]
@@ -230,9 +229,8 @@ class HMMTagger(object):
 					p = self.observationTable[word.lower()][key] * self.transitionTable[key]['start']
 					if p > pMax: 
 						pMax, tagMax= p, key
-							
+													
 			else: 
-				print word.lower(), self.observationTable[word.lower()]
 				for wordTag in self.observationTable[word.lower()].iterkeys(): 
 					p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]]					
 					if self.observationTable[word.lower()][wordTag] == 1.0: 
@@ -249,20 +247,23 @@ class HMMTagger(object):
 		return result
 				
 	
-	def doTag(self, textfile):
+	def generateTag(self, textfile):
 		"""
+		Description: transform the textfile as an array of words, call the function to add tag
+		to each word and return the output
+		@param textfile
 		"""
 		textfile = open(textfile).read().split('\n')
-		result = self.tag(textfile)
+		results = self._tag(textfile)
 	
-		with open('output', 'w') as fi: 
-			for r in result: 
-				fi.write(str(r[0])+"\t"+(r[1])+'\n')
+		with open('output', 'w') as f: 
+			for result in results: 
+				f.write(str(result[0])+"\t"+(result[1])+'\n')
 		
 		
 if __name__ == "__main__": 
 	tagger = HMMTagger()
 	textfile = sys.argv[1]
-	tagger.doTag(textfile)
+	tagger.generateTag(textfile)
 	
 			
