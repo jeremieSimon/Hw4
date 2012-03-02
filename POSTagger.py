@@ -42,8 +42,7 @@ class HMMTagger(object):
 		self.observationTable['__endswithal__'] = {'sigma':0.0}
 		self.observationTable['__endswithious__'] = {'sigma':0.0}
 		self.observationTable['__endswithul__'] = {'sigma':0.0}
-		
-		
+				
 		def helper(ender): 
 			if not self.observationTable['__endswith'+ender+'__'].has_key(line[1].split('\r')[0]): 
 				self.observationTable['__endswith'+ender+'__'][line[1].split('\r')[0]]=1.0
