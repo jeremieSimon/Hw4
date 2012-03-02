@@ -4,7 +4,7 @@ COMMA	COMMA
 1996	CD
 	
 Dear	JJ
-Personal	JJ
+Personal	NNP
 Donor	NNP
 :	:
 	
@@ -150,7 +150,7 @@ best	JJS
 charities	NNS
 COMMA	COMMA
 U.S.	NNP
-News	NN
+News	NNPS
 &	CC
 World	NNP
 Report	NNP
@@ -162,7 +162,7 @@ the	DT
 five	CD
 "	''
 Standout	NNP
-Good	RB
+Good	NNP
 Guys	NNPS
 .	.
 "	''
@@ -195,7 +195,7 @@ While	IN
 I	PRP
 appreciate	VBP
 U.S.	NNP
-News	NN
+News	NNPS
 &	CC
 World	NNP
 Report	NNP
@@ -245,7 +245,7 @@ throughout	IN
 our	PRP$
 community	NN
 :	:
-The	DT
+The	NNP
 business	NN
 community	NN
 welcomes	VBZ
@@ -347,7 +347,7 @@ recipients	NNS
 :	:
 	
 "	''
-You	PRP
+You	NNP
 can	MD
 earn	VB
 the	DT
@@ -365,7 +365,7 @@ says	VBZ
 .	.
 	
 "	''
-You	PRP
+You	NNP
 can	MD
 get	VB
 off	RP
@@ -576,7 +576,7 @@ we	PRP
 earned	VBN
 from	IN
 U.S.	NNP
-News	NN
+News	NNPS
 &	CC
 World	NNP
 Report	NNP
@@ -1112,7 +1112,7 @@ the	DT
 Clubhouse	NNP
 Monitor	NNP
 at	IN
-Bent	VBD
+Bent	NNP
 Tree	NNP
 Apartments	NNPS
 COMMA	COMMA
@@ -1583,7 +1583,7 @@ COMMA	COMMA
 1995	CD
 	
 Dear	JJ
-Friend	NN
+Friend	NNP
 :	:
 	
 What	WP
@@ -1595,9 +1595,9 @@ by	IN
 your	PRP$
 contribution	NN
 to	TO
-Pleasant	JJ
-Run	VB
-Children	NNS
+Pleasant	NNP
+Run	NNP
+Children	NNP
 's	POS
 Homes	NNPS
 ?	.
@@ -1757,8 +1757,8 @@ again	RB
 .	.
 	
 Pleasant	JJ
-Run	VB
-Children	NNS
+Run	NNP
+Children	NNP
 's	POS
 Homes	NNPS
 began	VBD
@@ -1864,8 +1864,8 @@ grow	VB
 	
 In	IN
 1994	CD
-Pleasant	JJ
-Run	VB
+Pleasant	NNP
+Run	NNP
 served	VBD
 346	CD
 children	NNS
@@ -1903,8 +1903,8 @@ families	NNS
 who	WP
 come	VB
 to	TO
-Pleasant	JJ
-Run	VB
+Pleasant	NNP
+Run	NNP
 are	VBP
 given	VBN
 the	DT
@@ -1963,8 +1963,8 @@ it	PRP
 .	.
 	
 For	IN
-Pleasant	JJ
-Run	VB
+Pleasant	NNP
+Run	NNP
 to	TO
 continue	VB
 to	TO
@@ -2036,7 +2036,7 @@ COMMA	COMMA
 1995	CD
 	
 Dear	JJ
-Friend	NN
+Friend	NNP
 :	:
 	
 This	DT
@@ -2101,9 +2101,9 @@ spite	NN
 of	IN
 that	DT
 COMMA	COMMA
-Pleasant	JJ
-Run	VB
-Children	NNS
+Pleasant	NNP
+Run	NNP
+Children	NNP
 's	POS
 Homes	NNPS
 COMMA	COMMA
@@ -2198,9 +2198,9 @@ They	PRP
 come	VB
 into	IN
 a	DT
-Pleasant	JJ
-Run	VB
-program	NN
+Pleasant	NNP
+Run	NNP
+program	NNP
 ...	.
 whether	IN
 it	PRP
@@ -2256,8 +2256,8 @@ years	NNS
 	
 They	PRP
 leave	VB
-Pleasant	JJ
-Run	VB
+Pleasant	NNP
+Run	NNP
 COMMA	COMMA
 generally	RB
 COMMA	COMMA
@@ -2335,8 +2335,8 @@ them	PRP
 .	.
 	
 Pleasant	JJ
-Run	VB
-Children	NNS
+Run	NNP
+Children	NNP
 's	POS
 Homes	NNPS
 ...	
@@ -2357,10 +2357,10 @@ Tom	NNP
 Hirschauer	NNP
 	
 Dear	JJ
-Friends	NNS
+Friends	NNPS
 of	IN
-Pleasant	JJ
-Run	VB
+Pleasant	NNP
+Run	NNP
 :	:
 	
 The	DT
@@ -2436,7 +2436,7 @@ are	VBP
 .	.
 	
 Pleasant	JJ
-Run	VB
+Run	NNP
 cares	VBZ
 for	IN
 at-risk	NN
@@ -2502,8 +2502,8 @@ making	VBG
 a	DT
 contribution	NN
 to	TO
-Pleasant	JJ
-Run	VB
+Pleasant	NNP
+Run	NNP
 to	TO
 help	VB
 the	DT
@@ -2592,9 +2592,9 @@ memories	NNS
 A	DT
 gift	NN
 to	TO
-Pleasant	JJ
-Run	VB
-means	NN
+Pleasant	NNP
+Run	NNP
+means	VBZ
 the	DT
 children	NNS
 in	IN
@@ -2670,7 +2670,7 @@ mail	VB
 a	DT
 donation	NN
 to	TO
-Pleasant	JJ
+Pleasant	NNP
 run	VB
 .	.
 	
@@ -2739,8 +2739,8 @@ away	RB
 .	.
 	
 At	IN
-Pleasant	JJ
-Run	VB
+Pleasant	NNP
+Run	NNP
 COMMA	COMMA
 Inc.	NNP
 we	PRP
@@ -2958,16 +2958,16 @@ COMMA	COMMA
 Come	VB
 one	CD
 COMMA	COMMA
-Come	VB
-all	DT
+Come	NNP
+all	RB
 to	TO
 the	DT
 Inaugural	NNP
 Jameson	NNP
 Grill	NNP
-The	DT
-only	JJ
-fund	NN
+The	NNP
+only	RB
+fund	VB
 raising	VBG
 event	NN
 in	IN
@@ -3284,11 +3284,11 @@ COMMA	COMMA
 1997	CD
 	
 Name	NNP
-Address	NN
-City	NN
+Address	NNPS
+City	NNP
 COMMA	COMMA
-State	VBP
-Zip	NN
+State	NNP
+Zip	NNP
 	
 Dear	JJ
 Mr.	NNP
@@ -3446,7 +3446,7 @@ fund	NN
 raising	VBG
 event	NN
 :	:
-The	DT
+The	NNP
 Jameson	NNP
 Grill	NNP
 !	.
@@ -3487,9 +3487,9 @@ Jameson	NNP
 In	IN
 short	JJ
 COMMA	COMMA
-Fun	NN
+Fun	NNP
 for	IN
-Everyone	NN
+Everyone	NNP
 !	.
 	
 The	DT
@@ -3700,8 +3700,8 @@ of	IN
 Development	NNP
 	
 Help	VB
-Blaze	VB
-The	DT
+Blaze	NNP
+The	NNP
 Trail	NNP
 	
 --	:
@@ -3714,9 +3714,9 @@ you	PRP
 for	IN
 your	PRP$
 last	JJ
-Annual	JJ
+Annual	NNP
 Fund	NNP
-Gift	NN
+Gift	NNP
 !	.
 	
 July	NNP
@@ -3725,7 +3725,7 @@ COMMA	COMMA
 1997	CD
 	
 Dear	JJ
-Name	NN
+Name	NNP
 COMMA	COMMA
 	
 What	WP
@@ -3783,7 +3783,7 @@ before	IN
 All	DT
 of	IN
 our	PRP$
-Six	CD
+Six	NNP
 summer	NNP
 camping	VBG
 sessions	NNS
@@ -3885,8 +3885,8 @@ we	PRP
 "	''
 includes	VBZ
 the	DT
-Youth	NN
-Leadership	NN
+Youth	NNP
+Leadership	NNP
 teens	VBZ
 .	.
 	
@@ -4040,11 +4040,11 @@ COMMA	COMMA
 1997	CD
 	
 Name	NNP
-Address	NN
-City	NN
+Address	NNPS
+City	NNP
 COMMA	COMMA
-ST	NN
-Zip	NN
+ST	NNP
+Zip	NNP
 	
 Dear	JJ
 Mrs.	NNP
@@ -4239,8 +4239,8 @@ and	CC
 deeds	NNS
 of	IN
 the	DT
-Youth	NN
-Leadership	NN
+Youth	NNP
+Leadership	NNP
 teens	VBZ
 .	.
 	
@@ -4473,11 +4473,11 @@ COMMA	COMMA
 1999	CD
 	
 Dear	JJ
-Name	NN
+Name	NNP
 :	:
 	
 Question	NN
-What	WP
+What	NNP
 do	VBP
 you	PRP
 get	VBP
@@ -4510,7 +4510,7 @@ in	IN
 1997	CD
 when	WRB
 Community	NNP
-Centers	NNS
+Centers	NNPS
 of	IN
 Indianapolis	NNPS
 provided	VBD
@@ -4560,14 +4560,14 @@ career	NN
 assistance	NN
 for	IN
 youth	NN
-Preschool	NN
+Preschool	NNP
 for	IN
 young	JJ
 children	NNS
-School	NN
+School	NNP
 Age	NNP
-Child	NN
-Care	NN
+Child	NNP
+Care	NNP
 for	IN
 and	CC
 children	NNS
@@ -4585,40 +4585,40 @@ for	IN
 all	DT
 ages	VBZ
 Adult	NNP
-Day	NN
-Care	NN
+Day	NNP
+Care	NNP
 for	IN
 seniors	NNS
-Senior	NN
-Case	NN
-Management	NN
+Senior	NNP
+Case	NNP
+Management	NNP
 Aids	NNPS
 Education	NNP
 for	IN
 youth	NN
 and	CC
 adults	NNS
-Senior	NN
-Social	JJ
+Senior	NNP
+Social	NNP
 Involvement	NNP
-Computer	NN
-Training	NN
+Computer	NNP
+Training	NNP
 for	IN
 youth	NN
 COMMA	COMMA
 adults	VBZ
 and	CC
 seniors	NNS
-Senior	NN
+Senior	NNP
 Nutrition	NNP
 meal	NNP
 program	NNP
-Day	NN
-Care	NN
+Day	NNP
+Care	NNP
 for	IN
 young	JJ
 children	NNS
-Social	JJ
+Social	NNP
 Development	NNP
 and	CC
 Recreation	NNP
@@ -4631,11 +4631,11 @@ adults	NNS
 .	.
 HIPPY	NNP
 (	(
-Home	RB
+Home	NNP
 Instructional	NNP
 Program	NNP
 for	IN
-Preschool	NN
+Preschool	NNP
 Youngsters	NNPS
 )	)
 for	IN
@@ -4647,15 +4647,15 @@ counseling	NN
 for	IN
 youth	NN
 .	.
-In	RB
-Home	RB
-Services	NNS
+In	NNP
+Home	NNP
+Services	NNPS
 for	IN
 adults	NNS
 and	CC
 seniors	NNS
 .	.
-Transportation	NN
+Transportation	NNP
 for	IN
 youth	NN
 and	CC
@@ -4727,7 +4727,7 @@ the	DT
 city	NN
 -	HYPH
 CICOA	NNP
-The	DT
+The	NNP
 Access	NNPS
 Network	NNP
 COMMA	COMMA
@@ -4735,22 +4735,22 @@ Goodwill	NNP
 Industries	NNPS
 COMMA	COMMA
 Indianapolis	NNPS
-Housing	NN
-Agency	NN
+Housing	NNP
+Agency	NNP
 COMMA	COMMA
-City	NN
+City	NNP
 of	IN
 Indianapolis	NNPS
 COMMA	COMMA
 Indianapolis	NNPS
-Private	JJ
+Private	NNP
 Industry	NNP
 Council	NNP
 COMMA	COMMA
-Family	NN
+Family	NNP
 and	CC
-Social	JJ
-Services	NNS
+Social	NNP
+Services	NNPS
 administration	NN
 COMMA	COMMA
 OTC	NNP
@@ -4874,7 +4874,7 @@ deductible	JJ
 gift	NN
 to	TO
 Community	NNP
-Centers	NNS
+Centers	NNPS
 of	IN
 Indianapolis	NNPS
 in	IN
@@ -4883,7 +4883,7 @@ COMMA	COMMA
 and	CC
 know	VB
 that	DT
-COMPANY	NN
+COMPANY	NNP
 is	VBZ
 playing	VBG
 an	DT
@@ -4951,11 +4951,11 @@ COMMA	COMMA
 1999	CD
 	
 Name	NNP
-Address	NN
-City	NN
+Address	NNPS
+City	NNP
 COMMA	COMMA
-ST	NN
-Zip	NN
+ST	NNP
+Zip	NNP
 	
 The	DT
 goal	NN
@@ -5010,7 +5010,7 @@ well	RB
 Participants	VBZ
 in	IN
 the	DT
-Youth	NN
+Youth	NNP
 Outcomes	NNPS
 Educational	NNP
 Initiative	NNP
@@ -5046,8 +5046,8 @@ time	NN
 later	RB
 COMMA	COMMA
 the	DT
-Community	NN
-Youth	NN
+Community	NNP
+Youth	NNP
 Mapping	NNP
 Project	NNP
 sent	VBD
@@ -5119,7 +5119,7 @@ we	PRP
 are	VBP
 to	TO
 help	VB
-ALL	DT
+ALL	NNP
 of	IN
 your	PRP$
 youth	NN
@@ -5359,7 +5359,7 @@ a	DT
 great	JJ
 place	NN
 for	IN
-ALL	DT
+ALL	NNP
 of	IN
 us	PRP
 to	TO
@@ -5405,14 +5405,14 @@ COMMA	COMMA
 1997	CD
 	
 Name	NNP
-Address	NN
-City	NN
+Address	NNPS
+City	NNP
 COMMA	COMMA
-ST	NN
-Zip	NN
+ST	NNP
+Zip	NNP
 	
 Dear	JJ
-Bill	NN
+Bill	NNP
 :	:
 	
 This	DT
@@ -5485,7 +5485,7 @@ Marion	NNP
 County	NNP
 Commission	NNP
 on	IN
-Youth	NN
+Youth	NNP
 COMMA	COMMA
 Inc.	NNP
 	
@@ -5566,7 +5566,7 @@ developing	VBG
 a	DT
 Summer	NNP
 Bus	NNPS
-Pass	VB
+Pass	NNPS
 COMMA	COMMA
 neighborhood	NNP
 youth	NN
@@ -5574,9 +5574,9 @@ councils	VBZ
 COMMA	COMMA
 and	CC
 the	DT
-We	PRP
+We	NNP
 Value	NNP
-Youth	NN
+Youth	NNP
 information	NN
 line	NN
 .	.
@@ -5729,7 +5729,7 @@ Marion	NNP
 County	NNP
 Commission	NNP
 on	IN
-Youth	NN
+Youth	NNP
 .	.
 	
 Sincerely	RB
@@ -5745,14 +5745,14 @@ COMMA	COMMA
 1996	CD
 	
 Name	NNP
-Address	NN
-City	NN
+Address	NNPS
+City	NNP
 COMMA	COMMA
-ST	NN
-Zip	NN
+ST	NNP
+Zip	NNP
 	
 Dear	JJ
-Name	NN
+Name	NNP
 :	:
 	
 In	IN
@@ -5766,7 +5766,7 @@ Marion	NNP
 County	NNP
 Commission	NNP
 on	IN
-Youth	NN
+Youth	NNP
 began	VBD
 what	WP
 can	MD
@@ -5895,14 +5895,14 @@ most	JJS
 notably	NN
 the	DT
 Summer	NNP
-Fun	NN
-Line	NN
+Fun	NNP
+Line	NNP
 COMMA	COMMA
 the	DT
 Metro	NNP
 Summer	NNP
 Bus	NNPS
-Pass	VB
+Pass	NNPS
 COMMA	COMMA
 and	CC
 the	DT
@@ -5919,7 +5919,7 @@ Providers	NNPS
 Council	NNP
 and	CC
 a	DT
-Youth	NN
+Youth	NNP
 Coalition	NNP
 are	VBP
 building	VBG
@@ -5940,8 +5940,8 @@ come	VB
 The	DT
 formation	NN
 of	IN
-The	DT
-Community	NN
+The	NNP
+Community	NNP
 Academy	NNP
 COMMA	COMMA
 a	DT
@@ -6024,20 +6024,20 @@ in	IN
 the	DT
 United	NNP
 Northwest	NNP
-Area	NN
+Area	NNP
 in	IN
 partnership	NN
 with	IN
-The	DT
+The	NNP
 Junior	NNP
 League	NNP
 of	IN
 Indianapolis	NNPS
 and	CC
-Community	NN
-Partnerships	NNS
+Community	NNP
+Partnerships	NNPS
 with	IN
-Youth	NN
+Youth	NNP
 from	IN
 Fort	NNP
 Wayne	NNP
@@ -6066,7 +6066,7 @@ a	DT
 Caring	NNP
 Neighborhood	NNP
 with	IN
-Youth	NN
+Youth	NNP
 "	''
 COMMA	COMMA
 mobilizing	VBG
@@ -6162,9 +6162,9 @@ invites	VBZ
 the	DT
 support	NN
 of	IN
-The	DT
+The	NNP
 __	NN
-Company	NN
+Company	NNP
 Foundation	NNP
 in	IN
 the	DT
@@ -6308,8 +6308,8 @@ a	DT
 society	NN
 that	IN
 values	NNS
-Them	PRP
-have	VBP
+Them	NNP
+have	VB
 a	DT
 much	JJ
 greater	NN
@@ -6488,7 +6488,7 @@ COMMA	COMMA
 we	PRP
 remain	VBP
 COMMA	COMMA
-Sincerely	RB
+Sincerely	NNP
 COMMA	COMMA
 John	NNP
 T.	NNP
@@ -6510,7 +6510,7 @@ COMMA	COMMA
 1998	CD
 	
 Dear	JJ
-Friend	NN
+Friend	NNP
 :	:
 	
 Adolescence	NN
@@ -6600,8 +6600,8 @@ ages	VBZ
 .	.
 	
 A	DT
-Big	JJ
-Sister	NN
+Big	NNP
+Sister	NNP
 is	VBZ
 a	DT
 mentor	NN
@@ -6669,9 +6669,9 @@ month	NN
 study	VB
 completed	VBN
 by	IN
-Public	JJ
+Public	NNP
 /	NN
-Private	JJ
+Private	NNP
 Ventures	NNPS
 showed	VBD
 that	IN
@@ -6683,11 +6683,11 @@ one	CD
 to	IN
 -	HYPH
 one	NN
-Big	JJ
-Sister	NN
+Big	NNP
+Sister	NNP
 and	CC
-Big	JJ
-Brother	NN
+Big	NNP
+Brother	NNP
 matches	VBZ
 for	IN
 just	RB
@@ -6735,7 +6735,7 @@ is	VBZ
 positive	JJ
 proof	NN
 that	IN
-Big	JJ
+Big	NNP
 Sisters	NNPS
 one	NNP
 -	HYPH
@@ -6839,7 +6839,7 @@ a	DT
 plaque	NN
 in	IN
 the	DT
-Big	JJ
+Big	NNP
 Sisters	NNPS
 office	NNP
 COMMA	COMMA
@@ -6853,7 +6853,7 @@ report	NN
 .	.
 	
 Today	NN
-Big	JJ
+Big	NNP
 Sisters	NNPS
 serves	
 over	
@@ -6884,8 +6884,8 @@ currently	RB
 waiting	VBG
 for	IN
 a	DT
-Big	JJ
-Sister	NN
+Big	NNP
+Sister	NNP
 .	.
 	
 Imagine	VBP
@@ -6903,7 +6903,7 @@ its	PRP$
 support	NN
 of	IN
 one	CD
-Big	JJ
+Big	NNP
 Sisters	NNPS
 match	VB
 !	.
@@ -6912,7 +6912,7 @@ I	PRP
 encourage	VB
 you	PRP
 to	TO
-Join	VB
+Join	NNP
 me	PRP
 in	IN
 presenting	VBG
@@ -6931,9 +6931,9 @@ Linda	NNP
 McCoy	NNP
 Pastor	NNP
 COMMA	COMMA
-THE	DT
+THE	NNP
 GARDEN	NNP
-A	DT
+A	NNP
 Blossom	NNP
 of	IN
 St.	NNP
@@ -6941,7 +6941,7 @@ Luke	NNP
 's	POS
 United	NNP
 Methodist	NNP
-Church	NN
+Church	NNP
 	
 August	NNP
 10	CD
@@ -6954,7 +6954,7 @@ Philanthropy	NNP
 01234	CD
 Giving	NNP
 Way	NNP
-Contribution	NN
+Contribution	NNP
 COMMA	COMMA
 USA	NNP
 56789	CD
@@ -6965,7 +6965,7 @@ Philanthropy	NNP
 COMMA	COMMA
 	
 "	''
-The	DT
+The	NNP
 urgency	NN
 you	PRP
 feel	VB
@@ -7103,7 +7103,7 @@ that	DT
 .	.
 	
 Many	JJ
-Little	JJ
+Little	NNP
 Sisters	NNPS
 are	VBP
 preparing	VBG
@@ -7127,7 +7127,7 @@ outlook	NN
 Thanks	NNS
 to	TO
 our	PRP$
-Big	JJ
+Big	NNP
 Sisters	NNPS
 volunteers	
 COMMA	
@@ -7156,9 +7156,9 @@ A	DT
 recent	JJ
 study	VB
 by	IN
-Public	JJ
+Public	NNP
 /	NN
-Private	JJ
+Private	NNP
 Ventures	NNPS
 (	(
 PPV	NNP
@@ -7169,8 +7169,8 @@ girls	NNPS
 who	WP
 had	VBD
 a	DT
-Big	JJ
-Sister	NN
+Big	NNP
+Sister	NNP
 for	IN
 just	RB
 one	CD
@@ -7208,8 +7208,8 @@ family	NN
 relationships	VBZ
 	
 Former	NN
-Little	JJ
-Sister	NN
+Little	NNP
+Sister	NNP
 Amy	NNP
 COMMA	COMMA
 now	RB
@@ -7223,7 +7223,7 @@ a	DT
 testament	NN
 to	TO
 the	DT
-Big	JJ
+Big	NNP
 Sisters	NNPS
 program	NNP
 .	.
@@ -7234,8 +7234,8 @@ was	VBD
 matched	VBN
 with	IN
 my	PRP$
-Big	JJ
-Sister	NN
+Big	NNP
+Sister	NNP
 in	IN
 June	NNP
 of	IN
@@ -7308,8 +7308,8 @@ of	IN
 fun	NN
 with	IN
 my	PRP$
-Big	JJ
-Sister	NN
+Big	NNP
+Sister	NNP
 COMMA	COMMA
 but	CC
 I	PRP
@@ -7350,7 +7350,7 @@ very	RB
 thankful	JJ
 to	TO
 the	DT
-Big	JJ
+Big	NNP
 Sisters	NNPS
 program	NNP
 for	IN
@@ -7365,7 +7365,7 @@ opportunity	NN
 In	IN
 1998	CD
 COMMA	COMMA
-Big	JJ
+Big	NNP
 Sisters	NNPS
 served	VBD
 972	CD
@@ -7423,7 +7423,7 @@ a	DT
 financial	JJ
 gift	NN
 to	TO
-Big	JJ
+Big	NNP
 Sisters	NNPS
 in	IN
 1999	CD
@@ -7541,7 +7541,7 @@ placed	VBN
 in	IN
 the	DT
 Growth	NNP
-For	IN
+For	NNP
 Girls	NNPS
 Fund	NNP
 .	.
@@ -7581,7 +7581,7 @@ out	RP
 more	
 about	
 the	DT
-Big	JJ
+Big	NNP
 Sisters	NNPS
 program	NNP
 COMMA	COMMA
@@ -7628,22 +7628,22 @@ COMMA	COMMA
 1999	CD
 	
 Name	NNP
-Address	NN
-City	NN
+Address	NNPS
+City	NNP
 COMMA	COMMA
-ST	NN
-Zip	NN
+ST	NNP
+Zip	NNP
 	
 Dear	JJ
-Name	NN
+Name	NNP
 :	:
 	
 The	DT
 1999	CD
 Invest	NNP
 in	IN
-Youth	NN
-Campaign	NN
+Youth	NNP
+Campaign	NNP
 is	VBZ
 in	IN
 full	JJ
@@ -7689,7 +7689,7 @@ programs	NNS
 The	DT
 Invest	NNP
 in	IN
-Youth	NN
+Youth	NNP
 campaign	NN
 helps	VBZ
 insure	NN
@@ -7710,7 +7710,7 @@ hold	NN
 	
 The	DT
 Urban	NNP
-Mission	NN
+Mission	NNP
 Branch	NNP
 is	VBZ
 reaching	VBG
@@ -7865,7 +7865,7 @@ year	NN
 campaign	NN
 at	IN
 the	DT
-Annual	JJ
+Annual	NNP
 Meeting	NNP
 on	IN
 April	NNP
@@ -7896,7 +7896,7 @@ H.	NNP
 Gilbert	NNP
 COMMA	COMMA
 Jr.	NNP
-Past	NN
+Past	NNP
 Board	NNP
 Member	NNP
 YMCA	NNP
@@ -7905,7 +7905,7 @@ Greater	NNP
 Indianapolis	NNPS
 	
 Even	RB
-More	JJR
+More	NNP
 "	''
 Proving	NNP
 Rape	NNP
@@ -7915,8 +7915,8 @@ Chatterbox	NNP
 feels	VBZ
 that	DT
 the	DT
-Wall	NN
-Street	NN
+Wall	NNP
+Street	NNP
 Journal	NNP
 editorial	JJ
 page	NN
@@ -7929,7 +7929,7 @@ Broaddrick	NNP
 rape	NN
 charges	VBZ
 against	IN
-Bill	NN
+Bill	NNP
 Clinton	NNP
 (	(
 see	VB
@@ -7939,7 +7939,7 @@ Rape	NNP
 COMMA	COMMA
 "	''
 "	
-More	
+More	NNP
 Proving	NNP
 Rape	NNP
 COMMA	COMMA
@@ -7997,7 +7997,7 @@ be	VB
 known	VBN
 as	IN
 the	DT
-Indis	NNP
+Indis	NNPS
 )	)
 Index	NNP
 .	.
@@ -8114,7 +8114,7 @@ be	VB
 inducted	VBN
 into	IN
 the	DT
-Indis	NNP
+Indis	NNPS
 Hall	NNP
 of	IN
 Fame	NNP
@@ -8197,8 +8197,8 @@ this	DT
 survey	NN
 COMMA	COMMA
 the	DT
-Wall	NN
-Street	NN
+Wall	NNP
+Street	NNP
 Journal	NNP
 will	MD
 be	VB
@@ -8269,12 +8269,12 @@ was	VBD
 pardoned	VBN
 by	IN
 Gov.	NNP
-Bill	NN
+Bill	NNP
 Clinton	NNP
 .	.
 	
 (	(
-A	DT
+A	NNP
 responsible	JJ
 account	NN
 of	IN
@@ -8284,9 +8284,9 @@ controversy	NN
 in	IN
 today	NN
 's	POS
-New	JJ
+New	NNP
 York	NNP
-Times	NNS
+Times	NNPS
 reports	NNS
 that	WDT
 Kelsey	NNP
@@ -8436,7 +8436,7 @@ will	MD
 be	VB
 in	IN
 the	DT
-Indis	NNP
+Indis	NNPS
 Hall	NNP
 of	IN
 Fame	NNP
@@ -8471,13 +8471,13 @@ an	DT
 interview	NN
 to	TO
 the	DT
-New	JJ
+New	NNP
 York	NNP
-Times	NNS
+Times	NNPS
 (	(
 as	RB
 the	DT
-Times	NNS
+Times	NNPS
 reports	NNS
 in	IN
 today	NN
@@ -8497,7 +8497,7 @@ any	DT
 tinkering	NN
 with	IN
 the	DT
-Indis	NNP
+Indis	NNPS
 Index	NNP
 's	POS
 scoring	NN
@@ -8512,7 +8512,7 @@ Rabinowitz	NNP
 efforts	NNS
 on	IN
 the	DT
-Times	NNS
+Times	NNPS
 '	''
 behalf	NN
 were	VBD
@@ -8579,7 +8579,7 @@ feeding	NN
 sources	NNS
 to	TO
 the	DT
-Times	NNS
+Times	NNPS
 COMMA	COMMA
 he	PRP
 replied	VBD
@@ -8599,7 +8599,7 @@ edit	NN
 page	NN
 did	VBD
 .	.
-They	PRP
+They	NNP
 do	VBP
 their	PRP$
 thing	NN
@@ -8609,7 +8609,7 @@ do	VBP
 ours	PRP
 .	.
 "	''
-Which	WDT
+Which	NNP
 is	VBZ
 what	WP
 Journal	NNP
@@ -8644,14 +8644,14 @@ on	IN
 behalf	NN
 of	IN
 the	DT
-Times	NNS
+Times	NNPS
 were	VBD
 more	JJR
 indifferent	JJ
 than	IN
 the	DT
-Times	NNS
-made	VBN
+Times	NNPS
+made	VBD
 them	PRP
 sound	VB
 .	.
@@ -8664,7 +8664,7 @@ me	PRP
 Sunday	NNP
 that	IN
 a	DT
-Times	NNS
+Times	NNPS
 reporter	VB
 had	VBN
 appeared	VBN
@@ -8705,18 +8705,18 @@ to	TO
 talk	VB
 to	TO
 the	DT
-New	JJ
+New	NNP
 York	NNP
-Post	NN
-'	''
-s	
+Post	NNP
+'	POS
+s	NNS
 Steve	NNP
 Dunleavy	NNP
 COMMA	COMMA
 and	CC
 refused	VBD
 a	DT
-Times	NNS
+Times	NNPS
 reporter	VB
 .	.
 	
@@ -8743,7 +8743,7 @@ to	TO
 talk	VB
 to	TO
 the	DT
-Times	NNS
+Times	NNPS
 reporter	VB
 .	.
 	
@@ -8768,7 +8768,7 @@ She	PRP
 said	VBD
 COMMA	COMMA
 '	''
-Well	RB
+Well	NNP
 COMMA	COMMA
 I	PRP
 'm	VBP
@@ -8795,7 +8795,7 @@ this	DT
 on	IN
 to	TO
 -LSB-	VB
-Times	NNS
+Times	NNPS
 reporter	VB
 -RSB-	NN
 Felicity	NNP
@@ -8819,9 +8819,9 @@ happens	VBZ
 that	DT
 in	IN
 the	DT
-New	JJ
+New	NNP
 York	NNP
-Times	NNS
+Times	NNPS
 piece	NN
 today	NN
 I	PRP
@@ -8843,9 +8843,9 @@ the	DT
 story	NN
 to	TO
 the	DT
-New	JJ
+New	NNP
 York	NNP
-Times	NNS
+Times	NNPS
 .	.
 "	''
 	
@@ -8854,15 +8854,15 @@ Timothy	NNP
 Noah	NNP
 	
 No	UH
-More	
+More	NNP
 Kisses	NNPS
 	
 In	IN
 light	NN
 of	IN
-Secretary	NN
+Secretary	NNP
 of	IN
-State	VBP
+State	NNP
 Albright	NNP
 's	POS
 imminent	NN
@@ -8873,16 +8873,16 @@ middle	NN
 east	NN
 COMMA	COMMA
 the	DT
-New	JJ
+New	NNP
 York	NNP
-Times	NNS
+Times	NNPS
 COMMA	COMMA
 Los	NNPS
 Angeles	NNPS
-Times	NNS
+Times	NNPS
 and	CC
 Washington	NNP
-Post	NN
+Post	NNP
 emphasize	NN
 the	DT
 deteriorating	NN
@@ -8892,7 +8892,7 @@ there	RB
 	
 But	CC
 USA	NNP
-Today	NN
+Today	NNP
 stays	VBZ
 with	IN
 Princess	NNPS
@@ -8971,8 +8971,8 @@ leaders	NNS
 .	.
 	
 The	DT
-Times	NNS
-emphasizes	VBZ
+Times	NNPS
+emphasizes	
 the	DT
 larger	NN
 geopolitical	JJ
@@ -9150,7 +9150,7 @@ that	IN
 H	NNP
 and	CC
 R	NNP
-Block	NN
+Block	NNP
 has	VBZ
 finally	RB
 wriggled	VBN
@@ -9166,7 +9166,7 @@ but	CC
 it	PRP
 's	VBZ
 the	DT
-Post	NN
+Post	NNP
 with	IN
 the	DT
 news	NN
@@ -9181,8 +9181,8 @@ over	RB
 .	.
 	
 The	DT
-Wall	NN
-Street	NN
+Wall	NNP
+Street	NNP
 Journal	NNP
 "	''
 Outlook	NNP
@@ -9190,7 +9190,7 @@ Outlook	NNP
 observes	
 COMMA	
 "	
-In	
+In	NNP
 the	DT
 U.S.	NNP
 job	NN
@@ -9392,7 +9392,7 @@ NYT	NNP
 credit	NN
 for	IN
 getting	VBG
-Mother	NN
+Mother	NNP
 Teresa	NNP
 back	NN
 on	IN
@@ -9415,7 +9415,7 @@ story	NN
 .	.
 	
 "	''
-Not	RB
+Not	NNP
 everyone	NN
 in	IN
 Calcutta	NNP
@@ -9509,7 +9509,7 @@ this	DT
 charge	NN
 COMMA	COMMA
 the	DT
-Times	NNS
+Times	NNPS
 did	VBD
 n't	RB
 interview	NN
@@ -9535,7 +9535,7 @@ set	VBN
 it	PRP
 out	RP
 COMMA	COMMA
-The	DT
+The	NNP
 Missionary	NNP
 Position	NNP
 .	.
@@ -9558,7 +9558,7 @@ somebody	NN
 desk	NN
 at	IN
 the	DT
-Times	NNS
+Times	NNPS
 though	IN
 ?	.
 	
@@ -9588,12 +9588,12 @@ her	PRP$
 at	IN
 the	DT
 U.S.	NNP
-Open	VB
+Open	NNP
 --	:
 "	''
 Venus	NNPS
-Brought	VBN
-Back	RP
+Brought	NNP
+Back	NNP
 to	TO
 Earth	NNP
 "	''
@@ -9694,7 +9694,7 @@ Fashioning	VBG
 Paula	NNP
 	
 USA	NN
-Today	NN
+Today	NNP
 leads	VBZ
 with	IN
 Texas	NNPS
@@ -9720,7 +9720,7 @@ story	NN
 at	IN
 the	DT
 Washington	NNP
-Post	NN
+Post	NNP
 is	VBZ
 the	DT
 latest	NN
@@ -9755,17 +9755,17 @@ towns	NNS
 .	.
 	
 The	DT
-New	JJ
+New	NNP
 York	NNP
-Times	NNS
-leads	VBZ
+Times	NNPS
+leads	
 with	IN
 a	DT
 comprehensive	JJ
 poll	NN
 about	IN
-American	JJ
-attitudes	NNS
+American	NNP
+attitudes	VBZ
 concerning	VBG
 abortion	NN
 .	.
@@ -9854,8 +9854,8 @@ week	NN
 .	.
 	
 The	DT
-Wall	NN
-Street	NN
+Wall	NNP
+Street	NNP
 Journal	NNP
 states	NNS
 that	WDT
@@ -9976,7 +9976,7 @@ third	JJ
 .	.
 	
 (	(
-The	DT
+The	NNP
 piece	NN
 notes	VBZ
 that	DT
@@ -10114,12 +10114,12 @@ service	NN
 .	.
 	
 (	(
-Which	WDT
+Which	NNP
 raises	VBZ
 the	DT
 question	NN
 :	:
-Has	VBZ
+Has	NNPS
 n't	RB
 technology	VB
 progressed	VBN
@@ -10153,7 +10153,7 @@ the	DT
 WP	NNP
 '	POS
 s	NNS
-Page	NN
+Page	NNP
 A6	NNP
 provides	VBZ
 an	DT
@@ -10173,7 +10173,7 @@ officer	NN
 Ex	NNP
 -	HYPH
 HUD	NNP
-Secretary	NN
+Secretary	NNP
 -RSB-	NN
 Cisneros	NNPS
 's	
@@ -10185,10 +10185,10 @@ COMMA	COMMA
 "	
 -LSB-	
 Labor	NNP
-Secretary	NN
+Secretary	NNP
 -RSB-	NN
 Herman	NNP
-Denies	VBZ
+Denies	NNPS
 Allegations	NNPS
 of	IN
 Influence	NNP
@@ -10199,19 +10199,19 @@ COMMA	COMMA
 "	''
 and	CC
 "	
-Two	CD
+Two	NNP
 Tyson	NNP
 Foods	NNPS
 Executive	NNP
 Indicted	NNP
-Over	IN
+Over	NNP
 Gifts	NNPS
 to	IN
 -LSB-	NN
 Ex	NNP
 -	HYPH
 Agriculture	NNP
-Secretary	NN
+Secretary	NNP
 -RSB-	NN
 Espy	NNP
 .	.
@@ -10301,7 +10301,7 @@ up	RP
 COMMA	COMMA
 says	VBZ
 the	DT
-Times	NNS
+Times	NNPS
 COMMA	COMMA
 may	MD
 lead	VB
@@ -10322,7 +10322,7 @@ Yesterday	NN
 's	POS
 Los	NNPS
 Angeles	NNPS
-Times	NNS
+Times	NNPS
 ran	VB
 a	DT
 story	NN
@@ -10334,9 +10334,9 @@ Paula	NNP
 Jones	NNPS
 Works	NNPS
 on	IN
-Her	PRP$
+Her	NNP
 Court	NNP
-Appearance	NN
+Appearance	NNP
 COMMA	COMMA
 "	''
 which	WDT
@@ -10421,13 +10421,13 @@ PJ	NNP
 .	.
 	
 "	''
-It	PRP
+It	NNP
 is	VBZ
 COMMA	COMMA
 "	''
 hyperventilates	
 the	DT
-Post	NN
+Post	NNP
 COMMA	COMMA
 one	CD
 of	IN
@@ -10526,7 +10526,7 @@ makeup	NN
 artist	NN
 for	IN
 Bobbi	NNP
-Brown	JJ
+Brown	NNP
 Essentials	NNPS
 COMMA	COMMA
 and	CC
@@ -10605,8 +10605,8 @@ else	RB
 	
 Stephanopoulos	VBZ
 Analyzes	NNPS
-His	PRP$
-Own	JJ
+His	NNPS
+Own	NNP
 Crime	NNP
 	
 There	EX
@@ -10619,8 +10619,8 @@ Stephanopoulos	NNPS
 on	IN
 ABC	NNP
 's	POS
-This	DT
-Week	NN
+This	NNPS
+Week	NNP
 this	DT
 morning	NN
 COMMA	COMMA
@@ -10658,8 +10658,8 @@ Stephanopoulos	NNPS
 popped	VBD
 up	RP
 on	IN
-Good	JJ
-Morning	NN
+Good	NNP
+Morning	NNP
 America	NNP
 to	TO
 demonstrate	VB
@@ -10668,7 +10668,7 @@ concern	NN
 .	.
 	
 "	''
-These	DT
+These	NNP
 are	VBP
 probably	RB
 the	DT
@@ -10894,7 +10894,7 @@ problem	NN
 .	.
 	
 (	(
-Do	
+Do	NNP
 n't	RB
 say	VB
 Stephanopoulos	NNPS
@@ -10940,9 +10940,9 @@ laments	VBZ
 The	DT
 1993	CD
 documentary	NN
-The	DT
-War	NN
-Room	NN
+The	NNP
+War	NNP
+Room	NNP
 captures	VBZ
 some	DT
 of	IN
@@ -11001,7 +11001,7 @@ suggests	VBZ
 that	DT
 on	IN
 60	CD
-Minutes	NNS
+Minutes	NNPS
 Clinton	NNP
 had	VBD
 admitted	VBN
@@ -11010,7 +11010,7 @@ infidelity	NN
 .	.
 	
 "	''
-He	PRP
+He	NNP
 said	VBD
 he	PRP
 had	VBD
@@ -11039,7 +11039,7 @@ day	NN
 .	.
 	
 (	(
-Today	NN
+Today	NNP
 COMMA	COMMA
 of	IN
 course	NN
@@ -11055,7 +11055,7 @@ admitted	VBD
 infidelity	NN
 on	IN
 60	CD
-Minutes	NNS
+Minutes	NNPS
 and	CC
 that	DT
 the	DT
@@ -11073,9 +11073,9 @@ Near	IN
 the	DT
 end	NN
 of	IN
-The	DT
-War	NN
-Room	NN
+The	NNP
+War	NNP
+Room	NNP
 COMMA	COMMA
 Stephanopoulos	NNPS
 gets	
@@ -11114,7 +11114,7 @@ quiet	NN
 .	.
 	
 "	''
-You	PRP
+You	NNP
 would	MD
 be	VB
 laughed	VBD
@@ -11141,7 +11141,7 @@ you	PRP
 never	RB
 work	VB
 in	IN
-Democratic	JJ
+Democratic	NNP
 politics	NNS
 again	RB
 ...	.
@@ -11210,9 +11210,9 @@ Dowd	NNP
 in	IN
 today	NN
 's	POS
-New	JJ
+New	NNP
 York	NNP
-Times	NNS
+Times	NNPS
 .	.
 	
 When	WRB
@@ -11237,8 +11237,8 @@ much	RB
 further	RB
 than	IN
 the	DT
-Big	JJ
-Lie	VB
+Big	NNP
+Lie	NNP
 about	IN
 philandering	VBG
 that	IN
@@ -11272,8 +11272,8 @@ the	DT
 scholar	NN
 and	CC
 ABC	NNP
-News	NN
-analyst	NN
+News	NNPS
+analyst	VB
 .	.
 	
 It	PRP
@@ -11393,8 +11393,8 @@ smuggle	NN
 him	PRP
 into	IN
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 and	CC
 muffled	VBD
 the	DT
@@ -11402,7 +11402,7 @@ ticking	NN
 .	.
 	
 In	IN
-American	JJ
+American	NNP
 romance	NN
 COMMA	COMMA
 almost	RB
@@ -11587,7 +11587,7 @@ oversoftness	NNS
 	
 Conclusions	NNS
 :	:
-The	DT
+The	NNP
 people	NNS
 involved	VBN
 (	(
@@ -11897,8 +11897,8 @@ spirits	NNS
 of	IN
 the	DT
 Army	NNP
-Language	NN
-Program	NN
+Language	NNP
+Program	NNP
 and	CC
 the	DT
 language	NN
@@ -11907,7 +11907,7 @@ of	IN
 Washington	NNP
 's	POS
 Foreign	NNP
-Service	NN
+Service	NNP
 Institute	NNP
 .	.
 	
@@ -12974,16 +12974,16 @@ from	IN
 the	DT
 book	NN
 COMMA	COMMA
-The	DT
-First	JJ
-Five	CD
-Minutes	NNS
+The	NNP
+First	NNP
+Five	NNP
+Minutes	NNPS
 )	)
 goes	
 like	
 this	DT
 :	.
-The	DT
+The	NNP
 therapist	NN
 's	POS
 level	NN
@@ -13654,10 +13654,10 @@ COMMA	COMMA
 and	CC
 Danehy	NNP
 in	IN
-The	DT
-First	JJ
-Five	CD
-Minutes	NNS
+The	NNP
+First	NNP
+Five	NNP
+Minutes	NNPS
 COMMA	COMMA
 are	VBP
 these	DT
@@ -13759,7 +13759,7 @@ for	IN
 example	NN
 COMMA	COMMA
 ``	``
-They	PRP
+They	NNP
 took	VBD
 x-rays	NNS
 to	TO
@@ -13787,7 +13787,7 @@ made	VBN
 .	.
 	
 (	(
-This	DT
+This	NNPS
 patient	NN
 COMMA	COMMA
 in	IN
@@ -14031,8 +14031,8 @@ herein	NN
 I	PRP
 write	VB
 about	IN
-Northern	JJ
-liberals	NNS
+Northern	NNP
+liberals	VBZ
 from	IN
 considerable	NN
 personal	JJ
@@ -14044,7 +14044,7 @@ Southerner	NNP
 married	JJ
 to	TO
 a	DT
-New	JJ
+New	NNP
 Englander	NNP
 COMMA	COMMA
 I	PRP
@@ -14365,8 +14365,8 @@ anachronisms	NNS
 .	.
 	
 The	DT
-American	JJ
-liberal	JJ
+American	NNP
+liberal	NNP
 may	MD
 COMMA	.
 in	RB
@@ -14487,10 +14487,10 @@ however	RB
 COMMA	COMMA
 with	IN
 the	DT
-Northern	JJ
-liberal	JJ
-'s	
-attitude	
+Northern	NNP
+liberal	NNP
+'s	POS
+attitude	NN
 toward	IN
 the	DT
 South	NNP
@@ -14517,7 +14517,7 @@ in	IN
 the	DT
 presence	NN
 of	IN
-Southern	JJ
+Southern	NNP
 friends	NNS
 .	.
 	
@@ -14565,10 +14565,10 @@ in	IN
 his	PRP$
 book	NN
 COMMA	COMMA
-The	DT
+The	NNP
 Waist	NNP
 -	HYPH
-High	JJ
+High	NNP
 Culture	NNP
 COMMA	COMMA
 wrote	NN
@@ -14583,7 +14583,7 @@ about	IN
 it	PRP
 (	(
 the	DT
-Deep	JJ
+Deep	NNP
 South	NNP
 )	)
 I	PRP
@@ -14775,8 +14775,8 @@ have	VBP
 been	VBN
 published	VBN
 of	IN
-Northern	JJ
-liberals	NNS
+Northern	NNP
+liberals	VBZ
 in	IN
 the	DT
 South	NNP
@@ -14913,7 +14913,7 @@ soon	RB
 acquire	VB
 the	DT
 prevalent	NN
-Southern	JJ
+Southern	NNP
 attitude	NN
 on	IN
 most	
@@ -14972,7 +14972,7 @@ the	DT
 North	NNP
 won	NN
 the	DT
-War	NN
+War	NNP
 .	.
 	
 Nobody	NN
@@ -15085,7 +15085,7 @@ have	VB
 been	VBN
 for	IN
 the	DT
-Old	JJ
+Old	NNP
 South	NNP
 .	.
 	
@@ -15172,7 +15172,7 @@ would	MD
 roughly	RB
 divide	VB
 the	DT
-Old	JJ
+Old	NNP
 South	NNP
 from	IN
 the	DT
@@ -15290,7 +15290,7 @@ persistent	NN
 Anglophilia	NNP
 of	IN
 the	DT
-Old	JJ
+Old	NNP
 South	NNP
 .	.
 	
@@ -15417,8 +15417,8 @@ maintain	VB
 that	DT
 except	IN
 for	IN
-Northern	JJ
-meddling	NN
+Northern	NNP
+meddling	VBG
 it	PRP
 would	MD
 have	VB
@@ -15474,7 +15474,7 @@ COMMA	COMMA
 the	DT
 old	JJ
 unreconstructed	NN
-South	RB
+South	NNP
 --	:
 to	IN
 use	NN
@@ -15636,8 +15636,8 @@ heart	NN
 sharers	VBZ
 of	IN
 the	DT
-American	JJ
-Dream	VB
+American	NNP
+Dream	NNP
 COMMA	COMMA
 like	IN
 everybody	NN
@@ -15694,9 +15694,9 @@ to	TO
 a	DT
 pre	NN
 -	HYPH
-World	NN
+World	NNP
 -	HYPH
-War	NN
+War	NNP
 -	HYPH
 1	NNP
 great	JJ
@@ -15793,7 +15793,7 @@ war	NN
 of	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 since	IN
 the	DT
 Civil	NNP
@@ -15828,7 +15828,7 @@ War	NNP
 COMMA	COMMA
 the	DT
 two	CD
-World	NN
+World	NNP
 Wars	NNPS
 COMMA	COMMA
 and	CC
@@ -16070,8 +16070,8 @@ different	JJ
 from	IN
 that	DT
 of	IN
-Northern	JJ
-conservatives	NNS
+Northern	NNP
+conservatives	VBZ
 .	.
 	
 But	CC
@@ -16142,8 +16142,8 @@ of	IN
 living	VBG
 the	DT
 ``	``
-American	JJ
-way	NN
+American	NNP
+way	NNP
 ''	''
 has	VBZ
 been	VBN
@@ -16173,7 +16173,7 @@ South	NNP
 's	POS
 antipathy	NN
 to	TO
-Northern	JJ
+Northern	NNP
 civilization	NN
 includes	VBZ
 such	JJ
@@ -16237,7 +16237,7 @@ as	IN
 they	PRP
 could	MD
 up	RB
-North	RB
+North	NNP
 because	IN
 they	PRP
 so	RB
@@ -16392,7 +16392,7 @@ made	VBN
 up	RP
 of	IN
 what	WP
-Western	JJ
+Western	NNP
 nations	NNS
 could	MD
 do	VB
@@ -16403,8 +16403,8 @@ arena	NN
 .	.
 	
 (	(
-That	
-corpus	
+That	NNP
+corpus	VBZ
 of	IN
 law	NN
 was	VBD
@@ -16440,7 +16440,7 @@ the	DT
 interests	NNS
 of	IN
 the	DT
-Western	JJ
+Western	NNP
 powers	NNS
 .	.
 	
@@ -16614,7 +16614,7 @@ COMMA	COMMA
 whether	IN
 with	IN
 the	DT
-British	JJ
+British	NNP
 navy	NN
 ruling	VBG
 the	DT
@@ -16622,7 +16622,7 @@ seas	VBZ
 or	CC
 with	IN
 the	DT
-City	NN
+City	NNP
 of	IN
 London	NNP
 ruling	VBG
@@ -16644,7 +16644,7 @@ e.g.	JJ
 COMMA	COMMA
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 )	)
 may	MD
 have	VB
@@ -16766,7 +16766,7 @@ twenty	CD
 years	NNS
 ago	RB
 the	DT
-American	JJ
+American	NNP
 people	NNS
 turned	VBD
 an	DT
@@ -16926,7 +16926,7 @@ enormous	JJ
 consequences	NNS
 for	IN
 the	DT
-American	JJ
+American	NNP
 people	NNS
 .	.
 	
@@ -16954,7 +16954,7 @@ many	JJ
 facets	NNS
 of	IN
 the	DT
-American	JJ
+American	NNP
 version	NN
 of	IN
 the	DT
@@ -16992,14 +16992,14 @@ Ratified	JJ
 in	IN
 the	DT
 Republican	NNP
-Party	NN
+Party	NNP
 victory	NN
 in	IN
 1952	CD
 COMMA	COMMA
 the	DT
-Positive	JJ
-State	VBP
+Positive	NNP
+State	NNP
 is	VBZ
 now	RB
 evidenced	VBN
@@ -17042,7 +17042,7 @@ economic	JJ
 well-being	NN
 of	IN
 the	DT
-American	JJ
+American	NNP
 people	NNS
 is	VBZ
 surely	RB
@@ -17054,8 +17054,8 @@ most
 significant	JJ
 watersheds	NNS
 in	IN
-American	JJ
-constitutional	JJ
+American	NNP
+constitutional	NNP
 history	NN
 .	.
 	
@@ -17102,7 +17102,7 @@ now	RB
 being	VBG
 traversed	VBN
 :	:
-American	JJ
+American	NNP
 immersion	NN
 and	CC
 involvement	NN
@@ -17209,8 +17209,8 @@ siege	NN
 guns	NNS
 of	IN
 the	DT
-New	JJ
-Deal	VB
+New	NNP
+Deal	NNP
 ;	:
 less	RBR
 than	IN
@@ -17222,7 +17222,7 @@ later	RB
 Congress	NNPS
 enacted	VBD
 the	DT
-Employment	NN
+Employment	NNP
 Act	NNP
 of	IN
 1946	CD
@@ -17331,7 +17331,7 @@ surplus	VBZ
 .	.
 	
 The	DT
-American	JJ
+American	NNP
 people	NNS
 have	VBP
 indeed	VBN
@@ -17409,12 +17409,12 @@ limited	VBN
 to	TO
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 or	CC
 even	RB
 to	TO
 the	DT
-Western	JJ
+Western	NNP
 nations	NNS
 .	.
 	
@@ -17442,7 +17442,7 @@ in	IN
 	
 Meeting	VBG
 in	IN
-New	JJ
+New	NNP
 Delhi	NNP
 under	IN
 the	DT
@@ -17752,7 +17752,7 @@ the	DT
 leaders	VBZ
 of	IN
 the	DT
-Western	JJ
+Western	NNP
 nations	NNS
 so	CC
 guide	VB
@@ -17851,7 +17851,7 @@ for	IN
 loyalty	NN
 as	IN
 the	DT
-Church	NN
+Church	NNP
 .	.
 	
 The	DT
@@ -17883,7 +17883,7 @@ nationalism	NN
 .	.
 	
 (	(
-Since	RB
+Since	NNP
 the	DT
 time	NN
 -	HYPH
@@ -17902,7 +17902,7 @@ existence	NN
 of	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 as	IN
 an	DT
 independent	JJ
@@ -18067,8 +18067,8 @@ the	DT
 people	NNS
 of	IN
 the	DT
-Western	JJ
-civilizational	JJ
+Western	NNP
+civilizational	NNP
 group	NN
 .	.
 	
@@ -18144,14 +18144,14 @@ in	IN
 fact	NN
 served	VBD
 the	DT
-Western	JJ
+Western	NNP
 peoples	NNS
 well	RB
 .	.
 	
 (	(
-Whether	IN
-historical	JJ
+Whether	NNP
+historical	NNP
 nationalism	NN
 helped	VBD
 the	DT
@@ -18755,8 +18755,8 @@ Pentagon	NNP
 COMMA	COMMA
 in	IN
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 COMMA	COMMA
 in	IN
 offices	NNS
@@ -18911,8 +18911,8 @@ immediate	JJ
 .	.
 	
 ``	``
-Readiness	NN
-exercises	VBZ
+Readiness	NNPS
+exercises	
 ''	''
 are	VBP
 almost	RB
@@ -18968,7 +18968,7 @@ order	NN
 would	MD
 unleash	VB
 an	DT
-American	JJ
+American	NNP
 nuclear	NN
 strike	NN
 .	.
@@ -19122,14 +19122,14 @@ scenarios	VBZ
 	
 As	IN
 an	DT
-Air	NN
-Force	NN
+Air	NNP
+Force	NNP
 psychiatrist	NN
 put	VBD
 it	PRP
 :	:
 ``	``
-You	PRP
+You	NNP
 ca	MD
 n't	RB
 have	VB
@@ -19176,8 +19176,8 @@ with	IN
 these	DT
 men	NNS
 :	:
-The	DT
-more	JJR
+The	NNP
+more	JJ
 highly	RB
 placed	VBN
 they	PRP
@@ -19493,7 +19493,7 @@ by	IN
 the	DT
 U.S.	NNP
 Air	NNP
-Force	NN
+Force	NNP
 .	.
 	
 His	PRP$
@@ -19535,7 +19535,7 @@ Administration	NNP
 COMMA	COMMA
 basic	JJ
 United	NNP
-States	NNS
+States	NNPS
 strategy	NN
 has	VBZ
 been	VBN
@@ -19570,9 +19570,9 @@ BMEWS	NNP
 (	(
 Ballistic	NNP
 Missile	NNP
-Early	RB
-Warning	VBG
-System	NN
+Early	NNP
+Warning	NNP
+System	NNP
 )	)
 in	IN
 Thule	NNP
@@ -19595,7 +19595,7 @@ launched	VBN
 against	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 .	.
 	
 BMEWS	VBZ
@@ -19606,11 +19606,11 @@ flashed	VBN
 to	TO
 NORAD	NNP
 (	(
-North	RB
-American	JJ
-Air	NN
+North	NNP
+American	NNP
+Air	NNP
 Defense	NNP
-Command	NN
+Command	NNP
 )	)
 in	IN
 Colorado	NNP
@@ -19637,7 +19637,7 @@ ground	NN
 at	IN
 Offutt	NNP
 Air	NNP
-Force	NN
+Force	NNP
 Base	NNP
 COMMA	COMMA
 near	IN
@@ -19649,13 +19649,13 @@ to	IN
 the	DT
 Joint	NNP
 War	NNP
-Room	NN
+Room	NNP
 of	IN
 the	DT
 Joint	NNP
 Chiefs	NNPS
 of	IN
-Staff	NN
+Staff	NNP
 in	IN
 the	DT
 Pentagon	NNP
@@ -19900,7 +19900,7 @@ goes	VBZ
 ape	NN
 ''	''
 ?	.
-Or	CC
+Or	NNP
 singlehandedly	RB
 decided	VBN
 to	TO
@@ -20023,7 +20023,7 @@ action	NN
 stations	NNS
 of	IN
 the	DT
-Secretary	NN
+Secretary	NNP
 of	IN
 Defense	NNP
 COMMA	COMMA
@@ -20031,7 +20031,7 @@ the	DT
 Joint	NNP
 Chiefs	NNPS
 of	IN
-Staff	NN
+Staff	NNP
 COMMA	COMMA
 the	DT
 SAC	NNP
@@ -20168,8 +20168,8 @@ include	VB
 the	DT
 Navy	NNP
 's	POS
-Atlantic	JJ
-Command	NN
+Atlantic	NNP
+Command	NNP
 at	IN
 Norfolk	NNP
 COMMA	COMMA
@@ -20190,7 +20190,7 @@ in	IN
 Europe	NNP
 ;	:
 Air	NNP
-Force	NN
+Force	NNP
 forward	RB
 headquarters	NNS
 in	IN
@@ -20348,7 +20348,7 @@ information	NN
 .	.
 	
 And	CC
-Bill	NN
+Bill	NNP
 Wisman	NNP
 COMMA	COMMA
 forty-three	NN
@@ -20502,7 +20502,7 @@ staff	NN
 .	.
 	
 At	IN
-General	JJ
+General	NNP
 Power	NNP
 's	POS
 seat	NN
@@ -20589,7 +20589,7 @@ alert	JJ
 .	.
 	
 (	(
-There	RB
+There	NNP
 are	VBP
 two	CD
 receivers	NNS
@@ -20689,8 +20689,8 @@ screeching	NN
 klaxon	NN
 (	(
 ``	``
-It	PRP
-'s	VBZ
+It	NNP
+'s	POS
 real	JJ
 obnoxious	JJ
 ''	''
@@ -21016,10 +21016,10 @@ put	VBD
 it	PRP
 COMMA	COMMA
 ``	``
-They	PRP
-have	VBP
-separate	JJ
-pieces	NNS
+They	NNP
+have	VB
+separate	NN
+pieces	VBZ
 of	IN
 the	DT
 pie	NN
@@ -21251,13 +21251,13 @@ false	NN
 alarms	VBZ
 COMMA	COMMA
 Air	NNP
-Force	NN
-One	NN
+Force	NNP
+One	NNP
 flew	NN
 to	TO
 Barksdale	NNP
 Air	NNP
-Force	NN
+Force	NNP
 Base	NNP
 in	IN
 Louisiana	NNP
@@ -21273,9 +21273,9 @@ a	DT
 reported	VBN
 threat	NN
 against	IN
-Air	NN
-Force	NN
-One	NN
+Air	NNP
+Force	NNP
+One	NNP
 itself	NN
 COMMA	COMMA
 a	DT
@@ -21290,10 +21290,10 @@ communication	NN
 in	IN
 the	DT
 hectic	JJ
-White	JJ
-House	NN
-Situation	NN
-Room	NN
+White	NNP
+House	NNP
+Situation	NNP
+Room	NNP
 that	IN
 morning	NN
 .	.
@@ -21315,17 +21315,17 @@ COMMA	COMMA
 by	IN
 the	DT
 time	NN
-Air	NN
-Force	NN
-One	NN
+Air	NNP
+Force	NNP
+One	NNP
 was	VBD
 airborne	JJ
 at	IN
 9:55	NN
 A.M.	NNP
 the	DT
-Secret	NN
-Service	NN
+Secret	NNP
+Service	NNP
 COMMA	COMMA
 the	DT
 President	NNP
@@ -21357,8 +21357,8 @@ about	IN
 10:10	NN
 COMMA	COMMA
 Air	NNP
-Force	NN
-One	NN
+Force	NNP
+One	NNP
 changed	JJ
 course	NN
 and	CC
@@ -21392,13 +21392,13 @@ and	CC
 speak	VB
 to	TO
 the	DT
-American	JJ
+American	NNP
 people	NNS
 .	.
 	
 The	DT
-Secret	NN
-Service	NN
+Secret	NNP
+Service	NNP
 was	VBD
 also	RB
 interested	VBD
@@ -21424,8 +21424,8 @@ military	NN
 aide	NN
 COMMA	COMMA
 an	DT
-Air	NN
-Force	NN
+Air	NNP
+Force	NNP
 officer	NN
 COMMA	COMMA
 quickly	RB
@@ -21441,7 +21441,7 @@ COMMA	COMMA
 identified	VBD
 Barksdale	NNP
 Air	NNP
-Force	NN
+Force	NNP
 Base	NNP
 as	IN
 an	DT
@@ -21452,8 +21452,8 @@ destination	NN
 	
 When	WRB
 Air	NNP
-Force	NN
-One	NN
+Force	NNP
+One	NNP
 landed	VBD
 at	IN
 Barksdale	NNP
@@ -21465,9 +21465,9 @@ personnel	NNS
 from	IN
 the	DT
 local	NN
-Secret	NN
-Service	NN
-office	NN
+Secret	NNP
+Service	NNP
+office	NNP
 were	VBD
 still	RB
 en	VBN
@@ -21518,8 +21518,8 @@ COMMA	COMMA
 while	IN
 the	DT
 lead	VB
-Secret	NN
-Service	NN
+Secret	NNP
+Service	NNP
 agent	NN
 reviewed	VBD
 the	DT
@@ -21554,9 +21554,9 @@ traveling	NN
 party	NN
 returned	VBD
 to	TO
-Air	NN
-Force	NN
-One	NN
+Air	NNP
+Force	NNP
+One	NNP
 .	.
 	
 The	DT
@@ -21569,8 +21569,8 @@ discussed	VBN
 once	RB
 again	RB
 the	DT
-Secret	NN
-Service	NN
+Secret	NNP
+Service	NNP
 recommended	VBD
 against	IN
 returning	VBG
@@ -21585,8 +21585,8 @@ agreed	VBD
 .	.
 	
 Offutt	NN
-Air	NN
-Force	NN
+Air	NNP
+Force	NNP
 Base	NNP
 in	IN
 Nebraska	NNP
@@ -21614,8 +21614,8 @@ persons	NNS
 .	.
 	
 The	DT
-Secret	NN
-Service	NN
+Secret	NNP
+Service	NNP
 wanted	VBD
 a	DT
 place	NN
@@ -21632,8 +21632,8 @@ necessary	NN
 .	.
 	
 Air	NNP
-Force	NN
-One	NN
+Force	NNP
+One	NNP
 arrived	VBD
 at	IN
 Offutt	NNP
@@ -21671,7 +21671,7 @@ the	DT
 words	NNS
 COMMA	COMMA
 "	''
-We	PRP
+We	NNP
 're	VBP
 at	IN
 war	NN
@@ -21681,7 +21681,7 @@ and	CC
 that	DT
 Director	NNP
 of	IN
-Central	JJ
+Central	NNP
 Intelligence	NNP
 George	NNP
 Tenet	NNP
@@ -21763,7 +21763,7 @@ aircraft	NN
 in	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 were	VBD
 grounded	VBN
 COMMA	COMMA
@@ -21803,8 +21803,8 @@ struck	VBN
 ;	:
 	
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 or	CC
 the	DT
 Capitol	NNP
@@ -21852,14 +21852,14 @@ to	TO
 Washington	NNP
 and	CC
 ordered	VBD
-Air	NN
-Force	NN
-One	NN
+Air	NNP
+Force	NNP
+One	NNP
 back	NN
 to	TO
 Andrews	NNPS
 Air	NNP
-Force	NN
+Force	NNP
 Base	NNP
 .	.
 	
@@ -21871,8 +21871,8 @@ helicopter	NN
 back	NN
 to	TO
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 COMMA	COMMA
 passing	VBG
 over	IN
@@ -21895,8 +21895,8 @@ the	DT
 nation	NN
 from	IN
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 .	.
 	
 After	IN
@@ -21921,7 +21921,7 @@ he	PRP
 said	VBD
 :	:
 "	''
-We	PRP
+We	NNP
 will	MD
 make	VB
 no	DT
@@ -21962,7 +21962,7 @@ death	NN
 "	''
 	
 No	UH
-American	JJ
+American	NNP
 COMMA	COMMA
 he	PRP
 said	VBD
@@ -21987,7 +21987,7 @@ again	RB
 with	IN
 his	PRP$
 National	NNP
-Security	NN
+Security	NNP
 Council	NNP
 (	(
 NSC	NNP
@@ -21996,9 +21996,9 @@ COMMA	COMMA
 expanded	VBD
 to	TO
 include	VB
-Secretary	NN
+Secretary	NNP
 of	IN
-Transportation	NN
+Transportation	NNP
 Norman	NNP
 Mineta	NNP
 and	CC
@@ -22010,14 +22010,14 @@ director	NN
 of	IN
 the	DT
 Federal	NNP
-Emergency	NN
-Management	NN
-Agency	NN
+Emergency	NNP
+Management	NNP
+Agency	NNP
 .	.
 	
 Secretary	NN
 of	IN
-State	VBP
+State	NNP
 Colin	NNP
 Powell	NNP
 COMMA	COMMA
@@ -22047,8 +22047,8 @@ events	NNS
 	
 IMMEDIATE	NN
 RESPONSES	NNP
-AT	IN
-HOME	NN
+AT	NNP
+HOME	NNP
 	
 As	IN
 the	DT
@@ -22057,12 +22057,12 @@ domestic	JJ
 issues	NNS
 accumulated	VBD
 COMMA	COMMA
-White	JJ
-House	NN
+White	NNP
+House	NNP
 Deputy	NNP
-Chief	JJ
+Chief	NNP
 of	IN
-Staff	NN
+Staff	NNP
 Joshua	NNP
 Bolten	NNP
 chaired	VBD
@@ -22111,7 +22111,7 @@ flowing	NN
 losses	VBZ
 to	TO
 the	DT
-American	JJ
+American	NNP
 economy	NN
 COMMA	COMMA
 such	PDT
@@ -22138,7 +22138,7 @@ the	DT
 air	NN
 quality	NN
 in	IN
-Lower	JJR
+Lower	NNP
 Manhattan	NNP
 in	IN
 the	DT
@@ -22196,7 +22196,7 @@ $	$
 20	CD
 billion	NN
 for	IN
-New	JJ
+New	NNP
 York	NNP
 City	NNP
 COMMA	COMMA
@@ -22264,8 +22264,8 @@ emergency	NN
 efforts	VBZ
 involving	VBG
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 COMMA	COMMA
 the	DT
 Treasury	NNP
@@ -22275,7 +22275,7 @@ and	CC
 the	DT
 Securities	NNPS
 and	CC
-Exchange	NN
+Exchange	NNP
 Commission	NNP
 COMMA	COMMA
 aided	VBD
@@ -22403,8 +22403,8 @@ step	NN
 COMMA	COMMA
 a	DT
 new	JJ
-White	JJ
-House	NN
+White	NNP
+House	NNP
 entity	NN
 to	TO
 coordinate	VB
@@ -22428,8 +22428,8 @@ department	NN
 	
 This	DT
 new	JJ
-White	JJ
-House	NN
+White	NNP
+House	NNP
 entity	NN
 would	MD
 be	VB
@@ -22439,13 +22439,13 @@ security	NN
 adviser	NN
 and	CC
 Homeland	NNP
-Security	NN
+Security	NNP
 Council	NNP
 -	HYPH
 paralleling	VBG
 the	DT
 National	NNP
-Security	NN
+Security	NNP
 Council	NNP
 system	NN
 .	.
@@ -22502,7 +22502,7 @@ COMMA	COMMA
 Immigration	NNP
 and	CC
 Naturalization	NNP
-Service	NN
+Service	NNP
 agents	VBZ
 working	VBG
 in	IN
@@ -22571,7 +22571,7 @@ after	IN
 .	.
 	
 Attorney	NN
-General	JJ
+General	NNP
 John	NNP
 Ashcroft	NNP
 told	VBD
@@ -22803,7 +22803,7 @@ of	IN
 the	DT
 U.S.	NNP
 Marshals	NNPS
-Service	NN
+Service	NNP
 .	.
 	
 The	DT
@@ -22904,7 +22904,7 @@ attacks	NNS
 to	TO
 monitor	VB
 the	DT
-American	JJ
+American	NNP
 homeland	NN
 COMMA	COMMA
 including	VBG
@@ -22930,7 +22930,7 @@ freely	RB
 in	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 .	.
 	
 The	DT
@@ -22943,7 +22943,7 @@ intelligence	NN
 inside	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 COMMA	COMMA
 and	CC
 the	DT
@@ -23122,7 +23122,7 @@ Nationals	NNPS
 Leaving	NNP
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 	
 Three	CD
 questions	NNS
@@ -23139,7 +23139,7 @@ nationals	VBZ
 from	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 in	IN
 the	DT
 immediate	NN
@@ -23151,7 +23151,7 @@ of	IN
 (	(
 1	CD
 )	)
-Did	VBD
+Did	NNP
 any	DT
 flights	VBZ
 of	IN
@@ -23173,8 +23173,8 @@ COMMA	COMMA
 (	(
 2	CD
 )	)
-Was	VBD
-there	RB
+Was	NNPS
+there	
 any	DT
 political	JJ
 intervention	NN
@@ -23190,7 +23190,7 @@ nationals	VBZ
 (	(
 3	CD
 )	)
-Did	VBD
+Did	NNP
 the	DT
 FBI	NNP
 screen	NN
@@ -23271,8 +23271,8 @@ that	IN
 anyone	NN
 at	IN
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 above	IN
 the	DT
 level	NN
@@ -23415,19 +23415,19 @@ with	IN
 anybody	NN
 at	IN
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 .	.
 "	''
 	
 Although	IN
-White	JJ
-House	NN
-Chief	JJ
+White	NNP
+House	NNP
+Chief	NNP
 of	IN
-Staff	NN
+Staff	NNP
 Andrew	NNP
-Card	NN
+Card	NNP
 remembered	VBD
 someone	NN
 telling	VBG
@@ -23525,7 +23525,7 @@ who	WP
 left	VBD
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 on	IN
 charter	NN
 flights	VBZ
@@ -23664,8 +23664,8 @@ flights	VBZ
 .	.
 	
 PLANNING	VBG
-FOR	IN
-WAR	NN
+FOR	NNP
+WAR	NNP
 	
 By	IN
 late	JJ
@@ -23756,18 +23756,18 @@ Vice	NNP
 President	NNP
 Cheney	NNP
 COMMA	COMMA
-Secretary	NN
+Secretary	NNP
 of	IN
-State	VBP
+State	NNP
 Powell	NNP
 COMMA	COMMA
-Secretary	NN
+Secretary	NNP
 of	IN
 Defense	NNP
 Donald	NNP
 Rumsfeld	NNP
 COMMA	COMMA
-General	JJ
+General	NNP
 Hugh	NNP
 Shelton	NNP
 COMMA	COMMA
@@ -23783,7 +23783,7 @@ to	TO
 become	VB
 chairman	NN
 )	)
-General	
+General	NNP
 Myers	NNPS
 COMMA	COMMA
 DCI	NNP
@@ -23802,20 +23802,20 @@ Mueller	NNP
 	
 From	IN
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 staff	NN
 COMMA	COMMA
 National	NNP
-Security	NN
+Security	NNP
 Advisor	NNP
 Condoleezza	NNP
 Rice	NNP
 and	CC
-Chief	JJ
+Chief	NNP
 of	IN
-Staff	NN
-Card	NN
+Staff	NNP
+Card	NNP
 were	VBD
 part	NN
 of	IN
@@ -23840,7 +23840,7 @@ In	IN
 this	DT
 restricted	JJ
 National	NNP
-Security	NN
+Security	NNP
 Council	NNP
 meeting	VBG
 COMMA	COMMA
@@ -23859,7 +23859,7 @@ defense	NN
 	
 The	DT
 United	NNP
-States	NNS
+States	NNPS
 would	MD
 punish	VB
 not	RB
@@ -23883,7 +23883,7 @@ Powell	NNP
 said	VBD
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 had	VBD
 to	TO
 make	VB
@@ -23975,7 +23975,7 @@ much	JJ
 evidence	NN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 would	MD
 need	VB
 in	IN
@@ -24025,7 +24025,7 @@ stressed	VBD
 that	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 was	VBD
 at	IN
 war	NN
@@ -24131,8 +24131,8 @@ September	NNP
 13	CD
 in	IN
 the	DT
-Situation	NN
-Room	NN
+Situation	NNP
+Room	NNP
 to	TO
 refine	VB
 how	WRB
@@ -24167,7 +24167,7 @@ harm	NN
 	
 The	DT
 United	NNP
-States	NNS
+States	NNPS
 would	MD
 need	VB
 to	TO
@@ -24219,7 +24219,7 @@ to	TO
 help	VB
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 COMMA	COMMA
 it	PRP
 too	RB
@@ -24234,9 +24234,9 @@ same	JJ
 day	NN
 COMMA	COMMA
 Deputy	NNP
-Secretary	NN
+Secretary	NNP
 of	IN
-State	VBP
+State	NNP
 Richard	NNP
 Armitage	NNP
 met	NN
@@ -24247,7 +24247,7 @@ ambassador	NN
 to	TO
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 COMMA	COMMA
 Maleeha	NNP
 Lodhi	NNP
@@ -24272,7 +24272,7 @@ said	VBD
 that	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 wanted	VBD
 Pakistan	NNP
 to	TO
@@ -24301,7 +24301,7 @@ to	IN
 give	VB
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 blanket	VB
 overflight	NN
 and	CC
@@ -24339,7 +24339,7 @@ to	IN
 provide	
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 with	IN
 intelligence	NN
 information	NN
@@ -24409,9 +24409,9 @@ swiftly	RB
 That	DT
 afternoon	NN
 COMMA	COMMA
-Secretary	NN
+Secretary	NNP
 of	IN
-State	VBP
+State	NNP
 Powell	NNP
 announced	VBD
 at	IN
@@ -24470,8 +24470,8 @@ Pakistan	NNP
 will	MD
 need	VB
 full	JJ
-US	PRP
-support	VB
+US	NNP
+support	NN
 as	IN
 it	PRP
 proceeds	VBZ
@@ -24549,7 +24549,7 @@ NSC	NNP
 meeting	VBG
 COMMA	COMMA
 when	WRB
-Secretary	NN
+Secretary	NNP
 Powell	NNP
 described	VBD
 Pakistan	NNP
@@ -24573,7 +24573,7 @@ Taliban	NNP
 He	PRP
 also	RB
 ordered	VBN
-Secretary	NN
+Secretary	NNP
 Rumsfeld	NNP
 to	TO
 develop	VB
@@ -24590,9 +24590,9 @@ President	NNP
 wanted	VBD
 the	DT
 United	NNP
-States	NNS
-to	TO
-strike	VB
+States	NNPS
+to	IN
+strike	NN
 the	DT
 Taliban	NNP
 COMMA	COMMA
@@ -24642,7 +24642,7 @@ Bush	NNP
 also	RB
 tasked	VBN
 the	DT
-State	VBP
+State	NNP
 Department	NNP
 COMMA	COMMA
 which	WDT
@@ -24653,20 +24653,20 @@ day	NN
 delivered	VBD
 to	TO
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 a	DT
 paper	NN
 titled	VBD
 "	''
 Game	NNP
-Plan	NN
+Plan	NNP
 for	IN
 a	DT
-Political	JJ
+Political	NNP
 -	HYPH
-Military	NN
-Strategy	NN
+Military	NNP
+Strategy	NNP
 for	IN
 Pakistan	NNP
 and	CC
@@ -24691,7 +24691,7 @@ act	VB
 against	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 even	RB
 while	IN
 under	IN
@@ -24725,7 +24725,7 @@ Zawahiri	NNP
 tell	VB
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 what	WP
 the	DT
 Taliban	NNP
@@ -24752,13 +24752,13 @@ comply	RB
 with	IN
 all	DT
 UN	NNP
-Security	NN
+Security	NNP
 Council	NNP
 resolutions	NNS
 .	.
 	
 The	DT
-State	VBP
+State	NNP
 Department	NNP
 proposed	VBD
 delivering	VBG
@@ -24789,7 +24789,7 @@ COMMA	COMMA
 or	CC
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 will	MD
 use	VB
 all	DT
@@ -24803,7 +24803,7 @@ infrastructure	NN
 .	.
 	
 The	DT
-State	VBP
+State	NNP
 Department	NNP
 did	VBD
 not	RB
@@ -24816,7 +24816,7 @@ comply	RB
 	
 Therefore	RB
 COMMA	COMMA
-State	VBP
+State	NNP
 and	CC
 Defense	NNP
 would	MD
@@ -24956,7 +24956,7 @@ to	TO
 the	DT
 President	NNP
 and	CC
-Secretary	NN
+Secretary	NNP
 Rumsfeld	NNP
 on	IN
 military	JJ
@@ -24972,8 +24972,8 @@ the	DT
 commanding	NN
 general	JJ
 of	IN
-Central	JJ
-Command	NN
+Central	NNP
+Command	NNP
 (	(
 CENTCOM	NNP
 )	)
@@ -25081,7 +25081,7 @@ COMMA	COMMA
 Tenet	NNP
 COMMA	COMMA
 Deputy	NNP
-Secretary	NN
+Secretary	NNP
 of	IN
 Defense	NNP
 Paul	NNP
@@ -25089,7 +25089,7 @@ Wolfowitz	NNP
 COMMA	COMMA
 and	CC
 Cofer	NNP
-Black	NN
+Black	NNP
 COMMA	COMMA
 chief	JJ
 of	IN
@@ -25097,7 +25097,7 @@ the	DT
 DCI	NNP
 's	POS
 Counterterrorist	NNP
-Center	NN
+Center	NNP
 .	.
 	
 Tenet	NN
@@ -25145,7 +25145,7 @@ with	IN
 the	DT
 military	JJ
 's	
-Special	JJ
+Special	NNP
 Operations	NNPS
 units	NNS
 .	.
@@ -25298,7 +25298,7 @@ September	NNP
 .	.
 	
 "	''
-The	DT
+The	NNP
 purpose	NN
 of	IN
 this	DT
@@ -25365,9 +25365,9 @@ defense	NN
 President	NN
 Bush	NNP
 directed	VBN
-Secretary	NN
+Secretary	NNP
 of	IN
-State	VBP
+State	NNP
 Powell	NNP
 to	TO
 deliver	VB
@@ -25388,7 +25388,7 @@ proposed	VBN
 .	.
 	
 The	DT
-State	VBP
+State	NNP
 Department	NNP
 was	VBD
 also	RB
@@ -25471,7 +25471,7 @@ to	TO
 develop	VB
 further	RB
 the	DT
-Camp	NN
+Camp	NNP
 David	NNP
 military	NN
 plan	NN
@@ -25502,7 +25502,7 @@ robust	JJ
 measures	NNS
 to	TO
 protect	VB
-American	JJ
+American	NNP
 military	NN
 forces	VBZ
 against	IN
@@ -25518,7 +25518,7 @@ COMMA	COMMA
 he	PRP
 directed	VBN
 Treasury	NNP
-Secretary	NN
+Secretary	NNP
 Paul	NNP
 O'Neill	NNP
 to	TO
@@ -25593,9 +25593,9 @@ same	JJ
 day	NN
 COMMA	COMMA
 Deputy	NNP
-Secretary	NN
+Secretary	NNP
 of	IN
-State	VBP
+State	NNP
 Armitage	NNP
 was	VBD
 called	VBN
@@ -25673,7 +25673,7 @@ new	JJ
 directive	NN
 COMMA	COMMA
 National	NNP
-Security	NN
+Security	NNP
 Presidential	NNP
 Directive	NNP
 9	CD
@@ -25688,7 +25688,7 @@ Threat	NNP
 to	TO
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 .	.
 "	''
 	
@@ -25801,7 +25801,7 @@ annex	NN
 	
 The	DT
 United	NNP
-States	NNS
+States	NNPS
 would	MD
 strive	VB
 to	TO
@@ -25848,12 +25848,12 @@ life	NN
 	
 "	''
 PHASE	NNP
-TWO	CD
+TWO	NNP
 "	''
-AND	CC
-THE	DT
-QUESTION	NN
-OF	IN
+AND	NNP
+THE	NNP
+QUESTION	NNP
+OF	NNP
 IRAQ	NNP
 	
 President	NN
@@ -25886,7 +25886,7 @@ enemy	NN
 of	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 for	IN
 11	CD
 years	NNS
@@ -25902,7 +25902,7 @@ world	NN
 where	WRB
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 was	VBD
 engaged	VBN
 in	IN
@@ -26011,7 +26011,7 @@ to	TO
 .	.
 	
 "	''
-See	VB
+See	NNP
 if	IN
 Saddam	NNP
 did	VBD
@@ -26027,7 +26027,7 @@ them	PRP
 .	.
 	
 "	''
-See	VB
+See	NNP
 if	IN
 he	PRP
 's	VBZ
@@ -26092,19 +26092,19 @@ September	NNP
 COMMA	COMMA
 titled	VBD
 "	''
-Survey	NN
+Survey	NNP
 of	IN
 Intelligence	NNP
-Information	NN
+Information	NNP
 on	IN
-Any	DT
+Any	NNP
 Iraq	NNP
 Involvement	NNP
 in	IN
 the	DT
 September	NNP
 11	CD
-Attacks	NNS
+Attacks	NNPS
 .	.
 "	''
 	
@@ -26283,10 +26283,10 @@ to	TO
 contemporaneous	NNS
 notes	VBZ
 COMMA	COMMA
-Secretary	NN
+Secretary	NNP
 Rumsfeld	NNP
 instructed	VBD
-General	JJ
+General	NNP
 Myers	NNPS
 to	IN
 obtain	NN
@@ -26452,7 +26452,7 @@ that	IN
 in	IN
 the	DT
 first	JJ
-Camp	NN
+Camp	NNP
 David	NNP
 session	NN
 chaired	VBD
@@ -26472,7 +26472,7 @@ Iraq	NNP
 .	.
 	
 Deputy	NN
-Secretary	NN
+Secretary	NNP
 Wolfowitz	NNP
 made	VBD
 the	DT
@@ -26498,7 +26498,7 @@ Department	NNP
 paper	NN
 for	IN
 the	DT
-Camp	NN
+Camp	NNP
 David	NNP
 briefing	VBG
 book	NN
@@ -26547,7 +26547,7 @@ threat	NN
 to	TO
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 .	.
 	
 Iraq	NN
@@ -26862,7 +26862,7 @@ the	DT
 Pentagon	NNP
 COMMA	COMMA
 Deputy	NNP
-Secretary	NN
+Secretary	NNP
 Wolfowitz	NNP
 continued	VBD
 to	TO
@@ -26887,8 +26887,8 @@ memo	NN
 headlined	VBD
 "	''
 Preventing	NNP
-More	JJ
-Events	NNS
+More	NNP
+Events	NNPS
 COMMA	COMMA
 "	''
 he	PRP
@@ -26971,9 +26971,9 @@ the	DT
 attack	NN
 on	IN
 the	DT
-World	NN
-Trade	NN
-Center	NN
+World	NNP
+Trade	NNP
+Center	NNP
 .	.
 	
 The	DT
@@ -27155,8 +27155,8 @@ the	DT
 commanding	NN
 general	JJ
 of	IN
-Central	JJ
-Command	NN
+Central	NNP
+Command	NNP
 COMMA	COMMA
 recalled	VBD
 receiving	VBG
@@ -27234,7 +27234,7 @@ President	NNP
 Bush	NNP
 met	NN
 with	IN
-British	JJ
+British	NNP
 Prime	NNP
 Minister	NNP
 Tony	NNP
@@ -27427,7 +27427,7 @@ COMMA	COMMA
 where	WRB
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 was	VBD
 flying	VBG
 regular	JJ
@@ -27549,7 +27549,7 @@ privately	RB
 .	.
 	
 "	''
-The	DT
+The	NNP
 Taliban	NNP
 must	MD
 act	VB
@@ -27564,7 +27564,7 @@ said	VBD
 .	.
 	
 "	''
-They	PRP
+They	NNP
 will	MD
 hand	NN
 over	IN
@@ -27595,7 +27595,7 @@ Islam	NNP
 :	:
 	
 "	''
-The	DT
+The	NNP
 enemy	NN
 of	IN
 America	NNP
@@ -27646,7 +27646,7 @@ out	RP
 :	.
 	
 "	''
-Every	DT
+Every	NNP
 nation	NN
 COMMA	COMMA
 in	IN
@@ -27690,8 +27690,8 @@ Ladin	NNP
 .	.
 	
 "	''
-Our	PRP$
-war	NN
+Our	NNP
+war	NNP
 on	IN
 terror	NN
 begins	VBZ
@@ -27712,7 +27712,7 @@ said	VBD
 .	.
 	
 "	''
-It	PRP
+It	NNP
 will	MD
 not	RB
 end	VB
@@ -27744,7 +27744,7 @@ the	DT
 Pentagon	NNP
 :	:
 "	''
-The	DT
+The	NNP
 hour	NN
 is	VBZ
 coming	VBG
@@ -27772,11 +27772,11 @@ those	DT
 outside	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 .	.
 	
 "	''
-This	DT
+This	NNPS
 is	VBZ
 civilization	NN
 's	POS
@@ -27788,7 +27788,7 @@ said	VBD
 .	.
 	
 "	''
-We	PRP
+We	NNP
 ask	VB
 every	DT
 nation	NN
@@ -27809,10 +27809,10 @@ Afghanistan	NNP
 in	IN
 meetings	NNS
 with	IN
-Central	JJ
-Command	NN
+Central	NNP
+Command	NNP
 's	POS
-General	JJ
+General	NNP
 Franks	NNPS
 and	CC
 other	JJ
@@ -27883,11 +27883,11 @@ phases	NNS
 	
 In	IN
 Phase	NNP
-One	CD
+One	NNP
 COMMA	COMMA
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 and	CC
 its	PRP$
 allies	NNS
@@ -27929,17 +27929,17 @@ sympathy	NN
 for	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 .	.
 	
 In	IN
 Phase	NNP
-Two	CD
+Two	NNP
 COMMA	COMMA
 air	NNP
 strikes	VBZ
 and	CC
-Special	JJ
+Special	NNP
 Operations	NNPS
 attacks	NNS
 would	MD
@@ -27960,7 +27960,7 @@ effort	NN
 COMMA	COMMA
 CIA	NNP
 and	CC
-Special	JJ
+Special	NNP
 Operations	NNPS
 forces	
 would	MD
@@ -27982,8 +27982,8 @@ Taliban	NNP
 	
 The	DT
 Phase	NNP
-Two	CD
-strikes	NNS
+Two	NNP
+strikes	VBZ
 and	CC
 raids	NNS
 began	VBD
@@ -27998,7 +27998,7 @@ arrangements	VBZ
 contemplated	VBN
 for	IN
 Phase	NNP
-One	CD
+One	NNP
 were	VBD
 substantially	RB
 secured	VBN
@@ -28017,11 +28017,11 @@ month	NN
 	
 In	IN
 Phase	NNP
-Three	CD
+Three	NNP
 COMMA	COMMA
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 would	MD
 carry	VB
 out	RP
@@ -28245,7 +28245,7 @@ large	NN
 	
 In	IN
 Phase	NNP
-Four	CD
+Four	NNP
 COMMA	COMMA
 civilian	JJ
 and	CC
@@ -28286,7 +28286,7 @@ hundred	CD
 CIA	NNP
 operatives	VBZ
 and	CC
-Special	JJ
+Special	NNP
 Forces	NNPS
 soldiers	
 COMMA	
@@ -28480,7 +28480,7 @@ Avenue	NNP
 	
 Al	NNP
 's	POS
-Little	JJ
+Little	NNP
 Cafe	NNP
 was	VBD
 small	JJ
@@ -28502,8 +28502,8 @@ tobacco	NN
 smoke	VB
 COMMA	COMMA
 and	CC
-Italian	JJ
-cooking	NN
+Italian	NNP
+cooking	VBG
 .	.
 	
 Hanging	VBG
@@ -28715,7 +28715,7 @@ he	PRP
 said	VBD
 COMMA	COMMA
 ``	``
-You	PRP
+You	NNP
 see	VB
 COMMA	COMMA
 both	CC
@@ -28814,7 +28814,7 @@ them	PRP
 .	.
 	
 ``	``
-But	CC
+But	NNP
 when	WRB
 it	PRP
 comes	VBZ
@@ -28843,7 +28843,7 @@ will	MD
 get	VB
 the	DT
 Distinguished	NNP
-Service	NN
+Service	NNP
 Medal	NNP
 for	IN
 conduct	VB
@@ -28968,7 +28968,7 @@ it	PRP
 back	RB
 in	IN
 the	DT
-States	NNS
+States	NNPS
 COMMA	COMMA
 and	CC
 he	PRP
@@ -28996,7 +28996,7 @@ base	NN
 .	.
 	
 A	DT
-New	JJ
+New	NNP
 York	NNP
 kid	NN
 COMMA	COMMA
@@ -29174,8 +29174,8 @@ smile	NN
 .	.
 	
 ``	``
-All	DT
-right	JJ
+All	NNP
+right	RB
 .	.
 	
 There	EX
@@ -29215,7 +29215,7 @@ I	PRP
 suggested	VBN
 COMMA	COMMA
 '	''
-You	PRP
+You	NNP
 ask	VB
 for	IN
 volunteers	NNS
@@ -29402,8 +29402,8 @@ and	CC
 said	VBD
 COMMA	COMMA
 '	''
-Give	VB
-that	DT
+Give	NNP
+that	IN
 to	TO
 me	PRP
 COMMA	COMMA
@@ -29433,7 +29433,7 @@ from	IN
 .	.
 	
 ``	``
-The	DT
+The	NNP
 Negro	NNP
 got	VBD
 a	DT
@@ -29450,7 +29450,7 @@ wound	NN
 .	.
 	
 ``	``
-What	
+What	NNP
 did	VBD
 the	DT
 Colonel	NNP
@@ -29475,7 +29475,7 @@ laughed	VBD
 .	.
 	
 ``	``
-He	PRP
+He	NNP
 recommended	VBD
 both	DT
 of	IN
@@ -29490,7 +29490,7 @@ fellow	NN
 for	IN
 the	DT
 Purple	NNP
-Heart	NN
+Heart	NNP
 COMMA	COMMA
 too	RB
 COMMA	COMMA
@@ -29533,7 +29533,7 @@ was	VBD
 in	IN
 Law	NNP
 or	CC
-Supplies	NNS
+Supplies	NNPS
 or	CC
 something	NN
 like	IN
@@ -29842,8 +29842,8 @@ had	VBD
 .	.
 	
 At	IN
-State	VBP
-College	NN
+State	NNP
+College	NNP
 COMMA	COMMA
 he	PRP
 had	VBD
@@ -29968,7 +29968,7 @@ a	DT
 young	JJ
 lawyer	NN
 in	IN
-New	JJ
+New	NNP
 York	NNP
 .	.
 	
@@ -30091,7 +30091,7 @@ rosebuds	VBZ
 while	IN
 ye	NN
 may	MD
-This	DT
+This	NNPS
 same	JJ
 flower	NN
 that	IN
@@ -30117,7 +30117,7 @@ Lawrence	NN
 was	VBD
 waiting	VBG
 for	IN
-Bill	NN
+Bill	NNP
 Boxell	NNP
 .	.
 	
@@ -30133,7 +30133,7 @@ he	PRP
 could	MD
 see	VB
 the	DT
-Secretary	NN
+Secretary	NNP
 at	IN
 his	PRP$
 home	NN
@@ -30148,7 +30148,7 @@ urgent	NN
 .	.
 	
 The	DT
-Secretary	NN
+Secretary	NNP
 was	VBD
 uneasy	JJ
 about	IN
@@ -30358,7 +30358,7 @@ He	PRP
 said	VBD
 to	TO
 the	DT
-Secretary	NN
+Secretary	NNP
 COMMA	COMMA
 ``	``
 I	PRP
@@ -30428,7 +30428,7 @@ out	RP
 .	.
 	
 The	DT
-Secretary	NN
+Secretary	NNP
 did	VBD
 not	RB
 tell	VB
@@ -30452,9 +30452,9 @@ merely	RB
 said	VBD
 COMMA	COMMA
 ``	``
-Any	DT
-good	JJ
-decorator	NN
+Any	NNP
+good	RB
+decorator	VB
 these	DT
 days	NNS
 can	MD
@@ -30472,7 +30472,7 @@ President	NNP
 said	VBD
 COMMA	COMMA
 ``	``
-If	IN
+If	NNP
 you	PRP
 hear	VB
 of	IN
@@ -30616,7 +30616,7 @@ slight	JJ
 bluster	NN
 COMMA	COMMA
 ``	``
-There	EX
+There	NNP
 is	VBZ
 n't	RB
 anyone	NN
@@ -30702,7 +30702,7 @@ shadow	NN
 .	.
 	
 ``	``
-So	CC
+So	NNP
 COMMA	COMMA
 we	PRP
 have	VBP
@@ -30845,7 +30845,7 @@ krautheads	VBZ
 tune	NN
 in	IN
 on	IN
-Father	NN
+Father	NNP
 Werther	NNP
 every	DT
 night	NN
@@ -30901,7 +30901,7 @@ he	PRP
 says	VBZ
 COMMA	COMMA
 '	''
-Look	
+Look	NNP
 here	RB
 COMMA	COMMA
 there	EX
@@ -30978,7 +30978,7 @@ grim	NN
 COMMA	COMMA
 dirty	NN
 West	NNP
-Side	NN
+Side	NNP
 .	.
 	
 It	PRP
@@ -31074,7 +31074,7 @@ stay	NN
 at	IN
 Cook	NNP
 County	NNP
-Hospital	NN
+Hospital	NNP
 .	.
 	
 I	PRP
@@ -31119,7 +31119,7 @@ address	NN
 on	IN
 the	DT
 Gold	NNP
-Coast	NN
+Coast	NNP
 COMMA	COMMA
 that	IN
 I	PRP
@@ -31214,7 +31214,7 @@ said	VBN
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 must	MD
 have	VB
 loved	VBD
@@ -31243,8 +31243,8 @@ her	PRP$
 .	.
 	
 ``	``
-Why	WRB
-do	
+Why	NNP
+do	VBP
 you	PRP
 say	VB
 that	DT
@@ -31293,7 +31293,7 @@ on	IN
 Chicago	NNP
 's	POS
 West	NNP
-Side	NN
+Side	NNP
 .	.
 	
 Do	VBP
@@ -31325,7 +31325,7 @@ girl	NN
 ?	.
 	
 ``	``
-Would	MD
+Would	NNP
 it	PRP
 make	VB
 any	DT
@@ -31396,16 +31396,16 @@ I	PRP
 --	:
 	
 ``	``
-You	PRP
-what	
-COMMA	
+You	NNP
+what	WDT
+COMMA	COMMA
 Mary	NNP
 Jane	NNP
 ''	''
 ?	.
 	
 ``	``
-You	PRP
+You	NNP
 are	VBP
 young	JJ
 COMMA	COMMA
@@ -31462,7 +31462,7 @@ pretty	RB
 ?	.
 	
 ``	``
-Oh	UH
+Oh	NNP
 COMMA	COMMA
 yes	UH
 ''	''
@@ -31501,7 +31501,7 @@ you	PRP
 ?	.
 	
 ``	``
-Why	WRB
+Why	NNP
 should	MD
 I	PRP
 ?	.
@@ -31609,7 +31609,7 @@ too	RB
 --	:
 	
 ``	``
-Why	WRB
+Why	NNP
 did	VBD
 n't	RB
 you	PRP
@@ -31636,9 +31636,9 @@ angrily	RB
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
-what	WP
+That	NNP
+'s	POS
+what	
 I	PRP
 mean	VBP
 about	IN
@@ -31652,7 +31652,7 @@ said	VBD
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 do	VBP
 n't	RB
 seem	VB
@@ -31795,7 +31795,7 @@ them	PRP
 .	.
 	
 ``	``
-Do	VBP
+Do	NNP
 you	PRP
 have	VBP
 a	DT
@@ -31808,8 +31808,8 @@ asked	VBD
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
+That	NNP
+'s	POS
 none	NN
 of	IN
 your	PRP$
@@ -31826,8 +31826,8 @@ subject	NN
 .	.
 	
 ``	``
-What	
-about	
+What	NNP
+about	IN
 your	PRP$
 father	NN
 and	CC
@@ -31851,7 +31851,7 @@ this	DT
 ?	.
 	
 ``	``
-My	PRP$
+My	NNP
 father	NN
 and	CC
 mother	NN
@@ -31869,7 +31869,7 @@ said	VBD
 .	.
 	
 ``	``
-My	PRP$
+My	NNP
 aunt	NN
 raised	VBD
 me	PRP
@@ -31961,7 +31961,7 @@ close	RB
 .	.
 	
 ``	``
-Tell	VB
+Tell	NNP
 me	PRP
 more	JJR
 about	IN
@@ -32011,7 +32011,7 @@ I	PRP
 said	VBD
 :	:
 ``	``
-Your	PRP$
+Your	NNP
 dad	NN
 sounds	NNS
 like	IN
@@ -32067,7 +32067,7 @@ now	RB
 .	.
 	
 ``	``
-My	PRP$
+My	NNP
 father	NN
 is	VBZ
 a	DT
@@ -32125,8 +32125,8 @@ future	NN
 .	.
 	
 ``	``
-What	
-about	
+What	NNP
+about	IN
 you	PRP
 ?	.
 	
@@ -32155,7 +32155,7 @@ Hanover	NNP
 ?	.
 	
 ``	``
-If	IN
+If	NNP
 I	PRP
 thought	VBD
 you	PRP
@@ -32240,7 +32240,7 @@ be	VB
 .	.
 	
 ``	``
-There	EX
+There	NNP
 are	VBP
 things	NNS
 about	IN
@@ -32344,7 +32344,7 @@ you	PRP
 ?	.
 	
 ``	``
-Yes	UH
+Yes	NNPS
 COMMA	COMMA
 I	PRP
 'll	MD
@@ -32357,7 +32357,7 @@ month	NN
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 'll	MD
 go	VB
 up	RP
@@ -32375,7 +32375,7 @@ said	VBD
 .	.
 	
 ``	``
-Do	VBP
+Do	NNP
 you	PRP
 like	VBP
 to	TO
@@ -32530,8 +32530,8 @@ I	PRP
 was	VBD
 entering	VBG
 Hanover	NNP
-State	VBP
-Hospital	NN
+State	NNP
+Hospital	NNP
 under	IN
 an	DT
 assumed	JJ
@@ -32687,7 +32687,7 @@ come	VBN
 to	TO
 Chicago	NNP
 from	IN
-New	JJ
+New	NNP
 York	NNP
 early	RB
 in	IN
@@ -32697,7 +32697,7 @@ a	DT
 dramatic	JJ
 production	NN
 called	VBD
-Ask	VB
+Ask	NNP
 Tony	NNP
 .	.
 	
@@ -32710,7 +32710,7 @@ COMMA	COMMA
 real	JJ
 grade	NN
 -	HYPH
-A	DT
+A	NNP
 turkey	NN
 COMMA	COMMA
 which	WDT
@@ -33038,7 +33038,7 @@ a	DT
 counterman	NN
 at	IN
 Union	NNP
-News	NN
+News	NNPS
 or	CC
 Schraffts	NNPS
 while	IN
@@ -33134,14 +33134,14 @@ voice	NN
 too	RB
 dignified	VBN
 and	CC
-British	JJ
+British	NNP
 to	TO
 be	VB
 real	JJ
 said	VBD
 COMMA	COMMA
 ``	``
-Is	VBZ
+Is	NNPS
 this	DT
 Mr.	NNP
 Dale	NNP
@@ -33153,8 +33153,8 @@ actor	NN
 ?	.
 	
 ``	``
-All	DT
-right	JJ
+All	NNP
+right	RB
 ''	''
 COMMA	COMMA
 I	PRP
@@ -33162,8 +33162,8 @@ said	VBD
 .	.
 	
 ``	``
-Why	WRB
-do	
+Why	NNP
+do	VBP
 n't	RB
 you	PRP
 bastards	VBZ
@@ -33186,8 +33186,8 @@ sir
 ?	.
 	
 ``	``
-All	DT
-right	JJ
+All	NNP
+right	RB
 .	.
 	
 This	DT
@@ -33200,7 +33200,7 @@ actor	NN
 .	.
 	
 ``	``
-Good	RB
+Good	NNP
 .	.
 	
 I	PRP
@@ -33249,7 +33249,7 @@ smiled	VBD
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 'll	MD
 send	VB
 the	DT
@@ -33261,7 +33261,7 @@ course	NN
 ?	.
 	
 ``	``
-Yes	UH
+Yes	NNPS
 COMMA	COMMA
 of	IN
 course	NN
@@ -33312,7 +33312,7 @@ the	DT
 untimely	NN
 passing	VBG
 of	IN
-Ask	VB
+Ask	NNP
 Tony	NNP
 .	.
 	
@@ -33327,8 +33327,8 @@ them	PRP
 .	.
 	
 ``	``
-All	DT
-right	JJ
+All	NNP
+right	RB
 COMMA	COMMA
 you	PRP
 bastards	VBZ
@@ -33395,18 +33395,18 @@ him	PRP
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 Mr.	NNP
 Nelson	NNP
 ''	''
 ?	.
-He	PRP
+He	NNP
 asked	VBD
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
+That	NNP
+'s	POS
 right	JJ
 ''	''
 .	.
@@ -33512,7 +33512,7 @@ five	CD
 .	.
 	
 ``	``
-Okay	UH
+Okay	NNP
 ''	''
 COMMA	COMMA
 I	PRP
@@ -33611,7 +33611,7 @@ and	CC
 said	VBD
 COMMA	COMMA
 ``	``
-Oh	UH
+Oh	NNP
 COMMA	COMMA
 yes	UH
 .	.
@@ -33631,8 +33631,8 @@ rental	JJ
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
+That	NNP
+'s	POS
 right	JJ
 ''	''
 COMMA	COMMA
@@ -33656,7 +33656,7 @@ and	CC
 said	VBD
 COMMA	COMMA
 ``	``
-You	PRP
+You	NNP
 're	VBP
 in	IN
 the	DT
@@ -33678,7 +33678,7 @@ right	JJ
 ?	.
 	
 ``	``
-Sure	JJ
+Sure	NNP
 ''	''
 COMMA	COMMA
 I	PRP
@@ -33986,7 +33986,7 @@ and	CC
 said	VBD
 COMMA	COMMA
 ``	``
-What	
+What	NNP
 did	VBD
 you	PRP
 do	VBP
@@ -34012,8 +34012,8 @@ said	VBD
 .	.
 	
 ``	``
-It	PRP
-'s	VBZ
+It	NNP
+'s	POS
 a	DT
 sublease	NN
 .	.
@@ -34049,7 +34049,7 @@ parking	VBG
 .	.
 	
 ``	``
-That	DT
+That	NNP
 curb	NN
 parking	VBG
 is	VBZ
@@ -34080,7 +34080,7 @@ money	NN
 .	.
 	
 ``	``
-Okay	UH
+Okay	NNP
 ''	''
 COMMA	COMMA
 I	PRP
@@ -34132,8 +34132,8 @@ said	VBD
 .	.
 	
 ``	``
-It	PRP
-'s	VBZ
+It	NNP
+'s	POS
 one	NN
 of	IN
 the	DT
@@ -34152,7 +34152,7 @@ cars	NNS
 .	.
 	
 ``	``
-Make	VB
+Make	NNP
 it	PRP
 as	IN
 snappy	NN
@@ -34169,7 +34169,7 @@ asked	VBD
 .	.
 	
 ``	``
-Oh	UH
+Oh	NNP
 COMMA	COMMA
 that	IN
 's	
@@ -34182,7 +34182,7 @@ said	VBD
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 're	VBP
 going	VBG
 to	TO
@@ -34247,7 +34247,7 @@ and	CC
 said	VBD
 COMMA	COMMA
 ``	``
-By	IN
+By	NNP
 the	DT
 time	NN
 you	PRP
@@ -35035,8 +35035,8 @@ tenants	VBZ
 .	.
 	
 ``	``
-You	PRP
-mean	VBP
+You	NNP
+mean	VB
 you	PRP
 're	VBP
 all	DT
@@ -35048,14 +35048,14 @@ Richards	NNPS
 ?	.
 	
 ``	``
-That	DT
-'s	VBZ
+That	NNP
+'s	POS
 right	JJ
 ''	''
 .	.
 	
 ``	``
-Your	PRP$
+Your	NNP
 wife	NN
 is	VBZ
 n't	RB
@@ -35078,7 +35078,7 @@ so	RB
 .	.
 	
 ``	``
-If	IN
+If	NNP
 you	PRP
 expect	VB
 her	PRP$
@@ -35114,7 +35114,7 @@ know	VBP
 .	.
 	
 ``	``
-Any	DT
+Any	NNP
 difference	NN
 in	IN
 the	DT
@@ -35126,7 +35126,7 @@ asked	VBD
 .	.
 	
 ``	``
-Not	RB
+Not	NNP
 to	TO
 you	PRP
 ''	''
@@ -35137,8 +35137,8 @@ smiling	VBG
 .	.
 	
 ``	``
-It	PRP
-'s	VBZ
+It	NNP
+'s	POS
 ten	CD
 dollars	NNS
 either	CC
@@ -35204,7 +35204,7 @@ place	NN
 .	.
 	
 ``	``
-Thank	VBP
+Thank	NNP
 you	PRP
 ''	''
 COMMA	COMMA
@@ -35623,7 +35623,7 @@ sociable	NN
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 really	RB
 in	IN
 a	DT
@@ -35632,7 +35632,7 @@ COMMA	COMMA
 Handsome	NNP
 ''	''
 ?	.
-She	PRP
+She	NNP
 asked	VBD
 .	.
 	
@@ -35648,8 +35648,8 @@ Beautiful	NNP
 .	.
 	
 ``	``
-It	PRP
-'s	VBZ
+It	NNP
+'s	POS
 early	JJ
 in	IN
 the	DT
@@ -35671,7 +35671,7 @@ left	VBN
 .	.
 	
 ``	``
-There	EX
+There	NNP
 may	MD
 not	RB
 be	VB
@@ -35727,19 +35727,19 @@ said	VBD
 .	.
 	
 ``	``
-Oh	UH
+Oh	NNP
 COMMA	COMMA
 you	PRP
 !	.
 ''	''
-She	PRP
+She	NNP
 announced	VBD
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
-what	WP
+That	NNP
+'s	POS
+what	
 they	PRP
 all	RB
 say	VB
@@ -35859,7 +35859,7 @@ eating	VBG
 .	.
 	
 ``	``
-Do	VBP
+Do	NNP
 n't	RB
 you	PRP
 think	VBP
@@ -35880,7 +35880,7 @@ up	RB
 ?	.
 	
 ``	``
-No	UH
+No	NNP
 ''	''
 COMMA	COMMA
 I	PRP
@@ -35888,8 +35888,8 @@ said	VBD
 .	.
 	
 ``	``
-It	PRP
-'s	VBZ
+It	NNP
+'s	POS
 a	DT
 kindness	VBZ
 to	TO
@@ -35948,16 +35948,16 @@ said	VBD
 .	.
 	
 ``	``
-How	WRB
-much	JJ
-overweight	NN
+How	NNP
+much	RB
+overweight	VB
 is	VBZ
 she	PRP
 ''	''
 ?	.
 	
 ``	``
-Not	RB
+Not	NNP
 a	DT
 bit	NN
 ''	''
@@ -35985,7 +35985,7 @@ provocatively	RB
 .	.
 	
 ``	``
-Good	RB
+Good	NNP
 figures	VBZ
 should	MD
 be	VB
@@ -36063,7 +36063,7 @@ man	NN
 said	VBD
 COMMA	COMMA
 ``	``
-All	DT
+All	NNP
 we	PRP
 gotta	VB
 do	VB
@@ -36159,7 +36159,7 @@ He	PRP
 said	VBD
 COMMA	COMMA
 ``	``
-Right	JJ
+Right	NNP
 around	IN
 the	DT
 corner	NN
@@ -36167,7 +36167,7 @@ corner	NN
 .	.
 	
 ``	``
-It	PRP
+It	NNP
 says	VBZ
 water	NN
 works	VBZ
@@ -36185,14 +36185,14 @@ too	RB
 .	.
 	
 ``	``
-A	DT
+A	NNP
 night	NN
 policeman	NN
 just	RB
 like	IN
 in	IN
 the	DT
-States	NNS
+States	NNPS
 .	.
 	
 You	PRP
@@ -36723,7 +36723,7 @@ always	RB
 last	JJ
 night	NN
 and	CC
-Rose	VBD
+Rose	NNP
 and	CC
 Clarence	NNP
 Corsi	NNP
@@ -36867,7 +36867,7 @@ know	VBP
 ?	.
 	
 ``	``
-Remember	VB
+Remember	NNP
 how	WRB
 she	PRP
 looked	VBD
@@ -36906,8 +36906,8 @@ swore	NN
 .	.
 	
 ``	``
-Stupid	JJ
-fools	NNS
+Stupid	NNP
+fools	VBZ
 --	:
 ai	VB
 n't	RB
@@ -36969,7 +36969,7 @@ go	VB
 go	VB
 ''	''
 --	:
-His	PRP$
+His	NNPS
 eyes	NNS
 were	VBD
 lowered	VBN
@@ -37113,7 +37113,7 @@ steadily	RB
 .	.
 	
 ``	``
-Why	WRB
+Why	NNP
 does	VBZ
 everything	NN
 have	VBP
@@ -37162,7 +37162,7 @@ he	PRP
 said	VBD
 COMMA	COMMA
 ``	``
-Why	WRB
+Why	NNP
 'n	NN
 hell	NN
 did	VBD
@@ -37251,7 +37251,7 @@ soothingly	RB
 .	.
 	
 ``	``
-She	PRP
+She	NNP
 do	VBP
 n't	RB
 know	VB
@@ -37273,8 +37273,8 @@ garage	NN
 .	.
 	
 ``	``
-How	WRB
-do	
+How	NNP
+do	VBP
 you	PRP
 know	VBP
 COMMA	COMMA
@@ -37318,9 +37318,9 @@ Guardino	NNP
 --	:
 	
 ``	``
-Who	WP
-'s	VBZ
-telling	VBG
+Who	NNP
+'s	POS
+telling	NN
 Guardino	NNP
 ''	''
 ?	.
@@ -37331,8 +37331,8 @@ again	RB
 .	.
 	
 ``	``
-You	PRP
-get	VBP
+You	NNP
+get	VB
 that	DT
 kid	NN
 over	IN
@@ -37364,7 +37364,7 @@ there	RB
 .	.
 	
 ``	``
-Why	WRB
+Why	NNP
 ca	MD
 n't	RB
 I	PRP
@@ -37395,7 +37395,7 @@ clock	NN
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 and	CC
 Barney	NNP
 get	VB
@@ -37452,7 +37452,7 @@ hands	NNS
 .	.
 	
 ``	``
-What	
+What	NNP
 am	VBP
 I	PRP
 going	VBG
@@ -37477,7 +37477,7 @@ away	RB
 .	.
 	
 ``	``
-What	
+What	NNP
 the	DT
 hell	NN
 do	VBP
@@ -37534,7 +37534,7 @@ shouted	VBD
 finally	RB
 COMMA	COMMA
 ``	``
-Get	VBP
+Get	NNP
 her	PRP
 over	RB
 to	TO
@@ -37573,7 +37573,7 @@ sullenly	RB
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 do	VBP
 n't	RB
 haf	VB
@@ -37620,7 +37620,7 @@ question	NN
 .	.
 	
 ``	``
-What	
+What	NNP
 is	VBZ
 it	PRP
 ''	''
@@ -37630,7 +37630,7 @@ Impatiently	RB
 .	.
 	
 ``	``
-Are	VBP
+Are	NNP
 you	PRP
 a	DT
 poor	NN
@@ -37642,7 +37642,7 @@ smart	JJ
 aleck	NN
 from	IN
 the	DT
-States	NNS
+States	NNPS
 ''	''
 ?	.
 	
@@ -37672,8 +37672,8 @@ sniggered	VBD
 .	.
 	
 ``	``
-Where	WRB
-'d	MD
+Where	NNP
+'d	VBD
 you	PRP
 say	VB
 you	PRP
@@ -37683,7 +37683,7 @@ born	VBN
 ?	.
 	
 ``	``
-In	IN
+In	NNP
 a	DT
 Chicago	NNP
 slum	NN
@@ -38046,7 +38046,7 @@ Lauren	RB
 said	VBD
 COMMA	COMMA
 ``	``
-Why	WRB
+Why	NNP
 ca	MD
 n't	RB
 I	PRP
@@ -38128,7 +38128,7 @@ Lauren	RB
 said	VBD
 COMMA	COMMA
 ``	``
-Please	UH
+Please	NNP
 ''	''
 ?	.
 	
@@ -38377,8 +38377,8 @@ and	CC
 shout	NN
 COMMA	COMMA
 ``	``
-All	DT
-out	RP
+All	NNP
+out	IN
 .	.
 	
 This	DT
@@ -38550,7 +38550,7 @@ She	PRP
 stammered	VBD
 COMMA	COMMA
 ``	``
-You	PRP
+You	NNP
 heard	VBD
 what	WP
 he	PRP
@@ -38719,7 +38719,7 @@ okay	UH
 ?	.
 	
 ``	``
-Nothing	NN
+Nothing	NNP
 wrong	NN
 with	IN
 me	PRP
@@ -38785,12 +38785,12 @@ insisted	VBD
 .	.
 	
 ``	``
-Okay	UH
+Okay	NNP
 ''	''
 .	.
 	
 ``	``
-Well	UH
+Well	NNP
 COMMA	COMMA
 let	VBD
 's	
@@ -38920,7 +38920,7 @@ in	IN
 the	DT
 original	JJ
 Solar	NNP
-System	NN
+System	NNP
 .	.
 	
 These	DT
@@ -38980,7 +38980,7 @@ away	RB
 from	IN
 the	DT
 nearest	NN
-Earth	NN
+Earth	NNP
 star	NN
 by	IN
 jump	NN
@@ -39027,7 +39027,7 @@ history	NN
 .	.
 	
 ``	``
-How	WRB
+How	NNP
 can	MD
 a	DT
 planet	NN
@@ -39059,7 +39059,7 @@ that	DT
 .	.
 	
 ``	``
-Some	DT
+Some	NNP
 can	MD
 be	VB
 lonely	RB
@@ -39074,7 +39074,7 @@ elaborately	RB
 .	.
 	
 ``	``
-What	
+What	NNP
 will	MD
 we	PRP
 need	VBP
@@ -39088,8 +39088,8 @@ asked	VBD
 .	.
 	
 ``	``
-No	UH
-helmets	
+No	NNP
+helmets	VBZ
 ''	''
 COMMA	COMMA
 the	DT
@@ -39098,7 +39098,7 @@ answered	VBD
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 can	MD
 breathe	VB
 out	RP
@@ -39234,9 +39234,9 @@ said	VBD
 .	.
 	
 ``	``
-You	PRP
-hold	VB
-down	RP
+You	NNP
+hold	NN
+down	IN
 the	DT
 fort	NN
 COMMA	COMMA
@@ -39250,7 +39250,7 @@ easy	JJ
 .	.
 	
 ``	``
-Easy	JJ
+Easy	NNP
 ''	''
 COMMA	COMMA
 Nogol	NNP
@@ -39363,7 +39363,7 @@ mark	NN
 .	.
 	
 ``	``
-But	CC
+But	NNP
 I	PRP
 'm	VBP
 ambidextrous	NNS
@@ -39552,7 +39552,7 @@ boot	NN
 .	.
 	
 ``	``
-Hey	UH
+Hey	NNP
 COMMA	COMMA
 this	DT
 is	VBZ
@@ -39573,7 +39573,7 @@ admitted	VBD
 .	.
 	
 ``	``
-One	NN
+One	NNP
 of	IN
 the	DT
 best	JJS
@@ -39675,7 +39675,7 @@ throat	NN
 .	.
 	
 ``	``
-What	
+What	NNP
 shall	MD
 we	PRP
 do	VBP
@@ -39747,7 +39747,7 @@ proof	NN
 .	.
 	
 ``	``
-No	UH
+No	NNP
 COMMA	COMMA
 it	PRP
 is	VBZ
@@ -39806,7 +39806,7 @@ them	PRP
 ?	.
 	
 ``	``
-It	PRP
+It	NNP
 looks	VBZ
 like	IN
 we	PRP
@@ -39820,7 +39820,7 @@ blastdown	NN
 .	.
 	
 ``	``
-But	CC
+But	NNP
 what	WDT
 about	RB
 our	PRP$
@@ -39842,7 +39842,7 @@ suggested	VBN
 .	.
 	
 ``	``
-The	DT
+The	NNP
 planet	NN
 is	VBZ
 very	RB
@@ -39927,8 +39927,8 @@ harm	NN
 .	.
 	
 ``	``
-Then	RB
-maybe	VB
+Then	NNP
+maybe	NN
 it	PRP
 was	VBD
 the	DT
@@ -39976,7 +39976,7 @@ admitted	VBD
 .	.
 	
 ``	``
-At	IN
+At	NNP
 this	DT
 stage	NN
 of	IN
@@ -40002,14 +40002,14 @@ like	IN
 .	.
 	
 ``	``
-And	CC
-that	DT
+And	NNP
+that	IN
 is	VBZ
 ''	''
 ?	.
 	
 ``	``
-Suppose	VB
+Suppose	NNP
 it	PRP
 was	VBD
 not	RB
@@ -40481,7 +40481,7 @@ him	PRP
 from	IN
 the	DT
 Exploration	NNP
-Service	NN
+Service	NNP
 COMMA	COMMA
 on	IN
 physiological	JJ
@@ -40797,7 +40797,7 @@ him	PRP
 .	.
 	
 ``	``
-Okay	UH
+Okay	NNP
 COMMA	COMMA
 Stormy	NNP
 COMMA	COMMA
@@ -40822,14 +40822,14 @@ them	PRP
 ?	.
 	
 ``	``
-Do	VBP
+Do	NNP
 with	IN
 what	WP
 ''	''
 ?	.
 	
 ``	``
-The	DT
+The	NNP
 dead	JJ
 beasties	NNS
 .	.
@@ -40846,7 +40846,7 @@ ship	NN
 .	.
 	
 ``	``
-What	
+What	NNP
 are	VBP
 you	PRP
 talking	VBG
@@ -40885,7 +40885,7 @@ gone	VBN
 .	.
 	
 ``	``
-Gone	VBN
+Gone	NNP
 ''	''
 ?	.
 	
@@ -40935,7 +40935,7 @@ said	VBD
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 are	VBP
 right	JJ
 now	RB
@@ -40956,8 +40956,8 @@ evidence	NN
 .	.
 	
 ``	``
-Where	WRB
-do	
+Where	NNP
+do	VBP
 you	PRP
 get	VBP
 off	RB
@@ -40970,7 +40970,7 @@ demanded	VBD
 .	.
 	
 ``	``
-Why	WRB
+Why	NNP
 pick	NN
 me	PRP
 for	IN
@@ -41052,14 +41052,14 @@ that	DT
 .	.
 	
 ``	``
-No	UH
+No	NNP
 ''	''
 COMMA	COMMA
 Ekstrohm	NNP
 said	VBD
 COMMA	COMMA
 ``	``
-No	UH
+No	NNP
 COMMA	COMMA
 I	PRP
 did	VBD
@@ -41070,7 +41070,7 @@ that	DT
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 've	VBP
 been	VBN
 hiding	VBG
@@ -41110,7 +41110,7 @@ in	IN
 .	.
 	
 ``	``
-What	
+What	NNP
 could	MD
 I	PRP
 do	VBP
@@ -41131,7 +41131,7 @@ them	PRP
 ?	.
 	
 ``	``
-All	DT
+All	NNP
 I	PRP
 know	VBP
 is	VBZ
@@ -41306,7 +41306,7 @@ scowled	VBD
 .	.
 	
 ``	``
-Do	VBP
+Do	NNP
 n't	RB
 try	VB
 anything	NN
@@ -41791,7 +41791,7 @@ the	DT
 rest	NN
 of	IN
 the	DT
-Bar	NN
+Bar	NNP
 B	NNP
 crew	NN
 .	.
@@ -42065,7 +42065,7 @@ He	PRP
 asked	VBD
 COMMA	COMMA
 ``	``
-Could	MD
+Could	NNP
 we	PRP
 have	VBP
 a	DT
@@ -42084,7 +42084,7 @@ door	NN
 .	.
 	
 ``	``
-In	IN
+In	NNP
 the	DT
 kitchen	NN
 ''	''
@@ -42111,8 +42111,8 @@ girl	NN
 .	.
 	
 ``	``
-Get	VBP
-up	RB
+Get	NNP
+up	IN
 .	.
 	
 There	EX
@@ -42452,7 +42452,7 @@ and	CC
 murmured	VBD
 COMMA	COMMA
 ``	``
-Thank	VBP
+Thank	NNP
 you	PRP
 ''	''
 COMMA	COMMA
@@ -42585,7 +42585,7 @@ boy	NN
 .	.
 	
 ``	``
-Who	WP
+Who	NNP
 are	VBP
 you	PRP
 and	CC
@@ -42595,7 +42595,7 @@ to	TO
 you	PRP
 ''	''
 ?	.
-He	PRP
+He	NNP
 asked	VBD
 .	.
 	
@@ -42612,8 +42612,8 @@ answered	VBD
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
+That	NNP
+'s	POS
 my	PRP$
 wife	NN
 Sharon	NNP
@@ -42636,7 +42636,7 @@ days	NNS
 .	.
 	
 ``	``
-What	
+What	NNP
 are	VBP
 you	PRP
 doing	VBG
@@ -42645,7 +42645,7 @@ here	RB
 ?	.
 	
 ``	``
-Are	VBP
+Are	NNP
 we	PRP
 in	IN
 Wyoming	NNP
@@ -42657,9 +42657,9 @@ nodded	VBD
 .	.
 	
 ``	``
-About	IN
-five	CD
-miles	NNS
+About	NNP
+five	NNP
+miles	VBZ
 north	RB
 of	IN
 the	DT
@@ -42675,7 +42675,7 @@ relieved	JJ
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 've	VBP
 been	VBN
 looking	VBG
@@ -42694,8 +42694,8 @@ down	RB
 .	.
 	
 ``	``
-You	PRP
-mean	VBP
+You	NNP
+mean	VB
 you	PRP
 dragged	VBD
 your	PRP$
@@ -42715,7 +42715,7 @@ demanded	VBD
 .	.
 	
 ``	``
-The	DT
+The	NNP
 town	NN
 of	IN
 Buckhorn	NNP
@@ -42738,7 +42738,7 @@ there	RB
 ?	.
 	
 ``	``
-We	PRP
+We	NNP
 did	VBD
 n't	RB
 want	VBP
@@ -42751,7 +42751,7 @@ said	VBD
 .	.
 	
 ``	``
-This	DT
+This	NNPS
 is	VBZ
 a	DT
 mighty	NN
@@ -42764,12 +42764,12 @@ said	VBD
 .	.
 	
 ``	``
-There	EX
-'s	VBZ
-only	RB
-one	CD
-more	JJR
-ranch	NN
+There	NNP
+'s	POS
+only	JJ
+one	NN
+more	RBR
+ranch	JJ
 three	CD
 miles	NNS
 north	RB
@@ -42793,7 +42793,7 @@ places	VBZ
 .	.
 	
 ``	``
-Then	RB
+Then	NNP
 we	PRP
 're	VBP
 lucky	JJ
@@ -43019,7 +43019,7 @@ morning	NN
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 'll	MD
 work	VB
 for	IN
@@ -43087,7 +43087,7 @@ said	VBD
 .	.
 	
 ``	``
-Right	JJ
+Right	NNP
 now	RB
 you	PRP
 need	VBP
@@ -43210,7 +43210,7 @@ alarmed	VBN
 .	.
 	
 ``	``
-Who	WP
+Who	NNP
 are	VBP
 you	PRP
 ?	.
@@ -43268,7 +43268,7 @@ sleep	VB
 .	.
 	
 ``	``
-Oh	UH
+Oh	NNP
 ''	''
 .	.
 	
@@ -43294,7 +43294,7 @@ she	PRP
 murmured	VBD
 :	:
 ``	``
-You	PRP
+You	NNP
 're	VBP
 very	RB
 kind	NN
@@ -43335,7 +43335,7 @@ said	VBD
 .	.
 	
 ``	``
-Think	VBP
+Think	NNP
 you	PRP
 can	MD
 walk	VBP
@@ -43346,7 +43346,7 @@ table	NN
 ?	.
 	
 ``	``
-Of	IN
+Of	NNP
 course	NN
 ''	''
 .	.
@@ -43416,7 +43416,7 @@ tired	JJ
 .	.
 	
 ``	``
-And	CC
+And	NNP
 hungry	NN
 ''	''
 COMMA	COMMA
@@ -43425,7 +43425,7 @@ said	VBD
 .	.
 	
 ``	``
-Start	VB
+Start	NNP
 in	IN
 .	.
 	
@@ -43447,14 +43447,14 @@ eat	VB
 .	.
 	
 ``	``
-Not	RB
-much	JJ
+Not	NNP
+much	RB
 of	IN
 a	DT
 meal	JJ
 ''	''
 ?	.
-The	DT
+The	NNP
 girl	NN
 cried	VBD
 .	.
@@ -43570,14 +43570,14 @@ laughed	VBD
 .	.
 	
 ``	``
-Which	WDT
+Which	NNP
 are	VBP
 you	PRP
 ''	''
 ?	.
 	
 ``	``
-We	PRP
+We	NNP
 're	VBP
 not	RB
 drunkards	VBZ
@@ -43588,9 +43588,9 @@ said	VBD
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
-all	DT
+That	NNP
+'s	POS
+all	RB
 I	PRP
 'm	VBP
 sure	JJ
@@ -43645,7 +43645,7 @@ He	PRP
 said	VBD
 :	:
 ``	``
-You	PRP
+You	NNP
 'll	MD
 feel	VB
 a	DT
@@ -43684,7 +43684,7 @@ doc	NN
 .	.
 	
 ``	``
-No	UH
+No	NNP
 COMMA	COMMA
 she	PRP
 'll	MD
@@ -43730,7 +43730,7 @@ town	NN
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 'll	MD
 see	VB
 ''	''
@@ -43740,7 +43740,7 @@ said	VBD
 .	.
 	
 ``	``
-Could	MD
+Could	NNP
 you	PRP
 find	VB
 me	PRP
@@ -43750,14 +43750,14 @@ and	CC
 thread	NN
 ''	''
 ?	.
-The	DT
+The	NNP
 girl	NN
 asked	VBD
 .	.
 	
 ``	``
-My	PRP$
-dress	NNS
+My	NNP
+dress	VBZ
 needs	VBZ
 some	DT
 work	NN
@@ -43809,8 +43809,8 @@ him	PRP
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
+That	NNP
+'s	POS
 my	PRP$
 spare	JJ
 bedroom	NN
@@ -43834,7 +43834,7 @@ there	RB
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 're	VBP
 awfully	RB
 kind	NN
@@ -43846,7 +43846,7 @@ said	VBD
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 'll	MD
 pay	VB
 you	PRP
@@ -43864,9 +43864,9 @@ way	NN
 .	.
 	
 ``	``
-It	PRP
-'s	VBZ
-all	DT
+It	NNP
+'s	POS
+all	RB
 right	JJ
 ''	''
 COMMA	COMMA
@@ -43907,7 +43907,7 @@ He	PRP
 said	VBD
 :	:
 ``	``
-If	IN
+If	NNP
 it	PRP
 's	VBZ
 all	DT
@@ -43994,7 +43994,7 @@ place	NN
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 got	VBD
 fired	VBD
 ''	''
@@ -44004,7 +44004,7 @@ said	VBD
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 had	VBD
 to	TO
 do	VB
@@ -44037,7 +44037,7 @@ wearily	RB
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 ca	MD
 n't	RB
 stay	VB
@@ -44062,7 +44062,7 @@ dawn	NN
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 ca	MD
 n't	RB
 make	VB
@@ -44209,20 +44209,20 @@ words	NNS
 .	.
 	
 ``	``
-Do	VBP
+Do	NNP
 you	PRP
 remember	VB
-Big	JJ
+Big	NNP
 Charlie	NNP
 ''	''
 ?	.
-He	PRP
+He	NNP
 whispered	VBD
 .	.
 	
 ``	``
-He	PRP
-stuck	VB
+He	NNP
+stuck	NN
 with	IN
 me	PRP
 all	RB
@@ -44278,7 +44278,7 @@ boy	NN
 provoked	VBD
 it	PRP
 --	:
-Big	JJ
+Big	NNP
 Charlie	NNP
 told	VBD
 me	PRP
@@ -44292,7 +44292,7 @@ him	PRP
 	
 They	PRP
 killed	VBN
-Big	JJ
+Big	NNP
 Charlie	NNP
 COMMA	COMMA
 dumped	VBD
@@ -44364,7 +44364,7 @@ wonder	NN
 .	.
 	
 ``	``
-Do	VBP
+Do	NNP
 you	PRP
 mean	VBP
 ''	''
@@ -44391,12 +44391,12 @@ goin	JJ
 ?	.
 	
 ``	``
-Yes	UH
+Yes	NNPS
 ''	''
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 do	VBP
 n't	RB
 hate	VB
@@ -44416,12 +44416,12 @@ COMMA	COMMA
 murmuring	VBG
 COMMA	COMMA
 ``	``
-No	UH
+No	NNP
 ''	''
 .	.
 	
 ``	``
-Come	VB
+Come	NNP
 here	RB
 ''	''
 .	.
@@ -44455,7 +44455,7 @@ fiercely	RB
 .	.
 	
 ``	``
-All	DT
+All	NNP
 my	PRP$
 life	NN
 ''	''
@@ -44605,7 +44605,7 @@ fearfully	RB
 .	.
 	
 ``	``
-The	DT
+The	NNP
 horses	NNS
 .	.
 	
@@ -44745,7 +44745,7 @@ away	RB
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 take	VB
 it	PRP
 easy	JJ
@@ -44758,7 +44758,7 @@ whispered	VBD
 .	.
 	
 ``	``
-She	PRP
+She	NNP
 does	VBZ
 n't	RB
 want	VBP
@@ -44843,7 +44843,7 @@ goin	VB
 ?	.
 	
 ``	``
-To	IN
+To	NNP
 a	DT
 ranch	NN
 in	IN
@@ -44912,8 +44912,8 @@ nod	NN
 .	.
 	
 ``	``
-That	DT
-'s	VBZ
+That	NNP
+'s	POS
 a	DT
 new	JJ
 land	NN
@@ -44973,7 +44973,7 @@ happened	VBN
 .	.
 	
 ``	``
-Yes	UH
+Yes	NNPS
 COMMA	COMMA
 like	IN
 a	DT
@@ -45016,7 +45016,7 @@ man	NN
 .	.
 	
 ``	``
-Yes	UH
+Yes	NNPS
 COMMA	COMMA
 Gavin	NNP
 COMMA	COMMA
@@ -45042,7 +45042,7 @@ neck	NN
 .	.
 	
 ``	``
-Help	VB
+Help	NNP
 me	PRP
 up	RP
 COMMA	COMMA
@@ -45088,7 +45088,7 @@ said	VBD
 .	.
 	
 ``	``
-They	PRP
+They	NNP
 'll	MD
 trample	VB
 it	PRP
@@ -45103,7 +45103,7 @@ garden	NNS
 .	.
 	
 ``	``
-It	PRP
+It	NNP
 will	MD
 grow	VB
 again	RB
@@ -45126,7 +45126,7 @@ huskily	RB
 .	.
 	
 ``	``
-Lived	VBN
+Lived	NNP
 alone	RB
 here	RB
 for	IN
@@ -45683,8 +45683,8 @@ cracked	VBD
 .	.
 	
 ``	``
-He	PRP
-'s	VBZ
+He	NNP
+'s	POS
 leavin	NN
 .	.
 	
@@ -45719,8 +45719,8 @@ n't	RB
 --	:
 	
 ``	``
-Keep	VB
-out	RP
+Keep	NNP
+out	IN
 of	IN
 this	DT
 ''	''
@@ -45730,8 +45730,8 @@ snarled	VBD
 .	.
 	
 ``	``
-He	PRP
-'s	VBZ
+He	NNP
+'s	POS
 not	RB
 your	PRP$
 brother	NN
@@ -45926,7 +45926,7 @@ game	NN
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 're	VBP
 Gavin	NNP
 's	POS
@@ -45946,7 +45946,7 @@ Lester	NNP
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 brought	VBN
 him	PRP
 back	RB
@@ -45993,7 +45993,7 @@ other	JJ
 men	NNS
 --	:
 ``	``
-We	PRP
+We	NNP
 can	MD
 catch	VB
 him	PRP
@@ -46084,7 +46084,7 @@ away	RB
 .	.
 	
 ``	``
-He	PRP
+He	NNP
 killed	VBN
 Tom	NNP
 --	:
@@ -46744,12 +46744,12 @@ him	PRP
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 are	VBP
 hurt	JJ
 ''	''
 !	.
-She	PRP
+She	NNP
 breathed	VBD
 .	.
 	
@@ -46780,10 +46780,10 @@ cheek	NN
 .	.
 	
 ``	``
-Thank	VBP
+Thank	NNP
 you	PRP
 COMMA	COMMA
-My	PRP$
+My	NNP
 dear	JJ
 ''	''
 COMMA	COMMA
@@ -46792,7 +46792,7 @@ said	VBD
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 are	VBP
 very	RB
 brave	VB
@@ -46805,7 +46805,7 @@ them	PRP
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 'll	MD
 talk	VB
 later	RB
@@ -46825,7 +46825,7 @@ here	RB
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 'll	MD
 grab	VB
 horses	NNS
@@ -46836,7 +46836,7 @@ said	VBD
 .	.
 	
 ``	``
-The	DT
+The	NNP
 main	NN
 bunch	NN
 is	VBZ
@@ -47009,7 +47009,7 @@ said	VBD
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 'll	MD
 stampede	VB
 the	DT
@@ -47040,7 +47040,7 @@ He	PRP
 added	VBD
 COMMA	COMMA
 ``	``
-If	IN
+If	NNP
 this	DT
 does	VBZ
 n't	RB
@@ -47175,8 +47175,8 @@ Mike	NNP
 .	.
 	
 ``	``
-All	DT
-right	JJ
+All	NNP
+right	RB
 ''	''
 COMMA	COMMA
 he	PRP
@@ -47188,13 +47188,13 @@ only	RB
 said	VBD
 COMMA	COMMA
 ``	``
-Later	RB
+Later	NNP
 ''	''
 .	.
 	
 ``	``
-Be	VB
-careful	JJ
+Be	NNP
+careful	NN
 COMMA	COMMA
 McLish	NNP
 ''	''
@@ -47205,19 +47205,19 @@ fiercely	RB
 .	.
 	
 ``	``
-The	DT
-way	NN
+The	NNP
+way	NNP
 you	PRP
 were	VBD
 careful	JJ
 ''	''
 ?	.
-He	PRP
+He	NNP
 snorted	VBD
 .	.
 	
 ``	``
-Running	NN
+Running	NNP
 around	IN
 in	IN
 the	DT
@@ -47458,9 +47458,9 @@ hand	NN
 .	.
 	
 ``	``
-Who	WP
-'s	VBZ
-that	DT
+Who	NNP
+'s	POS
+that	
 ''	''
 ?	.
 	
@@ -47473,11 +47473,11 @@ said	VBD
 .	.
 	
 ``	``
-Is	VBZ
-that	DT
+Is	NNPS
+that	IN
 you	PRP
 COMMA	COMMA
-Bill	NN
+Bill	NNP
 ''	''
 ?	.
 	
@@ -47668,17 +47668,17 @@ up	RP
 .	.
 	
 ``	``
-Are	VBP
+Are	NNP
 you	PRP
 hit	VBD
 ''	''
 ?	.
-He	PRP
+He	NNP
 demanded	VBD
 .	.
 	
 ``	``
-No	UH
+No	NNP
 COMMA	COMMA
 but	CC
 the	DT
@@ -47694,9 +47694,9 @@ said	VBD
 .	.
 	
 ``	``
-There	EX
-'s	VBZ
-no	DT
+There	NNP
+'s	POS
+no	RB
 chance	NN
 now	RB
 of	IN
@@ -47752,17 +47752,17 @@ line	NN
 .	.
 	
 ``	``
-Up	RB
+Up	NNP
 you	PRP
 go	VB
 ''	''
 !	.
-He	PRP
+He	NNP
 said	VBD
 .	.
 	
 ``	``
-Ride	VB
+Ride	NNP
 ''	''
 !	.
 	
@@ -47780,12 +47780,12 @@ horse	NN
 .	.
 	
 ``	``
-Why	WRB
+Why	NNP
 not	RB
 you	PRP
 ''	''
 ?	.
-He	PRP
+He	NNP
 protested	VBD
 .	.
 	
@@ -47799,7 +47799,7 @@ frantically	RB
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 're	VBP
 lighter	JJ
 than	IN
@@ -47876,9 +47876,9 @@ hand	NN
 .	.
 	
 ``	``
-No	UH
-telling	VB
-how	WRB
+No	NNP
+telling	VBG
+how	RB
 good	JJ
 this	DT
 horse	NN
@@ -48108,7 +48108,7 @@ yelled	VBD
 .	.
 	
 ``	``
-They	PRP
+They	NNP
 're	VBP
 stealin'	JJ
 the	DT
@@ -48962,7 +48962,7 @@ screeched	VBD
 .	.
 	
 ``	``
-There	EX
+There	NNP
 goes	VBZ
 our	PRP$
 grub	NN
@@ -48972,7 +48972,7 @@ ammunition	NN
 !	.
 	
 ``	``
-Get	VBP
+Get	NNP
 a	DT
 bucket	NN
 line	NN
@@ -49081,7 +49081,7 @@ yelled	VBD
 .	.
 	
 ``	``
-Run	VB
+Run	NNP
 'em	NN
 right	JJ
 into	IN
@@ -49248,7 +49248,7 @@ but	CC
 --	:
 	
 ``	``
-You	PRP
+You	NNP
 can	MD
 joke	VB
 !	.
@@ -49333,7 +49333,7 @@ Robards	NNPS
 .	.
 	
 ``	``
-It	PRP
+It	NNP
 was	VBD
 plain	NN
 as	IN
@@ -49376,7 +49376,7 @@ back	RP
 .	.
 	
 ``	``
-We	PRP
+We	NNP
 will	MD
 both	CC
 go	VB
@@ -49394,7 +49394,7 @@ inside	IN
 .	.
 	
 ``	``
-Let	VBD
+Let	NNP
 me	PRP
 stay	VB
 and	CC
@@ -49415,7 +49415,7 @@ right	JJ
 --	:
 	
 ``	``
-Pictures	NNS
+Pictures	NNPS
 ''	''
 ?	.
 	
@@ -49425,13 +49425,13 @@ around	IN
 .	.
 	
 ``	``
-What	
+What	NNP
 pictures	NNS
 ''	''
 ?	.
 	
 ``	``
-In	IN
+In	NNP
 Brace	NNP
 's	POS
 room	NN
@@ -49509,9 +49509,9 @@ that	DT
 everybody	NN
 at	IN
 Mt.	NNP
-Pleasant	JJ
-understands	NNS
-that	WDT
+Pleasant	NNP
+understands	VBZ
+that	DT
 simple	JJ
 fact	NN
 .	.
@@ -49551,7 +49551,7 @@ back	NN
 ``	``
 Hurry	NNP
 COMMA	COMMA
-Frank	JJ
+Frank	NNP
 !	.
 	
 They	PRP
@@ -49616,7 +49616,7 @@ her	PRP$
 .	.
 	
 ``	``
-Make	VB
+Make	NNP
 your	PRP$
 confession	NN
 to	TO
@@ -49671,7 +49671,7 @@ is	VBZ
 n't	RB
 he	PRP
 COMMA	COMMA
-Frank	JJ
+Frank	NNP
 ''	''
 ?	.
 	
@@ -49702,13 +49702,13 @@ favorite	NN
 lines	NNS
 from	IN
 Jonathan	NNP
-Swift	JJ
+Swift	NNP
 on	IN
 his	PRP$
 lips	NNS
 :	:
 ``	``
-Under	IN
+Under	NNP
 the	DT
 window	NN
 in	IN
@@ -49726,12 +49726,12 @@ together	RB
 Let	VBD
 none	NN
 but	CC
-Him	PRP
+Him	NNP
 who	WP
 rules	VBZ
 the	DT
 thunder	NN
-Put	VBD
+Put	NNP
 this	DT
 man	NN
 and	CC
@@ -49844,12 +49844,12 @@ thing	NN
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 've	VBP
 told	VBN
 God	NNP
 COMMA	COMMA
-Frank	JJ
+Frank	NNP
 ''	''
 COMMA	COMMA
 he	PRP
@@ -49857,7 +49857,7 @@ said	VBD
 .	.
 	
 ``	``
-Why	WRB
+Why	NNP
 lacerate	NN
 the	DT
 --	:
@@ -49926,7 +49926,7 @@ peace	NN
 	
 ``	``
 '	
-And	CC
+And	NNP
 let	VBD
 me	PRP
 go	VB
@@ -50050,7 +50050,7 @@ often	RB
 .	.
 	
 ``	``
-To	IN
+To	NNP
 absent	NN
 loved	VBD
 ones	NNS
@@ -50068,7 +50068,7 @@ to	TO
 Brace	NNP
 but	CC
 ``	``
-To	IN
+To	NNP
 Tolley	NNP
 ''	''
 !	.
@@ -50087,8 +50087,8 @@ of	IN
 in	IN
 the	DT
 Mt.	NNP
-Pleasant	JJ
-neighborhood	NN
+Pleasant	NNP
+neighborhood	NNP
 who	WP
 called	VBD
 him	PRP
@@ -50120,7 +50120,7 @@ COMMA	COMMA
 ``	``
 Howdy	NNP
 COMMA	COMMA
-Miss	NNP
+Miss	NNPS
 Jenny	NNP
 ''	''
 COMMA	COMMA
@@ -50166,8 +50166,8 @@ P.GA	NNP
 COMMA	COMMA
 and	CC
 C'un	NNP
-Major	JJ
-Frank	JJ
+Major	NNP
+Frank	NNP
 .	.
 	
 Mr.	NNP
@@ -50194,7 +50194,7 @@ her
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 could	MD
 try	VB
 .	.
@@ -50474,10 +50474,10 @@ anyway	NN
 .	.
 	
 ``	``
-Stand	VB
-back	RP
+Stand	NNP
+back	NN
 COMMA	COMMA
-Miss	NNP
+Miss	NNPS
 Jen	NNP
 COMMA	COMMA
 she	PRP
@@ -50900,7 +50900,7 @@ COMMA	COMMA
 saying	VBG
 COMMA	COMMA
 ``	``
-You	PRP
+You	NNP
 do	VBP
 n't	RB
 see	VB
@@ -50912,7 +50912,7 @@ pike	NN
 ever'	NN
 day	NN
 COMMA	COMMA
-Miss	NNP
+Miss	NNPS
 Jen	NNP
 COMMA	COMMA
 hon	NN
@@ -50950,7 +50950,7 @@ and	CC
 Kezziah	NNP
 COMMA	COMMA
 for	IN
-Miss	NNP
+Miss	NNPS
 Kizzie	NNP
 ''	''
 COMMA	COMMA
@@ -50959,7 +50959,7 @@ suggested	VBN
 .	.
 	
 ``	``
-She	PRP
+She	NNP
 was	VBD
 mighty	NN
 good	JJ
@@ -51031,8 +51031,8 @@ Robards	NNPS
 ?	.
 	
 ``	``
-Why	WRB
-do	
+Why	NNP
+do	VBP
 n't	RB
 you	PRP
 name	NN
@@ -51106,8 +51106,8 @@ not	RB
 Those	DT
 elegant	NN
 ``	``
-At	IN
-Home	NN
+At	NNP
+Home	NNP
 ''	''
 cards	NNS
 she	PRP
@@ -51145,7 +51145,7 @@ months	NNS
 Doc	NN
 Dunne	NNP
 and	CC
-Miss	VB
+Miss	NNPS
 Sis	NNPS
 had	VBD
 come	VBN
@@ -51153,7 +51153,7 @@ come	VBN
 	
 So	RB
 had	VBD
-Miss	NNP
+Miss	NNPS
 Shawnee	NNP
 Rakestraw	NNP
 COMMA	COMMA
@@ -51177,7 +51177,7 @@ gone	VBN
 to	TO
 his	PRP$
 Heavenly	NNP
-Rest	NN
+Rest	NNP
 last	JJ
 year	NN
 COMMA	COMMA
@@ -51260,7 +51260,7 @@ trips	NNS
 	
 But	CC
 when	WRB
-Miss	NNP
+Miss	NNPS
 Jen	NNP
 went	VBD
 over	RB
@@ -51271,7 +51271,7 @@ return	VB
 the	DT
 call	VB
 COMMA	COMMA
-Miss	NNP
+Miss	NNPS
 Kiz	NNP
 could	MD
 n't	RB
@@ -51397,7 +51397,7 @@ COMMA	COMMA
 after	IN
 the	DT
 idea	NN
-Miss	VBP
+Miss	NNPS
 Sis	NNPS
 had	VBD
 given	VBN
@@ -51407,7 +51407,7 @@ to	TO
 be	VB
 told	VBN
 by	IN
-Miss	NNP
+Miss	NNPS
 Kiz	NNP
 that	IN
 her	PRP$
@@ -51458,7 +51458,7 @@ He	PRP
 did	VBD
 n't	RB
 tell	VB
-Miss	NNP
+Miss	NNPS
 Jen	NNP
 COMMA	COMMA
 but	CC
@@ -51505,7 +51505,7 @@ shame	NN
 .	.
 	
 ``	``
-Have	VBP
+Have	NNP
 a	DT
 party	NN
 an'	NN
@@ -51521,7 +51521,7 @@ suggested	VBN
 .	.
 	
 ``	``
-A	DT
+A	NNP
 swell	NN
 party	NN
 COMMA	COMMA
@@ -51540,7 +51540,7 @@ met	VB
 at	IN
 the	DT
 Galt	NNP
-House	NN
+House	NNP
 COMMA	COMMA
 the	DT
 ones	NNS
@@ -51589,7 +51589,7 @@ round	JJ
 .	.
 	
 ``	``
-Do	VBP
+Do	NNP
 n't	RB
 you	PRP
 dare	VB
@@ -51739,7 +51739,7 @@ COMMA	COMMA
 asked	VBN
 quickly	RB
 how	WRB
-Miss	NNP
+Miss	NNPS
 Jenny	NNP
 and	CC
 the	DT
@@ -51750,11 +51750,11 @@ on	IN
 .	.
 	
 ``	``
-See	VB
+See	NNP
 for	IN
 yourself	NN
 COMMA	COMMA
-Miss	NNP
+Miss	NNPS
 Zion	NNP
 .	.
 	
@@ -51778,8 +51778,8 @@ gateway	NN
 .	.
 	
 ``	``
-Them	PRP
-'s	VBZ
+Them	NNP
+'s	POS
 the	DT
 purtiest	NN
 babes	VBZ
@@ -51789,7 +51789,7 @@ did	VBD
 see	VB
 COMMA	COMMA
 but	CC
-Miss	VB
+Miss	NNPS
 Jen	NNP
 gets	VBZ
 mighty	NN
@@ -51821,7 +51821,7 @@ she	PRP
 ?	.
 	
 ``	``
-Why	WRB
+Why	NNP
 of	IN
 course	NN
 not	RB
@@ -51888,7 +51888,7 @@ had	VBD
 said	VBN
 :	:
 ``	``
-With	IN
+With	NNP
 your	PRP$
 beard	NN
 COMMA	COMMA
@@ -51974,7 +51974,7 @@ Ye	NNP
 Olde	NNP
 Gasse	NNP
 Filling	NNP
-Station	NN
+Station	NNP
 on	IN
 Avocado	NNP
 Avenue	NNP
@@ -52025,7 +52025,7 @@ the	DT
 quaint	NN
 old	JJ
 Spanish	NNP
-Mission	NN
+Mission	NNP
 Drive-in	NNP
 COMMA	COMMA
 eating	VBG
@@ -52170,12 +52170,12 @@ such	PDT
 as	
 :	
 ``	``
-They	PRP
+They	NNP
 're	VBP
 under	IN
 sand	NN
 dunes	VBZ
-They	PRP
+They	NNP
 're	VBP
 better	JJR
 off	IN
@@ -52623,7 +52623,7 @@ murder	NN
 .	.
 	
 ``	``
-That	DT
+That	NNP
 worm	NN
 a	DT
 murderer	NN
@@ -52676,17 +52676,17 @@ them	PRP
 !	.
 	
 ``	``
-Is	VBZ
-that	DT
+Is	NNPS
+that	IN
 so	RB
 ''	''
 ?	.
-He	PRP
+He	NNP
 queried	VBD
 .	.
 	
 ``	``
-Well	UH
+Well	NNP
 COMMA	COMMA
 for	IN
 ten	CD
@@ -52981,13 +52981,13 @@ object	NN
 .	.
 	
 ``	``
-There	EX
-'s	VBZ
+There	NNP
+'s	POS
 something	NN
 here	RB
 ''	''
 !	.
-Said	VBD
+Said	NNP
 the	DT
 digger	NN
 .	.
@@ -53199,19 +53199,19 @@ headlines	NNS
 ``	``
 Viola	NNP
 's	POS
-Multiple	JJ
+Multiple	NNP
 Romances	NNPS
 ''	''
 ``	``
 Viola	NNP
-Lake	NN
+Lake	NNP
 an	DT
 Addict	NNP
 ''	''
 ``	``
 Downfall	NNP
 of	IN
-Another	DT
+Another	NNP
 Film	NNP
 Idol	NNP
 ''	''
@@ -53623,7 +53623,7 @@ Culture	NNP
 Forum	NNP
 on	IN
 ``	``
-The	DT
+The	NNP
 Civic	NNP
 Spirit	NNP
 of	IN
@@ -53779,7 +53779,7 @@ vowed	VBD
 vengeance	NN
 on	IN
 Viola	NNP
-Lake	NN
+Lake	NNP
 if	IN
 ever	RB
 the	DT
@@ -53904,7 +53904,7 @@ our	PRP$
 house	NN
 COMMA	COMMA
 for	IN
-Mother	NN
+Mother	NNP
 snobbishly	RB
 refused	VBN
 to	TO
@@ -53926,7 +53926,7 @@ social	JJ
 values	NNS
 COMMA	COMMA
 but	CC
-Mother	NN
+Mother	NNP
 had	VBD
 attained	VBN
 a	DT
@@ -53952,7 +53952,7 @@ her	PRP$
 	
 There	EX
 COMMA	COMMA
-Mother	NN
+Mother	NNP
 was	VBD
 received	VBN
 by	IN
@@ -54010,7 +54010,7 @@ aristocrats	VBZ
 .	.
 	
 But	CC
-Mother	NN
+Mother	NNP
 insisted	VBD
 COMMA	COMMA
 for	IN
@@ -54129,7 +54129,7 @@ I	PRP
 broke	VB
 away	RB
 from	IN
-Mother	NN
+Mother	NNP
 and	CC
 her	PRP$
 society	NN
@@ -54501,7 +54501,7 @@ COMMA	COMMA
 poised	VBD
 COMMA	COMMA
 ``	``
-Wo	MD
+Wo	NNP
 n't	RB
 you	PRP
 hold	VB
@@ -54540,9 +54540,9 @@ the	DT
 latter	NN
 COMMA	COMMA
 including	VBG
-Devil	NN
+Devil	NNP
 's	POS
-Island	NN
+Island	NNP
 and	CC
 the	DT
 remoter	NN
@@ -55037,7 +55037,7 @@ COMMA	COMMA
 having	VBG
 arrived	VBD
 in	IN
-New	JJ
+New	NNP
 York	NNP
 with	IN
 a	DT
@@ -55176,7 +55176,7 @@ regions	NNS
 of	IN
 suburbia	NN
 surrounding	VBG
-New	JJ
+New	NNP
 York	NNP
 ;	:
 they	PRP
@@ -55200,7 +55200,7 @@ names	NNS
 .	.
 	
 ``	``
-You	PRP
+You	NNP
 are	VBP
 bound	VBN
 to	TO
@@ -55248,10 +55248,10 @@ dull	JJ
 husbands	NNS
 COMMA	COMMA
 but	CC
-People	NNS
-Who	WP
-Do	VBP
-Things	NNS
+People	NNP
+Who	NNP
+Do	NNP
+Things	NNPS
 ''	''
 .	.
 	
@@ -55817,7 +55817,7 @@ minimum	NN
 ruefulness	VBZ
 COMMA	COMMA
 ``	``
-Oh	UH
+Oh	NNP
 COMMA	COMMA
 my	PRP$
 souffle	NN
@@ -56198,8 +56198,8 @@ saying	VBG
 zounds	VBZ
 ''	''
 !	.
-In	RB
-deference	VB
+In	NNP
+deference	NN
 to	TO
 country	NN
 -	HYPH
@@ -56222,8 +56222,8 @@ say	VB
 zounds	VBZ
 ''	''
 !	.
-In	RB
-real	JJ
+In	NNP
+real	NNP
 life	NN
 .	.
 	
@@ -56442,9 +56442,9 @@ to	TO
 get	VB
 on	IN
 ``	``
-Person	NN
+Person	NNP
 to	TO
-Person	NN
+Person	NNP
 ''	''
 ;	:
 people	NNS
@@ -56660,7 +56660,7 @@ time	NN
 .	.
 	
 ``	``
-They	PRP
+They	NNP
 're	VBP
 not	RB
 dessert	VB
@@ -56716,7 +56716,7 @@ icing	VBG
 .	.
 	
 (	(
-Sometimes	RB
+Sometimes	NNPS
 I	PRP
 think	VBP
 you	PRP
@@ -56783,7 +56783,7 @@ and	CC
 said	VBD
 :	:
 ``	``
-Take	VB
+Take	NNP
 my	PRP$
 hand	NN
 COMMA	COMMA
@@ -56836,7 +56836,7 @@ agreements	NNS
 ?	.
 	
 ``	``
-It	PRP
+It	NNP
 is	VBZ
 as	RB
 though	IN
@@ -56863,7 +56863,7 @@ I	PRP
 bought	VBD
 (	(
 following	VBG
-Father	NN
+Father	NNP
 Coughlin	NNP
 and	CC
 pre-empting	VBG
@@ -56874,17 +56874,17 @@ COMMA	COMMA
 Manhattan	NNP
 Merry-go-round	NNP
 and	CC
-Major	JJ
+Major	NNP
 Bowes	NNPS
 shows	
 )	)
 ``	``
-That	DT
-Man	NN
+That	NNP
+Man	NNP
 in	IN
 the	DT
-White	JJ
-House	NN
+White	NNP
+House	NNP
 COMMA	COMMA
 like	IN
 some	DT
@@ -57124,17 +57124,17 @@ such	DT
 leftist	NN
 publications	NNS
 as	IN
-The	DT
-New	JJ
+The	NNP
+New	NNP
 Republic	NNP
 COMMA	COMMA
-The	DT
-New	JJ
+The	NNP
+New	NNP
 Yorker	NNP
 COMMA	COMMA
-Time	NN
+Time	NNP
 and	CC
-The	DT
+The	NNP
 Christian	NNP
 Science	NNP
 Monitor	NNP
@@ -57367,7 +57367,7 @@ Hughes	NNPS
 said	VBD
 COMMA	COMMA
 ``	``
-Miss	VBP
+Miss	NNPS
 Poitrine	NNP
 's	POS
 limitations	NNS
@@ -57394,7 +57394,7 @@ as	IN
 saying	VBG
 :	.
 ``	``
-The	DT
+The	NNP
 workings	VBZ
 of	IN
 the	DT
@@ -57454,7 +57454,7 @@ foresight	NN
 and	CC
 patriotism	NN
 of	IN
-Miss	NNP
+Miss	NNPS
 Poitrine	NNP
 COMMA	COMMA
 America	NNP
@@ -57578,11 +57578,11 @@ the	DT
 Committee	NNP
 on	IN
 Un-American	NNP
-Activities	NNS
+Activities	NNPS
 COMMA	COMMA
 the	DT
 Minute	NNP
-Women	NNS
+Women	NNP
 COMMA	COMMA
 the	DT
 Economic	NNP
@@ -57873,7 +57873,7 @@ COMMA	COMMA
 fifty	NN
 times	NNS
 because	IN
-Miss	NNP
+Miss	NNPS
 Poitrine	NNP
 's	POS
 co-star	NN
@@ -58037,8 +58037,8 @@ jaw	NN
 .	.
 	
 (	(
-But	CC
-that	DT
+But	NNP
+that	IN
 is	VBZ
 another	DT
 story	NN
@@ -58274,8 +58274,8 @@ by	IN
 the	DT
 Society	NNP
 of	IN
-Friends	NNS
-all	RB
+Friends	NNPS
+all	
 year	NN
 around	IN
 .	.
@@ -58329,8 +58329,8 @@ that	DT
 God	NNP
 COMMA	COMMA
 in	IN
-His	PRP$
-infinite	NN
+His	NNPS
+infinite	VB
 wisdom	NN
 COMMA	COMMA
 wants	VBZ
@@ -58670,7 +58670,7 @@ joint	NN
 venture	NN
 COMMA	COMMA
 Sainted	NNP
-Lady	NN
+Lady	NNP
 COMMA	COMMA
 a	DT
 deeply	NN
@@ -58681,7 +58681,7 @@ on	IN
 the	DT
 life	NN
 of	IN
-Mother	NN
+Mother	NNP
 Cabrini	NNP
 COMMA	COMMA
 and	CC
@@ -58719,7 +58719,7 @@ As	IN
 I	PRP
 was	VBD
 playing	VBG
-Mother	NN
+Mother	NNP
 Cabrini	NNP
 COMMA	COMMA
 the	DT
@@ -58783,7 +58783,7 @@ the	DT
 inspiring	NN
 example	NN
 of	IN
-Mother	NN
+Mother	NNP
 Cabrini	NNP
 .	.
 	
@@ -58990,7 +58990,7 @@ had	VBD
 forgotten	VBN
 all	PDT
 about	
-Mother	NN
+Mother	NNP
 Cabrini	NNP
 .	.
 	
@@ -59030,7 +59030,7 @@ he	PRP
 wrote	VB
 :	:
 ``	``
-Miss	VBP
+Miss	NNPS
 Poitrine	NNP
 has	VBZ
 perpetrated	VBN
@@ -59092,7 +59092,7 @@ punishment	NN
 .	.
 	
 (	(
-An	DT
+An	NNP
 actor	NN
 must	MD
 have	VB
@@ -59104,7 +59104,7 @@ The	DT
 film	NN
 was	VBD
 called	VBN
-The	DT
+The	NNP
 Diet	NNP
 of	IN
 Worms	NNPS
@@ -59193,7 +59193,7 @@ a	DT
 quickie	NN
 ''	''
 called	VBD
-The	DT
+The	NNP
 Mystery	NNP
 of	IN
 the	DT
@@ -59206,7 +59206,7 @@ I	PRP
 played	VBD
 a	DT
 young	JJ
-American	JJ
+American	NNP
 girl	NN
 who	WP
 inherits	VBZ
@@ -59393,7 +59393,7 @@ me	PRP
 .	.
 	
 ``	``
-If	IN
+If	NNP
 I	PRP
 could	MD
 only	RB
@@ -59419,7 +59419,7 @@ said	VBD
 .	.
 	
 ``	``
-What	
+What	NNP
 is	VBZ
 Letch	NNP
 interested	VBD
@@ -59480,7 +59480,7 @@ said	VBD
 .	.
 	
 A	DT
-Brief	NN
+Brief	NNP
 History	NNP
 	
 Prehistoric	NNP
@@ -60065,10 +60065,10 @@ in	IN
 his	PRP$
 epic	JJ
 poems	NNS
-The	DT
+The	NNP
 Odyssey	NNP
 and	CC
-The	DT
+The	NNP
 Iliad	NNP
 .	.
 	
@@ -60717,7 +60717,7 @@ his	PRP$
 son	NN
 Alexander	NNP
 the	DT
-Great	JJ
+Great	NNP
 COMMA	COMMA
 one	CD
 of	IN
@@ -60884,7 +60884,7 @@ Byzantine	NNP
 Empire	NNP
 and	CC
 the	DT
-Coming	VBG
+Coming	NNP
 of	IN
 Christianity	NNP
 	
@@ -60950,11 +60950,11 @@ final	JJ
 book	NN
 of	IN
 the	DT
-New	JJ
+New	NNP
 Testament	NNP
 COMMA	COMMA
 the	DT
-Book	NN
+Book	NNP
 of	IN
 Revelation	NNP
 .	.
@@ -60984,7 +60984,7 @@ COMMA	COMMA
 capital	JJ
 of	IN
 his	PRP$
-Eastern	JJ
+Eastern	NNP
 Empire	NNP
 that	IN
 Christianity	NNP
@@ -61102,7 +61102,7 @@ forces	VBZ
 were	VBD
 sent	VBD
 from	IN
-Western	JJ
+Western	NNP
 Europe	NNP
 to	TO
 counter	VB
@@ -61341,10 +61341,10 @@ main	NN
 towns	VBZ
 —	NN
 Naxos	NNPS
-Town	NN
+Town	NNP
 and	CC
 Antiparos	NNPS
-Town	NN
+Town	NNP
 are	VBP
 wonderful	JJ
 examples	NNS
@@ -61409,7 +61409,7 @@ forced	VBN
 from	IN
 the	DT
 Holy	NNP
-Land	NN
+Land	NNP
 .	.
 	
 The	DT
@@ -61485,7 +61485,7 @@ bases	NNS
 .	.
 	
 The	DT
-Coming	VBG
+Coming	NNP
 of	IN
 the	DT
 Ottoman	NNP
@@ -61878,7 +61878,7 @@ populations	NNS
 	
 The	DT
 Twentieth	NNP
-Century	NN
+Century	NNP
 	
 A	DT
 series	NNS
@@ -61963,8 +61963,8 @@ to	TO
 Germany	NNP
 in	IN
 the	DT
-World	NN
-War	NN
+World	NNP
+War	NNP
 I	PRP
 COMMA	COMMA
 losing	VBG
@@ -62190,7 +62190,7 @@ ideal	JJ
 addition	NN
 to	TO
 his	PRP$
-Italian	JJ
+Italian	NNP
 empire	NN
 .	.
 	
@@ -62220,7 +62220,7 @@ the	DT
 harbor	NN
 of	IN
 Tinos	NNPS
-Town	NN
+Town	NNP
 COMMA	COMMA
 but	CC
 they	PRP
@@ -62440,7 +62440,7 @@ homes	NNS
 in	IN
 the	DT
 United	NNP
-States	NNS
+States	NNPS
 and	CC
 Australia	NNP
 .	.
@@ -62485,8 +62485,8 @@ Greece	NNP
 joined	VBD
 the	DT
 European	NNP
-Common	JJ
-Market	NN
+Common	NNP
+Market	NNP
 (	(
 now	RB
 the	DT
@@ -62608,7 +62608,7 @@ society	NN
 	
 As	IN
 the	DT
-Balkans	NNS
+Balkans	NNPS
 flared	VBD
 to	TO
 war	NNP
@@ -62684,7 +62684,7 @@ diminish	VB
 .	.
 	
 A	DT
-Brief	NN
+Brief	NNP
 History	NNP
 	
 Jerusalem	NN
@@ -63137,7 +63137,7 @@ known	VBN
 as	IN
 the	DT
 "	''
-First	RB
+First	NNP
 "	''
 Temple	NNP
 )	)
@@ -63228,7 +63228,7 @@ how	RB
 much	JJ
 less	RBR
 this	DT
-House	NN
+House	NNP
 that	IN
 I	PRP
 have	VBP
@@ -63615,7 +63615,7 @@ work	NN
 .	.
 	
 The	DT
-Second	JJ
+Second	NNP
 Temple	NNP
 was	VBD
 finished	VBN
@@ -63651,7 +63651,7 @@ c.	NN
 under	IN
 Alexander	NNP
 the	DT
-Great	JJ
+Great	NNP
 and	CC
 COMMA	COMMA
 subsequently	RB
@@ -63703,7 +63703,7 @@ restored	VBD
 the	DT
 primacy	NN
 of	IN
-Jewish	JJ
+Jewish	NNP
 religious	JJ
 life	NN
 in	IN
@@ -63755,7 +63755,7 @@ COMMA	COMMA
 ruled	VBD
 an	DT
 independent	JJ
-Jewish	JJ
+Jewish	NNP
 Commonwealth	NNP
 that	IN
 stretched	VBD
@@ -63826,7 +63826,7 @@ from	IN
 Idumea	NNP
 COMMA	COMMA
 a	DT
-Jewish	JJ
+Jewish	NNP
 kingdom	NN
 in	IN
 the	DT
@@ -63943,8 +63943,8 @@ these	DT
 walls	NNS
 COMMA	COMMA
 the	DT
-Western	JJ
-Wall	NN
+Western	NNP
+Wall	NNP
 COMMA	COMMA
 is	VBZ
 today	NN
@@ -64014,8 +64014,8 @@ the	DT
 massacre	NN
 of	IN
 male	NN
-Jewish	JJ
-infants	NNS
+Jewish	NNP
+infants	VBZ
 in	IN
 an	DT
 attempt	NN
@@ -64234,9 +64234,9 @@ rebelled	VBD
 For	IN
 four	CD
 years	NNS
-Jewish	JJ
-zealots	NNS
-fought	VBD
+Jewish	NNP
+zealots	VBZ
+fought	VBN
 against	IN
 the	DT
 might	MD
@@ -64405,7 +64405,7 @@ in	IN
 the	DT
 end	NN
 COMMA	COMMA
-Jewish	JJ
+Jewish	NNP
 resistance	NN
 to	TO
 Rome	NNP
@@ -64525,7 +64525,7 @@ of	IN
 Emperor	NNP
 Constantine	NNP
 the	DT
-Great	JJ
+Great	NNP
 COMMA	COMMA
 made	VBN
 a	DT
@@ -64533,7 +64533,7 @@ pilgrimage	NN
 to	TO
 the	DT
 Holy	NNP
-Land	NN
+Land	NNP
 in	IN
 326	CD
 to	TO
@@ -64794,7 +64794,7 @@ the	DT
 construction	NN
 of	IN
 the	DT
-Dome	NN
+Dome	NNP
 of	IN
 the	DT
 Rock	NNP
@@ -64803,7 +64803,7 @@ in	IN
 .	.
 	
 The	DT
-Dome	NN
+Dome	NNP
 of	IN
 the	DT
 Rock	NNP
@@ -65198,7 +65198,7 @@ year	NN
 	
 19th	NN
 -	HYPH
-Century	NN
+Century	NNP
 Aspirations	NNPS
 	
 At	IN
@@ -65221,7 +65221,7 @@ Palestine	NNP
 as	RB
 the	DT
 Holy	NNP
-Land	NN
+Land	NNP
 was	VBD
 traditionally	RB
 called	VBN
@@ -65254,7 +65254,7 @@ COMMA	COMMA
 to	TO
 create	VB
 a	DT
-Jewish	JJ
+Jewish	NNP
 state	VBP
 .	.
 	
@@ -65274,7 +65274,7 @@ Russia	NNP
 but	CC
 later	RB
 a	DT
-British	JJ
+British	NNP
 subject	NN
 COMMA	COMMA
 did	VBD
@@ -65298,7 +65298,7 @@ the	DT
 negotiations	NNS
 with	IN
 the	DT
-British	JJ
+British	NNP
 government	NN
 that	IN
 led	JJ
@@ -65314,7 +65314,7 @@ the	DT
 idea	NN
 of	IN
 a	DT
-Jewish	JJ
+Jewish	NNP
 "	''
 national	NNP
 home	RB
@@ -65339,8 +65339,8 @@ The	DT
 problem	NN
 was	VBD
 that	IN
-British	JJ
-strategists	NNS
+British	NNP
+strategists	VBZ
 COMMA	COMMA
 who	WP
 were	VBD
@@ -65358,8 +65358,8 @@ the	DT
 lands	VBZ
 to	TO
 their	PRP$
-World	NN
-War	NN
+World	NNP
+War	NNP
 I	PRP
 Arab	NNP
 allies	NNPS
@@ -65373,7 +65373,7 @@ of	IN
 Nations	NNPS
 granted	VBD
 the	DT
-British	JJ
+British	NNP
 a	DT
 mandate	NN
 to	TO
@@ -65411,7 +65411,7 @@ Jerusalem	NNP
 COMMA	COMMA
 the	DT
 new	JJ
-Jewish	JJ
+Jewish	NNP
 enclave	NN
 .	.
 	
@@ -65420,7 +65420,7 @@ Arab	NNP
 opposition	NN
 to	TO
 new	NNP
-Jewish	JJ
+Jewish	NNP
 immigration	NN
 and	CC
 construction	NN
@@ -65457,7 +65457,7 @@ two	CD
 states	NNS
 COMMA	COMMA
 one	CD
-Jewish	JJ
+Jewish	NNP
 and	CC
 one	CD
 Arab	NNP
@@ -65496,7 +65496,7 @@ that	IN
 erupted	JJ
 as	IN
 the	DT
-British	JJ
+British	NNP
 withdrew	NN
 their	PRP$
 troops	NNS
@@ -65508,7 +65508,7 @@ Modern	JJ
 Israel	NNP
 	
 The	DT
-State	VBP
+State	NNP
 of	IN
 Israel	NNP
 was	VBD
@@ -65547,7 +65547,7 @@ rest	NN
 of	IN
 the	DT
 new	JJ
-Jewish	JJ
+Jewish	NNP
 nation	NN
 COMMA	COMMA
 held	VBD
@@ -65578,10 +65578,10 @@ were	VBD
 evacuated	VBN
 from	IN
 the	DT
-Old	JJ
-City	NN
+Old	NNP
+City	NNP
 's	POS
-Jewish	JJ
+Jewish	NNP
 Quarter	NNP
 COMMA	COMMA
 and	CC
@@ -65626,12 +65626,12 @@ Jerusalem	NNP
 (	(
 including	JJ
 the	DT
-Old	JJ
-City	NN
+Old	NNP
+City	NNP
 COMMA	COMMA
 with	IN
 its	PRP$
-Jewish	JJ
+Jewish	NNP
 COMMA	COMMA
 Muslim	NNP
 COMMA	COMMA
@@ -65680,19 +65680,19 @@ COMMA	COMMA
 no	DT
 Israeli	NNP
 or	CC
-Jewish	JJ
-pilgrims	NNS
+Jewish	NNP
+pilgrims	VBZ
 were	VBD
 allowed	VBN
 to	TO
 visit	VB
 the	DT
-Western	JJ
-Wall	NN
+Western	NNP
+Wall	NNP
 or	CC
 other	JJ
-Jewish	JJ
-sites	NNS
+Jewish	NNP
+sites	VBZ
 in	IN
 East	NNP
 Jerusalem	NNP
@@ -65725,9 +65725,9 @@ or	CC
 sniping	VBG
 until	IN
 the	DT
-Six	CD
-Day	NN
-War	NN
+Six	NNP
+Day	NNP
+War	NNP
 in	IN
 June	NNP
 1967	CD
@@ -66638,8 +66638,8 @@ drums	VBZ
 .	.
 	
 "	''
-Know	
-that	
+Know	NNP
+that	IN
 "	
 concerns	NNS
 propositions	NNS
@@ -66695,8 +66695,8 @@ on	IN
 .	.
 	
 "	''
-Know	
-that	
+Know	NNP
+that	IN
 "	
 brings	
 with	IN
@@ -68117,7 +68117,7 @@ us	PRP
 :	:
 	
 "	''
-Did	VBD
+Did	NNP
 you	PRP
 see	VB
 that	DT
@@ -68446,7 +68446,7 @@ question	NN
 .	.
 	
 "	''
-For	IN
+For	NNP
 want	VBP
 of	IN
 a	DT
@@ -68870,8 +68870,8 @@ fine	NN
 book	NN
 Darwin	NNP
 's	POS
-Dangerous	JJ
-Idea	NN
+Dangerous	NNPS
+Idea	NNP
 COMMA	COMMA
 advances	VBZ
 a	DT
@@ -70462,7 +70462,7 @@ utterances	NNS
 .	.
 	
 "	''
-It	PRP
+It	NNP
 is	VBZ
 wrong	NN
 to	TO

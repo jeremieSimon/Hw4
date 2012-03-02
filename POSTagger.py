@@ -13,7 +13,7 @@ With just these few optimizations, I was able to score a 87% of precision.
 
 from POSTagger import *
 t = HMMTagger()
-t.doTag('test1.txt')
+t.generateTag('test1.txt')
 """
 
 import copy
@@ -209,7 +209,7 @@ class HMMTagger(object):
 			pMax, tagMax = 0.0, ""
 			if word == "" or i == 0: isEndOfSentence[i%2] = True 
 			else: isEndOfSentence[i%2] = False
-			
+
 			#EXCEPTION CASES
 			#1. identify if it is a number: 
 			if True in (True for num in self.numbers if word.startswith(str(num))): 
@@ -219,10 +219,9 @@ class HMMTagger(object):
 				except ValueError: pass
 		
 			#2. word is a proper noun
-			if not self.observationTable.has_key(word.lower()) and not True in isEndOfSentence\
-			and word[0] in string.uppercase: 
-				if word.endswith('s'): word = '__propernouns__'
-				else: word = '__propernoun__'
+			if not True in isEndOfSentence and word[0] in string.uppercase and word != "COMMA" and word != "I": 
+				if word.endswith('s'): print "several", word;word = '__propernouns__'
+				else: print "unique", word ;word = '__propernoun__'
 			
 			#3. word is not known 
 			if not self.observationTable.has_key(word.lower()): 
