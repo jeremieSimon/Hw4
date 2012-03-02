@@ -35,6 +35,19 @@ class HMMTagger(object):
 
 		#1.0 init observationTable
 		self.observationTable = {}
+		self.observationTable['__endswithing__'] = {'sigma':0.0}
+		self.observationTable['__endswithed__'] = {'sigma':0.0}
+		self.observationTable['__endswithic__'] = {'sigma':0.0}
+		self.observationTable['__endswithian__'] = {'sigma':0.0}
+		self.observationTable['__endswithians__'] = {'sigma':0.0}
+		
+		def helper(ender): 
+			if not self.observationTable['__endswith'+ender+'__'].has_key(line[1].split('\r')[0]): 
+				self.observationTable['__endswith'+ender+'__'][line[1].split('\r')[0]]=1.0
+			else: 
+				self.observationTable['__endswith'+ender+'__'][line[1].split('\r')[0]]+=1.0
+			self.observationTable['__endswith'+ender+'__']['sigma']+=1
+		
 		isEndOfSentence = [False,False]
 		
 		#1.1 build the observation table from the data
@@ -78,11 +91,20 @@ class HMMTagger(object):
 						self.observationTable[line[0].lower()]['sigma']+=1
 				#word is known
 				else: 
+					if line[0].lower().endswith('ed'): helper('ed')
+					if line[0].lower().endswith('ing'): helper('ing')
+					if line[0].lower().endswith('ic'): helper('ic')
+					if line[0].lower().endswith('ian'): helper('ian')
+					if line[0].lower().endswith('ians'): helper('ians')
+					
+						
 					if not self.observationTable[line[0].lower()].has_key(line[1].split('\r')[0]): 
 						self.observationTable[line[0].lower()][line[1].split('\r')[0]]=1.0
 					else: 
 						self.observationTable[line[0].lower()][line[1].split('\r')[0]]+=1.0
 					self.observationTable[line[0].lower()]['sigma']+=1
+		
+
 		
 		#1.2 Add special cases (Month + Days) to observation list:
 		for day in days: 
@@ -134,6 +156,12 @@ class HMMTagger(object):
 			del(tags['sigma']) #sigma is no longer needed
 		
 		#3. search word with lowest NNS and VBZ: 
+		self.observationTable['__propernouns__'] = {'NNPS': 1.0}
+		self.observationTable['__ionnoun__'] = {'NN':1.0}
+		self.observationTable['__itynoun__'] = {'NN':1.0}		
+		self.observationTable['__ionnouns__'] = {'NNS':1.0}
+		self.observationTable['__iesnouns__'] = {'NNS':1.0}		
+	
 		self.wordEndsWithS = ""
 		mini = 10
 		for key in self.observationTable.iterkeys(): 
@@ -153,8 +181,8 @@ class HMMTagger(object):
 		self.fakeAdverb = "__fakeadverb__"
 		self.observationTable[self.fakeAdverb] = copy.deepcopy(self.observationTable[self.wordUnknown])
 		for key in self.observationTable[self.fakeAdverb].iterkeys(): 
-			if key != 'RB': self.observationTable[self.fakeAdverb][key] /= 2
-		self.observationTable[self.fakeAdverb]['RB'] = 0.5
+			if key != 'RB': self.observationTable[self.fakeAdverb][key] /= 10
+		self.observationTable[self.fakeAdverb]['RB'] = 0.90
 
 	def tag(self, sentence):
 		"""
@@ -163,11 +191,14 @@ class HMMTagger(object):
 		#sentence = sentence.split('\n')
 		posTags = ["" for i in range(len(sentence))]
 		isEndOfSentence = [False, False]
+		prevWord = ""
 		
 		for i, word in enumerate(sentence): 
 			pMax, tagMax = 0.0, ""
 			if word == "" or i == 0: isEndOfSentence[i%2] = True 
 			else: isEndOfSentence[i%2] = False
+			
+			print isEndOfSentence
 			
 			#EXCEPTION CASES
 			#1. identify if it is a number: 
@@ -178,21 +209,27 @@ class HMMTagger(object):
 				except ValueError: pass
 		
 			#2. word is a proper noun
-			elif not self.observationTable.has_key(word.lower()) and not True in isEndOfSentence\
+			if not self.observationTable.has_key(word.lower()) and not True in isEndOfSentence\
 			and word[0] in string.uppercase: 
-				word = '__propernoun__'
+				if word.endswith('s'): word = '__propernouns__'
+				else: word = '__propernoun__'
 			
 			#3. word is not known 
-			elif not self.observationTable.has_key(word.lower()): 
-				if word.lower().endswith('s'):  #ends with 's'
-					word = self.wordEndsWithS 
-				elif word.endswith('ly'): 
-					word = self.fakeAdverb
-				else: word = self.wordUnknown
-					
+			if not self.observationTable.has_key(word.lower()): 
+				if word.lower().endswith('ions') or word.lower().endswith('ies'): word = '__ionnouns__'
+				elif word.lower().endswith('ing'): word = '__endswithing__'
+				elif word.lower().endswith('ed'): word = '__endswithed__'
+				elif word.lower().endswith('ic'): word = '__endswithic__'
+				elif word.lower().endswith('ian'): word = '__endswithian__'
+				#elif word.lower().endswith('ians'): word = '__endswithians__'		
+				elif word.lower().endswith('ity') or word.lower().endswith('ent') or \
+				word.lower().endswith('ion') : word = '__itynoun__'				
+				elif word.lower().endswith('s'):  word = self.wordEndsWithS 
+				elif word.endswith('ly'): word = self.fakeAdverb
+				else: word = self.wordUnknown					
 			#END OF EXCEPTION CASES
 			
-			if i == 0: #start case
+			if i == 0 or prevWord == "": #start case
 				for key in self.observationTable[word.lower()].iterkeys(): 
 					p = self.observationTable[word.lower()][key] * self.transitionTable[key]['start']
 					if p > pMax: 
@@ -200,18 +237,14 @@ class HMMTagger(object):
 	
 			else: 
 				for wordTag in self.observationTable[word.lower()].iterkeys(): 
-					#debug
-					print word, "wordTag", wordTag, "posTags", posTags[i-1]
-					print "obs",self.observationTable[word.lower()][wordTag], "transi",self.transitionTable[wordTag][posTags[i-1]]
-					p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]]
-					print "p", p
-					
+					p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]]					
 					if self.observationTable[word.lower()][wordTag] == 1.0: 
 						p , tagMax= 1, wordTag
 					if p > pMax: 
 						pMax, tagMax= p, wordTag
 						
 			posTags[i]=tagMax
+			prevWord = word
 		
 		result = []
 		for i in range(len(posTags)): 
@@ -226,6 +259,10 @@ class HMMTagger(object):
 		result = self.tag(textfile)
 		for r in result: 
 			print str(r[0])+"\t"+(r[1])
+	
+		with open('output', 'w') as fi: 
+			for r in result: 
+				fi.write(str(r[0])+"\t"+(r[1])+'\n')
 		
 		
 if __name__ == "__main__": 
