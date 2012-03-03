@@ -13,7 +13,7 @@ With just these few optimizations, I was able to score a 85% of precision.
 
 I then used a bidirectional model from left to right and right to left. 
 And make the result of these 2 converging to the one with highest confidence. 
-This made my score rised to 87%. 
+This made my score rised to 88%. 
 """
 
 import copy
@@ -27,7 +27,7 @@ class HMMTagger(object):
 	def __init__ (self): 
 		
 		#parse file: 
-		f = open("development.pos").read().split('\n')
+		f = open("training.pos").read().split('\n')
 		#f = open("trainingTest.txt").read().split('\n')
 		f = [line.split('\t') for line in f]
 		
@@ -36,9 +36,10 @@ class HMMTagger(object):
 		 'November', 'December']
 		days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 		
-		self.tags = set(['', 'PRP$', 'VBG', 'VBD', '``', 'VBN', "''", 'VBP', 'WDT', 'HYPH', 'JJ', 'WP', 'VBZ', 'DT', 'RP', \
-		'NN', ')', '(', 'POS', '.', 'TO', 'COMMA', 'PRP', 'RB', ':', 'NNS', 'NNP', 'VB', 'WRB', 'CC', 'PDT', 'RBS', 'RBR', \
-		'CD', 'EX', 'IN', 'WP$', 'MD', 'NNPS', 'JJS', 'JJR', 'UH', '$', 'sigma', 'start'])
+		self.tags = set(['', 'PRP$', 'VBG', 'VBD', '``', 'VBN', "''", 'VBP', 'WDT', 'HYPH', 'JJ', 'WP', 'VBZ', 'DT', 'HV', 'RP', '$', 'NN', \
+		'PRT', ')', '(', 'FW', 'POS', '.', 'TO', 'COMMA', 'PRP', 'RB', ':', 'NNS', 'NNP', 'NNS-4', 'VB', 'ADVP-MNR', 'WRB', \
+		'CC', 'LS', 'PDT', 'RBS', 'RBR', 'CD', '-LSB-', 'EX', 'IN', 'WP$', 'MD', 'NNPS', 'JJS', 'JJR', 'SYM', 'UH', 'AFX', \
+		'-RSB-', 'sigma', 'start'])
 		pos = {}
 		for tag in self.tags: pos[tag] = 0.0
 

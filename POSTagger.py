@@ -23,7 +23,7 @@ class HMMTagger(object):
 	def __init__ (self): 
 		
 		#parse file: 
-		f = open("Homework4_corpus/POSData/development.pos").read().split('\n')
+		f = open("training.pos").read().split('\n')
 		f = [line.split('\t') for line in f]
 		
 		self.numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '-']
@@ -31,9 +31,10 @@ class HMMTagger(object):
 		 'November', 'December']
 		days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 		
-		self.tags = set(['', 'PRP$', 'VBG', 'VBD', '``', 'VBN', "''", 'VBP', 'WDT', 'HYPH', 'JJ', 'WP', 'VBZ', 'DT', 'RP', \
-		'NN', ')', '(', 'POS', '.', 'TO', 'COMMA', 'PRP', 'RB', ':', 'NNS', 'NNP', 'VB', 'WRB', 'CC', 'PDT', 'RBS', 'RBR', \
-		'CD', 'EX', 'IN', 'WP$', 'MD', 'NNPS', 'JJS', 'JJR', 'UH', '$', 'sigma', 'start'])
+		self.tags = set(['', 'PRP$', 'VBG', 'VBD', '``', 'VBN', "''", 'VBP', 'WDT', 'HYPH', 'JJ', 'WP', 'VBZ', 'DT', 'HV', 'RP', '$', 'NN', \
+		'PRT', ')', '(', 'FW', 'POS', '.', 'TO', 'COMMA', 'PRP', 'RB', ':', 'NNS', 'NNP', 'NNS-4', 'VB', 'ADVP-MNR', 'WRB', \
+		'CC', 'LS', 'PDT', 'RBS', 'RBR', 'CD', '-LSB-', 'EX', 'IN', 'WP$', 'MD', 'NNPS', 'JJS', 'JJR', 'SYM', 'UH', 'AFX', \
+		'-RSB-', 'sigma', 'start'])
 		pos = {}
 		for tag in self.tags: pos[tag] = 0.0
 
