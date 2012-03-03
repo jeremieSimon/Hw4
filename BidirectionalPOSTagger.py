@@ -284,7 +284,6 @@ class HMMTagger(object):
 			else: 
 				for wordTag in self.observationTable[word.lower()].iterkeys(): 
 					p = self.observationTable[word.lower()][wordTag] * self.transitionTableLeftRight[wordTag][posTags[i-1]]	
-					print p, posTags[i-1] 				
 					if self.observationTable[word.lower()][wordTag] == 1.0: 
 						p , tagMax= 1, wordTag
 					if p > pMax[i]: 
@@ -310,7 +309,6 @@ class HMMTagger(object):
 		for i in range(len(sentence)-1, -1, -1): 
 			word = sentence[i]
 			nextWord = sentence[i-1] 
-			print word, nextWord
 			tagMax = ""
 			if nextWord == "" or i == 0: isEndOfSentence[i%2] = True 
 			else: isEndOfSentence[i%2] = False
@@ -388,7 +386,6 @@ class HMMTagger(object):
 				result = left[0]
 				for i in range(len(sentence)): 
 					if left[0][i] != right[0][i]: 
-						print "diff", left[0][i], right[0][i]
 						if left[1][i] >= right[1][i]: 
 							result[i] = left[0][i]
 						else:  
@@ -396,7 +393,6 @@ class HMMTagger(object):
 				results.append(result)
 				sentence = []
 		results = [el for sentence in results for el in sentence]
-		#print results
 
 		with open('output', 'w') as f: 
 	 		for result in results: 
