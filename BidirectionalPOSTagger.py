@@ -5,19 +5,15 @@ N16247912
 Implementation details: 
 With the basic HMM Tagger using a bigram model, I scored a 83% precision. 
 I tried then to keep the same model and add a few features for the unknown words 
-by treating the differently depending on how do they end. 
-I assumed that a non-starting word in a sentence starting with an uppercase letter is a PPN and if 
+by treating the differently depending on how do they end (ed, ing...). 
+I also made a few assumptions.A non-starting word in a sentence starting with an uppercase letter is a PPN and if 
 it ends with a 's' it is a PPNS
 I added a few basic things, like the month of the year and the day of the week to the vocabulary.
 With just these few optimizations, I was able to score a 85% of precision.
 
-I then used a bidirectional model so from left to right and right to left. 
+I then used a bidirectional model from left to right and right to left. 
 And make the result of these 2 converging to the one with highest confidence. 
-This made my score rised to 87% 
-
-from BidirectionalPOSTagger import *
-t = HMMTagger()
-t.generateTag('test1.txt')
+This made my score rised to 87%. 
 """
 
 import copy
@@ -230,7 +226,7 @@ class HMMTagger(object):
 	def _tagLeftToRight(self, sentence):
 		"""
 		Description: called by generateTag. Use HMM algo from left to right
-		@return list of tuples (word, tag)
+		@return list of tuples (word, tag) and the list of probabilities for each tag choosen 
 		@param sentence 		
 		"""
 		
@@ -299,7 +295,7 @@ class HMMTagger(object):
 	def _tagRightToLeft(self, sentence):
 		"""
 		Description: called by generateTag. Use HMM algo from right to left
-		@return list of tuples (word, tag)
+		@return list of tuples (word, tag) and the list of probabilities for each tag choosen 
 		@param sentence 		
 		"""
 
@@ -400,6 +396,9 @@ class HMMTagger(object):
 		
 		
 if __name__ == "__main__": 
+	#only 1 argument is passed to the command line
+	#The argument should be a textfile with one word on each line
+	#The format has to be the same has the one proposed in both training.txt and development.txt
 	tagger = HMMTagger()
 	textfile = sys.argv[1]
 	tagger.generateTag(textfile)

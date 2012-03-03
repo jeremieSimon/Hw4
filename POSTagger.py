@@ -9,11 +9,7 @@ by treating the differently depending on how do they end.
 I assumed that a non-starting word in a sentence starting with an uppercase letter is a PPN and if 
 it ends with a 's' it is a PPNS
 I added a few basic things, like the month of the year and the day of the week to the vocabulary.
-With just these few optimizations, I was able to score a 87% of precision. 
-
-from POSTagger import *
-t = HMMTagger()
-t.generateTag('test1.txt')
+With just these few optimizations, I was able to score a 85% of precision. 
 """
 
 import copy
