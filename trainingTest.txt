@@ -1,0 +1,13 @@
+	
+Your	PRP$
+contribution	NN
+to	TO
+Goodwill	NNP
+will	MD
+mean	VB
+more	JJR
+than	IN
+you	PRP
+may	MD
+know	VB
+.	.

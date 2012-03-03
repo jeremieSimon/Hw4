@@ -1,0 +1,8 @@
+from BidirectionalPOSTagger import *
+t = HMMTagger()
+sentence = open('test1.txt').read().split('\n')
+sentence = sentence[:20]
+r1 = t._tagLeftToRight(sentence)
+r2 = t._tagRightToLeft(sentence)
+for i in range(len(sentence)): 
+	if r1[0][i] != r2[0][i]: print r1[0][i], r2[0][i]

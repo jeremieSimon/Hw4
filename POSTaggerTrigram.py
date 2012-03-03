@@ -19,6 +19,7 @@ t.generateTag('test1.txt')
 import copy
 import string
 import sys
+from Stack import * 
 
 class HMMTagger(object): 
 	"""
@@ -203,7 +204,8 @@ class HMMTagger(object):
 		
 		posTags = ["" for i in range(len(sentence))]
 		isEndOfSentence = [False, False]
-		prevWord = ""
+		prevWords = Stack(3)
+		prevWords.insert("")
 		
 		for i, word in enumerate(sentence): 
 			pMax, tagMax = 0.0, ""
@@ -242,7 +244,7 @@ class HMMTagger(object):
 				else: word = self.wordUnknown					
 			#END OF EXCEPTION CASES
 			
-			if i == 0 or prevWord == "": #start case
+			if i == 0 or prevWords.stack[0] == "": #start case
 				for key in self.observationTable[word.lower()].iterkeys(): 
 					p = self.observationTable[word.lower()][key] * self.transitionTable[key]['start']
 					if p > pMax: 
@@ -250,14 +252,14 @@ class HMMTagger(object):
 													
 			else: 
 				for wordTag in self.observationTable[word.lower()].iterkeys(): 
-					p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]]					
+					p = self.observationTable[word.lower()][wordTag] * self.transitionTable[wordTag][posTags[i-1]] #* self.transitionTable[wordTag][posTags[i-2]]					
 					if self.observationTable[word.lower()][wordTag] == 1.0: 
 						p , tagMax= 1, wordTag
 					if p > pMax: 
 						pMax, tagMax= p, wordTag
 						
 			posTags[i]=tagMax
-			prevWord = word
+			prevWords.insert(word)
 		
 		result = []
 		for i in range(len(posTags)): 
