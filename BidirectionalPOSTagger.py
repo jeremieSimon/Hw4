@@ -31,7 +31,7 @@ class HMMTagger(object):
 	def __init__ (self): 
 		
 		#parse file: 
-		f = open("Homework4_corpus/POSData/development.pos").read().split('\n')
+		f = open("development.pos").read().split('\n')
 		#f = open("trainingTest.txt").read().split('\n')
 		f = [line.split('\t') for line in f]
 		
